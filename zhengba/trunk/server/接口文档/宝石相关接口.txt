@@ -1,0 +1,15 @@
+baoshi_jihuo： 宝石激活
+参数：[heroid]
+返回值：{'s': 1}
+
+baoshi_lvup：宝石升级
+参数：[heroid, Bool]   第一个英雄id    第二个参数是一个布尔值(0或者1)
+返回值：{'s': 1}
+
+baoshi_buffchange: 改变宝石属性
+参数：[heroid]
+返回值：{'s': 1,'d':{'buffid':1}}
+
+baoshi_buffsave: 保存宝石属性
+参数：[heroid]
+返回值：{'s': 1}

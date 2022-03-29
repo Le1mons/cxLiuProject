@@ -1,0 +1,12 @@
+key:bztype       --限制兵种   bztype-兵种类型，bzt1-1步兵，2骑兵，bzt2-1轻甲，2重甲，bzt3-1近战，2远战，bzt4-1无盾，2有盾，hid-英雄id限制，lv-等级限制
+cond: in         --判断条件   in-在val里面，notin-不在val里面，between-在val数字数字之间
+val：[1,2]       --判断值     对应的值范围
+
+bztype in [1,2]
+
+
+{
+	"key":"bztype",
+	"cond":"in",
+	"val":[1,2]
+}

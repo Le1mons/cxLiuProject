@@ -1,0 +1,187 @@
+{
+  "ID": "9bd51117-9b75-4c03-bb15-4910adb0f532",
+  "Version": "2.3.4",
+  "Name": "atk_zrck_jnbd",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 20,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1380298518,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/ziranshouren/atkbd/atkbd_022.png",
+                  "Plist": "skillani/atk_zrck_jnbd.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/ziranshouren/atkbd/atkbd_023.png",
+                  "Plist": "skillani/atk_zrck_jnbd.plist"
+                },
+                "FrameIndex": 4,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/ziranshouren/atkbd/atkbd_024.png",
+                  "Plist": "skillani/atk_zrck_jnbd.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/ziranshouren/atkbd/atkbd_025.png",
+                  "Plist": "skillani/atk_zrck_jnbd.plist"
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/ziranshouren/atkbd/atkbd_026.png",
+                  "Plist": "skillani/atk_zrck_jnbd.plist"
+                },
+                "FrameIndex": 16,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/ziranshouren/atkbd/atkbd_028.png",
+                  "Plist": "skillani/atk_zrck_jnbd.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -822057619,
+            "Property": "FrameEvent",
+            "Frames": [
+              {
+                "Value": "hit",
+                "FrameIndex": 4,
+                "Tween": false,
+                "ctype": "EventFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/ziranshouren/atkbd/atkbd_022.png",
+              "Plist": "skillani/atk_zrck_jnbd.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 152.0,
+              "Y": 41.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -168.0,
+            "RightMargin": -472.0,
+            "TopMargin": -741.0,
+            "BottomMargin": -659.0,
+            "Tag": 2,
+            "ActionTag": -1380298518,
+            "Size": {
+              "X": 640.0,
+              "Y": 1400.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 4,
+            "ActionTag": -822057619,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "hit",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/atk_zrck_jnbd.plist",
+        "skillani/atk_zrck_jnbd.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

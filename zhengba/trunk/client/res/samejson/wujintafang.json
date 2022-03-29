@@ -1,0 +1,63 @@
+{
+  "rankprize": {
+    "title": "无尽塔防排名奖励发放",
+    "limit": 90,
+    "content": "亲爱的勇士，您在本次无尽塔防中获得了{1}，获得以下奖励，请查收",
+    "prize":[
+     {"val": 1,"valkey":[1,1],"p": [{"a": "item", "t": "1164", "n":1},{"a": "attr", "t": "rmbmoney", "n":2000},{"a": "attr", "t": "jinbi", "n": 1000000},{"a": "attr", "t": "useexp", "n": 500000}], "percentum": 0,"show":"1"},
+      {"val": 3,"valkey":[2,3],"p": [{"a": "item", "t": "1164", "n":1},{"a": "attr", "t": "rmbmoney", "n":1500},{"a": "attr", "t": "jinbi", "n": 700000},{"a": "attr", "t": "useexp", "n": 350000}], "percentum": 0,"show":"2-3"},
+      {"val": 10, "valkey":[4,10],"p": [{"a": "item", "t": "1164", "n":1},{"a": "attr", "t": "rmbmoney", "n":1000},{"a": "attr", "t": "jinbi", "n": 500000},{"a": "attr", "t": "useexp", "n": 250000}], "percentum": 0,"show":"4-10"},
+      {"val": 5,"valkey":[0,5],"p": [{"a": "item", "t": "1164", "n":1},{"a": "attr", "t": "rmbmoney", "n":800},{"a": "attr", "t": "jinbi", "n": 400000},{"a": "attr", "t": "useexp", "n": 200000}], "percentum": 1},
+      {"val": 10,"valkey":[6,10],"p": [{"a": "attr", "t": "rmbmoney", "n":700},{"a": "attr", "t": "jinbi", "n": 320000},{"a": "attr", "t": "useexp", "n": 160000}], "percentum": 1},
+      {"val": 20,"valkey":[11,20],"p": [{"a": "attr", "t": "rmbmoney", "n":600},{"a": "attr", "t": "jinbi", "n": 240000},{"a": "attr", "t": "useexp", "n": 120000}], "percentum": 1},
+      {"val": 30, "valkey":[21,30],"p": [{"a": "attr", "t": "rmbmoney", "n":500},{"a": "attr", "t": "jinbi", "n": 160000},{"a": "attr", "t": "useexp", "n": 80000}], "percentum": 1},
+      {"val": 50,"valkey":[31,50],"p": [{"a": "attr", "t": "rmbmoney", "n":400},{"a": "attr", "t": "jinbi", "n": 120000},{"a": "attr", "t": "useexp", "n": 60000}], "percentum": 1},
+      {"val": 70,"valkey":[51,70],"p": [{"a": "attr", "t": "rmbmoney", "n":300},{"a": "attr", "t": "jinbi", "n": 80000},{"a": "attr", "t": "useexp", "n": 40000}], "percentum": 1},
+      {"val": 90,"valkey":[71,90],"p": [{"a": "attr", "t": "rmbmoney", "n":200},{"a": "attr", "t": "jinbi", "n": 60000},{"a": "attr", "t": "useexp", "n": 30000}], "percentum": 1},
+      {"val": 100,"valkey":[91,100],"p": [{"a": "attr", "t": "rmbmoney", "n":100},{"a": "attr", "t": "jinbi", "n": 40000},{"a": "attr", "t": "useexp", "n": 20000}], "percentum": 1}
+  ]},
+  "enemy":{
+    "speed":60,
+    "hp":[0.33,25],
+    "num":5,
+    "gold":10,
+    "time":1
+  },
+  "player":{
+    "hp":20,
+    "gold":200
+  },
+  "upneed":{
+    "1":100,
+    "2":120,
+    "3":160,
+    "4":200,
+    "5":240,
+    "6":280,
+    "7":300,
+    "8":310,
+    "9":320,
+    "10":330,
+    "11":340,
+    "12":350,
+    "13":360,
+    "14":370,
+    "15":380
+  },
+  "maxnum":10,
+  "time":5,
+  "wipecond":95,
+  "chk": {
+    "5": 45,
+    "6": 54,
+    "7": 57,
+    "8": 60,
+    "9": 62,
+    "10": 64,
+    "11": 67,
+    "12": 69,
+    "13": 72,
+    "14": 74,
+    "15": 76
+  }
+}

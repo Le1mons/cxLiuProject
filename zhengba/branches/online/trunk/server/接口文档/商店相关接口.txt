@@ -1,0 +1,11 @@
+shop_buy: 商店-购买物品
+参数：[shopid, idx]  商店id，物品索引
+返回值: {'s': 1}
+
+shop_shuaxin: 商店刷新
+参数：[shopid] 商店id
+返回值：{'s':1,'d':{'shop': [{'siid':'shopitemId','prize':[],'buynum':0,'need':[]}]}}
+
+shop_open: 打开商店
+参数：['shopid']
+返回值：{'s':1,'d':{'shop': [{'siid':'shopitemId','prize':[],'buynum':0,'need':[]}]}}

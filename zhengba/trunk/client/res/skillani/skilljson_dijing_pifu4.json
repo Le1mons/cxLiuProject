@@ -1,0 +1,179 @@
+{
+  "ID": "94a49bfd-cede-49f1-906f-0fffe9427c94",
+  "Version": "2.3.4",
+  "Name": "skilljson_dijing_pifu4",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 16,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1139554081,
+            "Property": "FrameEvent",
+            "Frames": [
+              {
+                "Value": "hit",
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "EventFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 673631746,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/dijing/skill/zd2/zi_00057.png",
+                  "Plist": "skillani/skilljson_dijing_pifu4.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/dijing/skill/zd2/zi_00058.png",
+                  "Plist": "skillani/skilljson_dijing_pifu4.plist"
+                },
+                "FrameIndex": 4,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/dijing/skill/zd2/zi_00059.png",
+                  "Plist": "skillani/skilljson_dijing_pifu4.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/dijing/skill/zd2/zi_00060.png",
+                  "Plist": "skillani/skilljson_dijing_pifu4.plist"
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/dijing/skill/zd2/zi_00061.png",
+                  "Plist": "skillani/skilljson_dijing_pifu4.plist"
+                },
+                "FrameIndex": 16,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 10,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 26,
+            "FrameEvent": "hit",
+            "ActionTag": -1139554081,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "hit_event",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/dijing/skill/zd2/zi_00057.png",
+              "Plist": "skillani/skilljson_dijing_pifu4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -38.0,
+              "Y": 5.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -238.0,
+            "RightMargin": -162.0,
+            "TopMargin": -289.5,
+            "BottomMargin": -279.5,
+            "Tag": 27,
+            "ActionTag": 673631746,
+            "Size": {
+              "X": 400.0,
+              "Y": 569.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/skilljson_dijing_pifu4.plist",
+        "skillani/skilljson_dijing_pifu4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

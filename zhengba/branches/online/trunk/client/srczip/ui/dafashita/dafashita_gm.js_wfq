@@ -1,0 +1,104 @@
+/**
+ * Created by LYF on 2018/6/8.
+ */
+(function () {
+    //购买
+    var ID = 'dafashita_gm';
+
+    var fun = X.bUi.extend({
+        ctor: function (json, id) {
+            var me = this;
+            me._super(json, id);
+        },
+        initUi: function () {
+            var me = this;
+
+            me.ui.nodes.txt_title.setString(L("GM"));
+        },
+        bindBtn: function () {
+            var me = this;
+
+            me.nodes.mask.click(function (sender, type) {
+                me.remove();
+            })
+        },
+        onOpen: function () {
+            var me = this;
+            me.fillSize();
+
+            me.initUi();
+            me.bindBtn();
+        },
+        onAniShow: function () {
+            var me = this;
+        },
+        onShow: function () {
+            var me = this;
+            new X.bView("ui_tip_gm.json", function (node) {
+                me.view = node;
+                me.view.nodes.textfield_sl.setPlaceHolderColor(cc.color(G.gc.COLOR.n11));
+                me.nodes.panel_nr.addChild(node);
+                me.setContents();
+            })
+        },
+        onHide: function () {
+            var me = this;
+        },
+        setContents: function () {
+            var me = this;
+            me.num = 1;
+            me.setNUM(me.num);
+            var wid = G.class.sitem(G.class.dafashita.getPrize().item[0]);
+            wid.setPosition(me.view.nodes.panel_wp.width / 2, me.view.nodes.panel_wp.height / 2);
+            G.frame.iteminfo.showItemInfo(wid);
+            me.view.nodes.panel_wp.addChild(wid);
+            me.view.nodes.textfield_sl.setTextHorizontalAlignment(cc.TEXT_ALIGNMENT_CENTER);
+            
+            me.view.nodes.btn_qr.click(function () {
+                if(me.num == 0){
+                    me.remove();
+                }else{
+                    G.ajax.send("fashita_buycrystal", [me.num], function (d) {
+                        if (!d) return;
+                        var d = JSON.parse(d);
+                        if(d.s == 1){
+                            G.frame.dafashita.getFSJJ(function () {
+                                G.frame.dafashita.setFSJJ();
+                            });
+                            me.remove();
+                        }
+                    })
+                }
+            });
+            me.view.nodes.btn_jia.click(function (sender, type) {
+                me.numJJ(true);
+            });
+            me.view.nodes.btn_jian.click(function (sender, type) {
+                me.numJJ(false);
+            })
+        },
+        setNUM: function (num) {
+            var me = this;
+            me.view.nodes.textfield_sl.setString(num);
+            me.view.nodes.text_zssl.setString(num * G.class.dafashita.getPrize().buyneed[0].n + "/" + P.gud[G.class.dafashita.getPrize().buyneed[0].t]);
+        },
+        numJJ: function (is) {
+            var me = this;
+            if(is){
+                me.num += 1;
+            }else{
+                if(me.num == 0){
+                    me.num = 0;
+                }else{
+                    me.num -= 1;
+                }
+            }
+            if(me.num * G.class.dafashita.getPrize().buyneed[0].n > P.gud[G.class.dafashita.getPrize().buyneed[0].t]){
+                me.num = me.num -= 1;
+                return;
+            }
+            me.setNUM(me.num);
+        }
+    });
+    G.frame[ID] = new fun('ui_tip2.json', ID);
+})();

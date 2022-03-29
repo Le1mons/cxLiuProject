@@ -1,0 +1,712 @@
+{
+  "meirixiangou": [
+    {
+      "name": "每日福利",
+      "isfree": 1,
+      "prize": [
+        {
+          "a": "attr",
+          "t": "jinbi",
+          "n": 10000
+        },
+        {
+          "a": "item",
+          "t": "2005",
+          "n": 50
+        }
+      ],
+      "chkkey": "free"
+    },
+    {
+      "name": "全民礼包",
+      "vip":0,
+      "isfree": 0,
+      "prize": [
+        {
+          "a": "attr",
+          "t": "useexp",
+          "n": 150000
+        },
+        {
+          "a": "item",
+          "t": "2014",
+          "n": 1
+        },
+        {
+          "a": "item",
+          "t": "2004",
+          "n": 100
+        }
+      ],
+      "chkkey": "mrxgbox1",
+      "paymoney": "1元",
+      "paynum": 1,
+      "money": 100
+    },
+    {
+      "name": "贵1礼包",
+      "vip":1,
+      "isfree": 0,
+      "prize": [
+        {
+          "a": "attr",
+          "t": "useexp",
+          "n": 300000
+        },
+        {
+          "a": "item",
+          "t": "2014",
+          "n": 3
+        },
+        {
+          "a": "item",
+          "t": "2007",
+          "n": 6
+        }
+      ],
+      "chkkey": "mrxgbox2",
+      "paymoney": "3元",
+      "paynum": 1,
+      "money": 300
+    },
+    {
+      "name": "贵2礼包",
+      "vip":2,
+      "isfree": 0,
+      "prize": [
+        {
+          "a": "attr",
+          "t": "useexp",
+          "n": 500000
+        },
+        {
+          "a": "item",
+          "t": "2014",
+          "n": 5
+        },
+        {
+          "a": "item",
+          "t": "2010",
+          "n": 1
+        }
+      ],
+      "chkkey": "mrxgbox3",
+      "paymoney": "6元",
+      "paynum": 1,
+      "money": 600
+    }
+  ],
+  "chaozhilibao": [
+    {
+      "name": "召唤之书礼包",
+      "btnshow": "30元",
+      "act": "pay",
+      "chkkey": "czlb1",
+      "need": [],
+      "prize": [
+        {
+          "a": "attr",
+          "t": "rmbmoney",
+          "n": 300
+        },
+        {
+          "a": "item",
+          "t": "2011",
+          "n": 3
+        },
+        {
+          "a": "attr",
+          "t": "jinbi",
+          "n": 3000000
+        }
+      ],
+      "ctype": "week",
+      "img": "img_sale_sjslb",
+      "wz": "wz_sale_sjslb",
+      "intr": "超值获取召唤卷，快速获取心仪英雄，每周一次！",
+      "money": 3000
+    },
+    {
+      "name": "探险者礼包",
+      "btnshow": "68元",
+      "act": "pay",
+      "chkkey": "czlb2",
+      "need": [],
+      "prize": [
+        {
+          "a": "attr",
+          "t": "rmbmoney",
+          "n": 680
+        },
+        {
+          "a": "item",
+          "t": "2010",
+          "n": 10
+        }
+      ],
+      "ctype": "month",
+      "tq": "1",
+      "img": "img_sale_txzlb",
+      "wz": "wz_sale_txzlb",
+      "intr": "必备探险特权，每日3次免费快速；更送超值十连抽，5星英雄拿到手软！",
+      "money": 6800
+    },
+    {
+      "name": "冒险者礼包",
+      "btnshow": "980",
+      "act": "buy",
+      "chkkey": "czlb3",
+      "need": [
+        {
+          "a": "attr",
+          "t": "rmbmoney",
+          "n": 980
+        }
+      ],
+      "prize": [
+        {
+          "a": "item",
+          "t": "2010",
+          "n": 6
+        },
+        {
+          "a": "item",
+          "t": "2004",
+          "n": 600
+        }
+      ],
+      "ctype": "forever",
+      "tq": "2",
+      "img": "img_sale_mxzlb",
+      "wz": "wz_sale_mxzlb",
+      "intr": "一次购买，终身受用，悬赏任务再也不用愁！"
+    },
+    {
+      "name": "英雄礼包",
+      "btnshow": "1980",
+      "act": "buy",
+      "chkkey": "czlb4",
+      "need": [
+        {
+          "a": "attr",
+          "t": "rmbmoney",
+          "n": 1980
+        }
+      ],
+      "prize": [
+        {
+          "a": "item",
+          "t": "2011",
+          "n": 1
+        },
+        {
+          "a": "item",
+          "t": "2010",
+          "n": 10
+        }
+      ],
+      "ctype": "forever",
+      "tq": "3",
+      "img": "img_sale_yxlb",
+      "wz": "wz_sale_yxlb",
+      "intr": "一次购买，终身受用，橙色悬赏任务爽到爆！"
+    }
+  ],
+  "advertising": [
+    "bg_sale_banner3",
+    "bg_sale_banner4",
+    "bg_sale_banner5"
+  ],
+  "tequan": {
+    "1": {
+      "name": "探险特权",
+      "intr": "探险礼包特权：每日3次免费快速探险，8次额外快速探险购买次数"
+    },
+    "2": {
+      "name": "冒险者特权",
+      "intr": "冒险者礼包特权：悬赏任务首次刷新必出紫色任务"
+    },
+    "3": {
+      "name": "英雄特权",
+      "intr": "英雄礼包特权：悬赏任务第3次刷新必出橙色任务"
+    }
+  },
+  "yangchenglibao": {
+    "5": {
+      "name": "5星养成礼包","btnshow": 30,"hdid":1400,"stype": 10001,"hid": "52013","icon": "ico_event_card21",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 300},{"a": "attr","t": "jinbi","n": 2000000},{"a": "attr","t": "useexp","n": 1000000},{"a": "item","t": "2005","n": 600}],
+      "chkkey": "yclb30","money": 3000,"buynum": 2,"cd": 7200,"val": 5
+    },
+    "6": {
+      "name": "6星养成礼包","btnshow": 68,"hdid":800,"stype": 10001,"hid": "41056","icon": "ico_event_card22",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 680},{"a": "attr","t": "jinbi","n": 10000000},{"a": "attr","t": "useexp","n": 5000000}],
+      "chkkey": "yclb68","money": 6800,"buynum": 2,"cd": 14400,"val": 6
+      },
+    "7": {
+      "name": "7星养成礼包","btnshow": 128,"hdid":801,"stype": 10001,"hid": "43046","icon": "ico_event_card23",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 1280},{"a": "attr","t": "jinbi","n": 12500000},{"a": "attr","t": "useexp","n": 7500000},{"a": "item","t": "2004","n": 1500}],
+      "chkkey": "yclb128","money": 12800,"buynum": 1,"cd": 14400,"val": 7
+      },
+    "8": {
+      "name": "8星养成礼包","btnshow": 198,"hdid":802,"stype": 10001,"hid": "35036","icon": "ico_event_card24",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 1980},{"a": "attr","t": "jinbi","n": 20000000},{"a": "attr","t": "useexp","n": 10000000},{"a": "item","t": "2004","n": 2000}],
+      "chkkey": "yclb198","money": 19800,"buynum": 1,"cd": 14400,"val": 8
+      },
+    "9": {
+      "name": "9星养成礼包","btnshow": 328,"hdid":803,"stype": 10001,"hid": "41066","icon": "ico_event_card25",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 3280},{"a": "attr","t": "jinbi","n": 25000000},{"a": "attr","t": "useexp","n": 15000000},{"a": "item","t": "2004","n": 5000}],
+      "chkkey": "yclb328","money": 32800,"buynum": 1,"cd": 14400,"val": 9
+      },
+    "10": {
+      "name": "10星养成礼包","btnshow": 448,"hdid":804,"stype": 10001,"hid": "63026","icon": "ico_event_card26",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 4480},{"a": "attr","t": "jinbi","n": 35000000},{"a": "attr","t": "useexp","n": 20000000},{"a": "item","t": "2005","n": 7000}],
+      "chkkey": "yclb448","money": 44800,"buynum": 1,"cd": 14400,"val": 10
+      },
+    "11": {
+      "name": "11星养成礼包","btnshow": 648,"hdid":805,"stype": 10001,"hid": "43066","icon": "ico_event_card27",
+      "prize": [{"a": "attr","t": "rmbmoney","n": 6480},{"a": "attr","t": "jinbi","n": 50000000},{"a": "attr","t": "useexp","n": 40000000},{"a": "item","t": "1009","n": 1}],
+      "chkkey": "yclb648","money": 64800,"buynum": 1,"cd": 14400,"val": 11
+      }
+		},
+
+  "dengjilibao": {
+    "18": {
+      "val": 18,
+      "btnshow": 18,
+      "chkkey": "djlb18",
+      "hdid":900,
+      "money": 1800,
+      "buynum": 1,
+      "stype": 10002,
+      "hid": "44011",
+      "name": "等级礼包",
+      "icon": "ico_event_lvgift",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 180},
+        {"a": "attr","t": "jinbi","n": 2000000},
+        {"a": "attr","t": "useexp","n": 1000000},
+        {"a": "item","t": "2004","n": 400}
+      ]
+    },
+    "38": {
+      "val": 38,
+      "btnshow": 30,
+      "chkkey": "djlb30",
+      "money": 3000,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "icon": "ico_event_lvgift",
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 300},
+        {"a": "attr","t": "jinbi","n": 2000000},
+        {"a": "attr","t": "useexp","n": 1000000},
+        {"a": "item","t": "2011","n": 1}
+      ]
+    },
+    "48": {
+      "val": 48,
+      "btnshow": 68,
+      "chkkey": "djlb68_1",
+      "money": 6800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "icon": "ico_event_lvgift",
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 680},
+        {"a": "attr","t": "jinbi","n": 5000000},
+        {"a": "attr","t": "useexp","n": 2500000},
+        {"a": "item","t": "3003","n": 50}
+      ]
+    },
+    "58": {
+      "val": 58,
+      "btnshow": 68,
+      "chkkey": "djlb68_2",
+      "money": 6800,
+      "hdid":900,
+      "icon": "ico_event_lvgift",
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 680},
+        {"a": "attr","t": "jinbi","n": 5000000},
+        {"a": "attr","t": "useexp","n": 2500000},
+        {"a": "item","t": "2011","n": 1}
+      ]
+    },
+
+    "68": {
+      "val": 68,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "icon": "ico_event_lvgift",
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "78": {
+      "val": 78,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "icon": "ico_event_lvgift",
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "88": {
+      "val": 88,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "icon": "ico_event_lvgift",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "98": {
+      "val": 98,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "icon": "ico_event_lvgift",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "108": {
+      "val": 108,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "icon": "ico_event_lvgift",
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "118": {
+      "val": 118,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "icon": "ico_event_lvgift",
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "128": {
+      "val": 128,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "icon": "ico_event_lvgift",
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "138": {
+      "val": 138,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "icon": "ico_event_lvgift",
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "148": {
+      "val": 148,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "icon": "ico_event_lvgift",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "158": {
+      "val": 158,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "icon": "ico_event_lvgift",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "168": {
+      "val": 168,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "icon": "ico_event_lvgift",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "178": {
+      "val": 178,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "icon": "ico_event_lvgift",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "188": {
+      "val": 188,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "icon": "ico_event_lvgift",
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "198": {
+      "val": 198,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "icon": "ico_event_lvgift",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "208": {
+      "val": 208,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "icon": "ico_event_lvgift",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "218": {
+      "val": 218,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "icon": "ico_event_lvgift",
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "228": {
+      "val": 228,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "icon": "ico_event_lvgift",
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "238": {
+      "val": 238,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "icon": "ico_event_lvgift",
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    },
+    "248": {
+      "val": 248,
+      "btnshow": 128,
+      "chkkey": "djlb128",
+      "money": 12800,
+      "hdid":900,
+      "icon": "ico_event_lvgift",
+      "buynum": 1,
+      "hid": "44011",
+      "stype": 10002,
+      "name": "等级礼包",
+      "cd": 7200,
+      "prize": [
+        {"a": "attr","t": "rmbmoney","n": 1280},
+        {"a": "attr","t": "jinbi","n": 10000000},
+        {"a": "attr","t": "useexp","n": 5000000},
+        {"a": "item","t": "2011","n": 2}
+      ]
+    }
+  }
+}

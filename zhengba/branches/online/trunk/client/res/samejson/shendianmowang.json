@@ -1,0 +1,127 @@
+{
+  "common": {
+	  "time":"每天的开展时间和结束时间",
+	  "fightnum_supply":"每天补给战斗次数的时间"
+  },
+  "base": {
+    "prize":{
+      "fight":"39",
+      "lucky":[[0], [{"a":"item","t":"2001","n":200},{"a":"item","t":"2005","n":200},{"a":"attr","t":"jinbi","n":200000}]],
+      "rank":[
+        [[1,1], [{"a":"item","t":"2001","n":300},{"a":"item","t":"2005","n":300},{"a":"attr","t":"jinbi","n":300000}]],
+        [[2,2], [{"a":"item","t":"2001","n":250},{"a":"item","t":"2005","n":250},{"a":"attr","t":"jinbi","n":250000}]],
+        [[3,3], [{"a":"item","t":"2001","n":200},{"a":"item","t":"2005","n":200},{"a":"attr","t":"jinbi","n":200000}]],
+        [[4,10], [{"a":"item","t":"2001","n":100},{"a":"item","t":"2005","n":100},{"a":"attr","t":"jinbi","n":150000}]],
+        [[11,50], [{"a":"item","t":"2001","n":75},{"a":"item","t":"2005","n":75},{"a":"attr","t":"jinbi","n":100000}]],
+        [[51,200], [{"a":"item","t":"2001","n":50},{"a":"item","t":"2005","n":50},{"a":"attr","t":"jinbi","n":75000}]],
+        [[201,9999999], [{"a":"item","t":"2001","n":25},{"a":"item","t":"2005","n":25},{"a":"attr","t":"jinbi","n":50000}]]
+      ]
+    },
+	  "time":[36000,79200],
+	  "email": {
+		  "rank": {
+			  "title": "神殿魔王伤害排行",
+			  "content1": "恭喜你在今日得神殿魔王创造了{1}得输出,得到了第{2}名的奖励",
+			  "content2": "恭喜你在今日得神殿魔王获得了第{1}名的奖励"
+		  },
+		  "lucky": {
+			  "title": "神殿魔王幸运玩家",
+			  "content": "恭喜你成为了今日神殿魔王挑战中的幸运玩家,获得以下奖励"
+		  }
+	  },
+	  "rolespeed": 3,
+	  "anispeed": 1,
+	  "fightnum_supply":[43200,50400,57600,64800,72000],
+	  "maxnum":3,
+	  "npc":[11076,11086,12026,12036,13036,13046,14026,14036,14046,15036,21036,21046,22036,22046,22056,23036,24026,24036,25066,25076,31076,31086,31096,32036,32046,32056,33026,34026,35036,35046,41056,41066,42016,43046,43056,43066,44036,44046,45046,45056,51016,52046,53016,61026,62016,63026],
+	  "fightPos": {"0": {"x": 5, "y": 535}, "1": {"x": 10, "y": 300}, "2": {"x": 15, "y": 60}, "3": {"x": 185, "y": 420}, "4": {"x": 185, "y": 195}, "boss": {"x": 500, "y": 360}},
+	  "scale": {"0": 0.7, "1": 0.75, "2": 0.8, "3": 0.725, "4": 0.775, "boss": 1.1},
+	  "npcname":"神殿先遣队",
+	  "npcnumber":10,
+	  "npcdps":[100000,999999],
+	  "jzdshuliang":50,
+	  "jzdhp":5,
+	  "mowang1":{
+		  "intr":[
+			  {"name":"永炎岩地","ico":"mw_yyzd","intr":"火焰魔王沉眠于永炎岩地中，他的仆从火焰守卫每回合对全体敌人造成1%生命上限伤害。"},
+			  {"name":"魔王躯体","ico":"mw_mwzq","intr":"魔王庞大的身体,导致行动缓慢速度为1，强大的魔威使得命中+999%,免控+999%。（火焰守卫与火焰魔王均生效）"},
+			  {"name":"净化火焰","ico":"mw_jhhy","intr":"第5回合开始火焰守卫会牺牲自己召唤火焰魔王。火焰魔王每回合召唤火焰净化所有敌人,对全体敌人造成100%生命上限伤害。"}			  
+			  ],
+		  "boss":[{
+			  "name":"火焰魔王","jzddps":[1,2],"jcdmubiao":[6,6],"heroico":"3205a","model":"35023","xpskill":"1000012","nuqi":100,"mowangskillani":"1000012","skill":[1100114],
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":1,"fakemodel": "3205a","color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":200,"enlargepro": 2,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":2,"side":1,"mowangtype":"1","normalskill":"1000072","job":0}]
+	  },
+	  "mowang2":{
+		  "intr":[
+			  {"name":"毁灭双刃","ico":"mw_hmsr","intr":"恶魔刺客每次出手均会对全体敌人造成25%生命伤害，任何敌人在恶魔刺客面前都是自寻死路！"},
+			  {"name":"魔王躯体","ico":"mw_mwzq","intr":"魔王庞大的身体,导致行动缓慢速度为1，强大的魔威使得命中+999%,免控+999%。（仅恶魔刺客生效）"},
+			  {"name":"恶魔爪牙","ico":"mw_emzy","intr":"恶魔刺客携带着2名爪牙，爪牙每回合对随机敌人造成20%生命伤害，并有50%概率眩晕目标2回合。"}],
+		  "boss":[
+			  {"name":"恶魔刺客","jzddps":[1,2],"jcdmubiao":[6,6],"heroico":"3402a","model":"3402a","xpskill":"1000022","nuqi":100,"mowangskillani":"1000022","skill":[],
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":1,"fakemodel": "3402a","color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":200,"enlargepro": 1.7,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"1","normalskill":"1000062","job":0},
+			  {"name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1000032","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":2,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":200,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"mowangtype":"2","normalskill":"1000062","job":0},
+			  {"name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1000032","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":3,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":200,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"mowangtype":"2","normalskill":"1000062","job":0}
+		  ]
+	  },
+	  "mowang3":{
+		  "intr":[
+			  {"name":"寒冰之伤","ico":"mw_hbzs","intr":"亡灵领主挥动寒冰之伤每回合对单个顺位目标敌人造成100%生命上限的伤害。传说死在寒冰之伤下的敌人都将成为亡灵领主的仆从。"},
+			  {"name":"魔王躯体","ico":"mw_mwzq","intr":"魔王庞大的身体，导致行动缓慢速度为1,强大的魔威使得命中+999%，免控+999%。（仅亡灵领主生效）"},
+			  {"name":"亡灵爪牙","ico":"mw_wlzy","intr":"亡灵领主携带着4名爪牙,爪牙每回合对随机敌人造成1%生命伤害，并有25%概率冰冻目标2回合。"}],
+		  "boss":[
+			  {          "name":"亡灵领主","jzddps":[5,5],"jcdmubiao":[1,1],"heroico":"1108a","model":"1108a","xpskill":"1000042","nuqi":100,"skill":[],
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":1,"fakemodel": "1108a","color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":200,"enlargepro": 1.7,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"nuqi":100,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"1","normalskill":"1000062","job":0},
+			  {           "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":2,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":200,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"mowangtype":"2","normalskill":"1000062","job":0},
+			  {			  "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":3,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":200,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":4,"side":1,"mowangtype":"2","normalskill":"1000062","job":0},
+			  {			  "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":4,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":200,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"mowangtype":"2","normalskill":"1000062","job":0},
+			  {			  "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":200,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":6,"side":1,"mowangtype":"2","normalskill":"1000062","job":0}
+		  ]
+	  },
+	  "jobbuff":[
+	  	{"beidong":"1100014","name":"恐惧战士","ico":"mw_kjzs","intr":"魔王回忆起了千年前被一群英雄围殴的时光，特别是那个战士，想着就觉得疼，受到战士伤害+100%。"},
+	  	{"beidong":"1100024","name":"恐惧法师","ico":"mw_kjfs","intr":"魔王回忆起了千年前被一群英雄围殴的时光，特别是那个法师，想着就觉得疼，受到法师伤害+100%。"},
+	  	{"beidong":"1100034","name":"恐惧辅助","ico":"mw_kjms","intr":"魔王回忆起了千年前被一群英雄围殴的时光，特别是那个辅助，想着就觉得疼，受到辅助伤害+100%。"},
+	  	{"beidong":"1100044","name":"恐惧刺客","ico":"mw_kjck","intr":"魔王回忆起了千年前被一群英雄围殴的时光，特别是那个刺客，想着就觉得疼，受到刺客伤害+100%。"},
+	  	{"beidong":"1100054","name":"恐惧游侠","ico":"mw_kjyx","intr":"魔王回忆起了千年前被一群英雄围殴的时光，特别是那个游侠，想着就觉得疼，受到游侠伤害+100%。"}
+	  ],
+	  "zhongzubuff":[
+		  {"beidong":"1100064","name":"亡灵侵蚀","ico":"mw_wlqs","intr":"一位精通全职业技巧的辅助对魔王释放了诅咒技能，魔王受到亡灵英雄的伤害增加100%。"},
+		  {"beidong":"1100074","name":"奥术侵蚀","ico":"mw_asqs","intr":"一位精通全职业技巧的辅助对魔王释放了诅咒技能，魔王受到奥术英雄的伤害增加100%。"},
+		  {"beidong":"1100084","name":"邪能侵蚀","ico":"mw_xnqs","intr":"一位精通全职业技巧的辅助对魔王释放了诅咒技能，魔王受到邪能英雄的伤害增加100%。"},
+		  {"beidong":"1100094","name":"自然侵蚀","ico":"mw_zrqs","intr":"一位精通全职业技巧的辅助对魔王释放了诅咒技能，魔王受到自然英雄的伤害增加100%。"},
+		  {"beidong":"1100104","name":"光暗侵蚀","ico":"mw_gaqs","intr":"一位精通全职业技巧的辅助对魔王释放了诅咒技能，魔王受到光暗英雄的伤害增加150%。"}
+	  ]}
+}

@@ -1,0 +1,13 @@
+sign_getprize :每日签到领取奖励
+参数[]
+返回参数 {"s":1,d:{"val":3,"remainnum":canGet,"prize":prize}}    "val"已经领取次数
+                                                               "remain" :剩余可领取次数
+                                                               "prize":领取的奖励
+
+
+sign_denglujiangliopen:每日签到奖励打开接口
+参数[]
+返回参数 {"s":1,"d":{"wtype": 2, "alreadyget": 3,"remainnum": 2,"data": {"prize":""}}} "wtype":第2套配置
+                                                                                       "alreadyGet":已经领取的奖励
+                                                                                       "remainNum":剩下的奖励次数
+                                                                                       "data":奖励的具体参数配置

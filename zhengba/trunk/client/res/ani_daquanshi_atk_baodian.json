@@ -1,0 +1,126 @@
+{
+  "ID": "090f78b1-7fd0-42b1-9195-c9c1a107d9a2",
+  "Version": "2.3.4",
+  "Name": "ani_daquanshi_atk_baodian",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 15,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 1024938462,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/daquanshi/Atk/baodian_07.png",
+                  "Plist": "skillani/ani_daquanshi_atk_baodian.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/daquanshi/Atk/baodian_08.png",
+                  "Plist": "skillani/ani_daquanshi_atk_baodian.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/daquanshi/Atk/baodian_09.png",
+                  "Plist": "skillani/ani_daquanshi_atk_baodian.plist"
+                },
+                "FrameIndex": 10,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/daquanshi/Atk/baodian_10.png",
+                  "Plist": "skillani/ani_daquanshi_atk_baodian.plist"
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 22,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/daquanshi/Atk/baodian_09.png",
+              "Plist": "skillani/ani_daquanshi_atk_baodian.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 111.2739,
+              "Y": 35.0584
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -428.7261,
+            "RightMargin": -651.2739,
+            "TopMargin": -995.0584,
+            "BottomMargin": -924.9416,
+            "Tag": 23,
+            "ActionTag": 1024938462,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/ani_daquanshi_atk_baodian.plist",
+        "skillani/ani_daquanshi_atk_baodian.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

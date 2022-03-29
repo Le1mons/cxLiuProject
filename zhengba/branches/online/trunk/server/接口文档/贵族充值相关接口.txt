@@ -1,0 +1,37 @@
+购买vip礼包：api_vip_getpack
+参数:[viplv] -- [对应的vip等级]
+返回值：{'s': 1}
+
+
+
+每日限购每日免费奖励领取：api_mrxg_recmrprize
+参数：[]
+返回值：{"s": 1, "d": {"prize": [{"a": "attr", "t": "rmbmoney", "n": 1}]}}
+
+
+
+
+超值好礼购买接口：api_czhl_buy
+参数：[idx]
+返回值：{"s": 1, "d": {"prize": [{"a": "attr", "t": "rmbmoney", "n": 1}]}}
+
+
+
+重置主界面信息：api_chongzhi_open
+参数：[]
+返回值：{
+        's': 1, 
+	'd': {
+            'meirixiangou': [],   每日限购礼包
+	    'alreadypack': [2],   已经购买的vip礼包
+	    'chaozhihaoli': {u'czlb3': 0, u'czlb4': 0},  超值好礼礼包
+	    'paylist': 重置配置[
+	        {u'name': u'6480\u5143\u5b9d', u'img': u'img_yuanbao6.png', u'show': u'648\u5143', u'yuanbao': 6480, u'ani': u'ani_ybxingxing05', u'proid': u'gold648', u'unitPrice': 64800, u'zs': {'cznum': 0, u'num': 1, u'yuanbao': 6480}}, 
+		{u'name': u'3280\u5143\u5b9d', u'img': u'img_yuanbao5.png', u'show': u'328\u5143', u'yuanbao': 3280, u'ani': u'ani_ybxingxing04', u'proid': u'gold328', u'unitPrice': 32800, u'zs': {'cznum': 0, u'num': 1, u'yuanbao': 3280}}, 
+		{u'name': u'1280\u5143\u5b9d', u'img': u'img_yuanbao4.png', u'show': u'128\u5143', u'yuanbao': 1280, u'ani': u'ani_ybxingxing05', u'proid': u'gold128', u'unitPrice': 12800, u'zs': {'cznum': 0, u'num': 1, u'yuanbao': 1280}}, 
+		{u'name': u'680\u5143\u5b9d', u'img': u'img_yuanbao3.png', u'show': u'68\u5143', u'yuanbao': 680, u'ani': u'ani_ybxingxing03', u'proid': u'gold68', u'unitPrice': 6800, u'zs': {'cznum': 0, u'num': 1, u'yuanbao': 680}}, 
+		{u'name': u'300\u5143\u5b9d', u'img': u'img_yuanbao2.png', u'show': u'30\u5143', u'yuanbao': 300, u'ani': u'ani_ybxingxing02', u'proid': u'gold30', u'unitPrice': 3000, u'zs': {'cznum': 0, u'num': 1, u'yuanbao': 300}}, 
+		{u'name': u'60\u5143\u5b9d', u'img': u'img_yuanbao1.png', u'show': u'6\u5143', u'yuanbao': 60, u'ani': u'ani_ybxingxing01', u'proid': u'gold6', u'unitPrice': 600, u'zs': {'cznum': 0, u'num': 1, u'yuanbao': 60}}
+		]
+	}
+}

@@ -1,0 +1,76 @@
+friend_accept: 接受印记
+参数： [uid] 对方uid
+返回值：{'s': 1,'d':{'prize':[]}}
+
+friend_agree: 接受好友申请
+参数： [uid] 对方uid
+返回值：{'s': 1}
+
+friend_apply: 申请好友
+参数： [uid] 对方uid
+返回值：{'s': 1}
+
+friend_delete: 删除好友
+参数： [uid] 对方uid
+返回值：{'s': 1}
+
+friend_find: 查找好友
+参数： [name] 对方name
+返回值：{'s': 1,'d':{'headdata':{]}}
+
+friend_gift: 赠送印记
+参数： [uid] 对方uid
+返回值：{'s': 1}
+
+friend_fight: 挑战boss
+参数： [uid, fightdata] 助战的好友的uid(不是助战填自己的uid)，占位信息
+返回值：{'s': 1}
+
+friend_open: 好友开启界面
+参数： []
+返回值：{'s': 1,'d':{'friend':[uid],'tiliinfo':{'num':0,'freetime':0},'gift':[uid],'accept':[uid]}}
+
+friend_refuse: 拒绝好友
+参数： [isall, uid] 是否全部删除  对方的uid
+返回值：{'s': 1}
+
+friend_shield: 屏蔽好友
+参数： [uid, iscancel]  对方的uid, 0代表屏蔽  1代表取消屏蔽
+返回值：{'s': 1}
+
+friend_treasure: 好友探宝
+参数： []
+返回值：{'s': 1,'d':{'boss':'','prize':[]}}
+
+friend_tuijian: 好友推荐
+参数： [isref]  是否刷新
+返回值：{'s': 1,'d':{'userlist':[{headdata:{}]}}
+
+friend_yijian: 一键领取和赠送
+参数： []
+返回值：{'s': 1,'d':{'prize': [],'act':'00'}}  左边是发送 右边是接受  0代表成功 1是达到上限 2是没人收发
+
+friend_discuss: 切磋
+参数： [uid, fightdata]  对手的uid   己方的站位信息
+返回值：{'s': 1,'d':{'prize': []}}
+
+friend_blacklist: 黑名单
+参数： []
+返回值：{'s': 1,'d':{'blacklist': [uid]}}
+
+friend_applylist: 申请列表
+参数： []
+返回值：{'s': 1,'d':{'applylist': [headdata]}}
+
+friend_treasureopen: 探宝界面
+参数: []
+返回值：{'s':1,'d':{'curhp':0,'prize':[],'killprize':[],'headdata':{}
+                 ,'bossid':'','freetime':0}}
+
+rank_open: 排行界面
+参数： [5]
+返回值：{'s':1,'d':{'myrank':0,"ranklist":[{'headdata':{},'jifen':0}]}}
+
+friend_dps: 伤害排行
+参数： []
+返回值：{'s': 1,'d':{'dps': [{headdata:{},'dps:0'}]}}

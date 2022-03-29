@@ -1,0 +1,67 @@
+hero_lvup: 英雄等级提升
+参数：[tid]
+返回值： {'s': 1}
+
+hero_jinjie: 英雄等阶提升
+参数：[tid]
+返回值： {'s': 1}
+
+hero_upstar: 英雄星级提升
+参数：[tid,{'0':[tid,tid],'1':[]}]
+返回值： {'s': 1}
+
+hero_getlist: 获取英雄列表
+参数：[]
+返回值： {'s': 1,'d':{'list':[],'jjchero':[竞技场英雄]}}
+
+hero_getnext: 获取下一级的属性
+参数：[act， tid]  act是 lv 或者 dengjielv 或者star
+返回值： {'s': 1，'d': {'buff':下一级的属性}}
+
+hero_equipwear: 穿戴装备
+参数：[eid, heroid]   [装备的id， 英雄的id]
+返回值：{'s': 1}
+
+hero_wearshipin: 装备饰品
+参数：[spid, heroid] [饰品的id， 英雄的id]
+返回值：{'s': 1}
+
+hero_hecheng: 英雄合成
+参数： [hid, {'main': 主材料tid, 'delhero':[前两个辅材料的tid], 'chkhero': [随机材料的tid]}]
+返回值： {'s': 1, 'd':{'prize':[atn]}}
+
+hero_fenjie：英雄分解
+参数： [tid,tid,tid]
+返回值：{'s': 1, 'd':{'prize': [atn]}
+
+hero_fenjieyulan：英雄分解预览
+参数： [tid,tid,tid]
+返回值：{'s': 1, 'd':{'prize': [atn]}
+
+hero_takeoff: 脱下装备
+参数： [tid, type]  英雄唯一id，装备类型
+返回值：{'s': 1}
+
+hero_yjwear: 一键装备装备
+参数：[tid]
+返回值： {'s': 1, 'd':{'hero': {tid: {buff:1,weardata:{'1':'eid',2:'eid','5':'spid'}}}}}
+
+hero_yjtakeoff: 一键打赤膊
+参数：[tid]
+返回值：{'s': 1, 'd': {'hero': {tid: {'atk':0, weardata:{}}}}}
+
+hero_lock：英雄锁定或解锁
+参数：[tid]
+返回值: {'s': 1, 'd': {'hero':{tid: {'islock': 0或1}}}}
+
+hero_gettongyu：获取统御信息
+参数：[]
+返回值: {'s': 1, 'd': [{maxlv:统御最大等级, mylv:当前等级, tyid: 英雄对应的评论id]}
+
+hero_tyupgrade：统御升级
+参数：[hid, [英雄的tid列表]]
+返回值: {'s': 1, 'd': {data:{mylv: 2, tyid:1107, maxlv: 2}, prize:[]}}
+
+hero_gettmprize：获取天命奖励
+参数：[]
+返回值: {'s': 1, 'd': prize:[]}

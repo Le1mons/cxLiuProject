@@ -1,0 +1,71 @@
+文件:huodong.json 
+字段说明:
+hdid 活动的id 唯一(显示排序从小到大)
+showtime 显示时间(注释用,实际会根据活动时间生成)
+stime 活动开始时间(天,huodong.json 会根据开区时间生成相对时间)
+etime 活动结束时间(天,同时为显示的结束时间,huodong.json 会根据开区时间生成相对时间)
+rtime 活动结束时间(天,同时为显示的结束时间,huodong.json 会根据开区时间生成相对时间)
+ttype 时间类型(0相对开区时间,1相对玩家注册时间)
+name 活动名称
+htype 活动类型(统计活动数据用)
+stype 游戏显示模板(1普通list,2成长计划list,3商店类型,4冠军膜拜)
+itype 游戏图标icon 类型(0无图标,1 NEW图标 2 限时图标)
+intr 活动描述
+img 活动图标
+data 活动配置 k/v
+    show 显示标题
+    btn 按钮标题
+    buyneed 购买消耗(特殊,成长计划用)
+    arr 活动奖励配置
+        val 活动要求值
+        p   活动奖励
+	
+	这些字段可根据功能需求扩展
+
+arg 活动参数(特殊用途,根据功能定)
+
+数据库字段:
+hddata 活动数据,个人的活动数据在这
+	hdid 活动的id
+	gotarr 已领取的具体val 例如:达到 100钻领取 xxx  领取完后 gotarr 为 [100]
+	val 活动当前的val 根据功能需求定
+	lasttime 最后修改时间
+	
+	这些字段可根据功能需求扩展
+
+hdinfo 全局活动列表,存放活动列表/配置
+
+具体的data里的数据结构 上面描述过的不再描述
+htype:4  等级基金
+    payinfo:充值时携带的参数
+        showrmbmoney: 显示金额
+        unitprice: 价格
+        proid: pay.json 里的参数
+    showcond:显示条件
+
+htype:7  限时掉落
+    cd:冷却时间
+
+htype:10  限时兑换
+    data
+        arr
+            buynum: 兑换次数上限
+
+htype:11  积天返利
+    needmoney: 需要的数量
+
+htype:12  超值礼包
+    isreset: 0或1 是否重置
+    arr
+        buymaxnum: 最大购买次数
+        payinfo: 充值时的参数
+
+htype:13  累计充值
+    leijirmbmoney: 累计需要的数量
+
+htype:14  赏金奇兵 远征统帅 点金达人
+    addition: 消耗或者奖励的系数
+    email
+        title: 邮箱标题
+        content: 邮箱内容
+    rankprize: 排名奖励

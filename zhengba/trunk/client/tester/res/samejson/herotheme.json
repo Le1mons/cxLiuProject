@@ -1,0 +1,580 @@
+{
+    "common": {
+        "libao": "礼包配置",
+        "duihuan": "兑换配置",
+        "task": "任务配置",
+        "duihuanNeed": "兑换活动需要的材料，有几个就配置几个，不需要配置num",
+        "guanka": "永劫之门的章节配置",
+        "guankapassprize": "关卡进度宝箱奖励",
+        "guankafightnum": "关卡每天的挑战次数",
+        "flagprize": "战魂领奖励",
+        "cifu": "赐福领奖情况"
+    },
+    "libao": {
+        "hero30": {
+            "proid": "hero30",
+            "name": "限时购买礼包",
+            "money": 3000,
+            "need": [],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 300
+                },
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 10
+                }
+            ],
+            "buynum": 1
+        },
+        "hero128": {
+            "proid": "hero128",
+            "name": "超值回馈礼包",
+            "money": 12800,
+            "need": [],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 1280
+                },
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 35
+                },
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 10
+                },
+                {
+                    "a": "item",
+                    "t": "2004",
+                    "n": 2000
+                }
+            ],
+            "buynum": 3
+        },
+        "hero328": {
+            "proid": "hero328",
+            "name": "英雄好运礼包",
+            "money": 32800,
+            "need": [],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 3280
+                },
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 85
+                },
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 20
+                },
+                {
+                    "a": "item",
+                    "t": "2053",
+                    "n": 25
+                }
+            ],
+            "buynum": 10
+        },
+        "hero648": {
+            "proid": "hero648",
+            "name": "限购超值礼包",
+            "money": 64800,
+            "need": [],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 6480
+                },
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 170
+                },
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 40
+                },
+                {
+                    "a": "item",
+                    "t": "2089",
+                    "n": 50
+                }
+            ],
+            "buynum": 15
+        }
+    },
+    "cifu": [
+        {"num": 3, "needstar":9, "freeprize": [{"a": "attr", "t": "rmbmoney","n": 1}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 1}],  "proid": "zhounian9", "name": "", "money": 600},
+        {"num": 3, "needstar":10, "freeprize": [{"a": "attr", "t": "rmbmoney","n": 1}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 1}],  "proid": "zhounian10", "name": "", "money": 600},
+        {"num": 3, "needstar":11, "freeprize": [{"a": "attr", "t": "rmbmoney","n": 1}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 1}],  "proid": "zhounian11", "name": "", "money": 600},
+        {"num": 3, "needstar":12, "freeprize": [{"a": "attr", "t": "rmbmoney","n": 1}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 1}],  "proid": "zhounian12", "name": "", "money": 600},
+        {"num": 3, "needstar":13, "freeprize": [{"a": "attr", "t": "rmbmoney","n": 1}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 1}],  "proid": "zhounian13", "name": "", "money": 600}
+    ],
+    "plid":"1406",
+    "duihuanNeed": [
+        {
+            "a": "item",
+            "t": "5100"
+        }
+    ],
+    "duihuan": {
+        "1": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 1400
+                }
+            ],
+            "prize": [
+                {
+                    "a": "shipin",
+                    "t": "6591",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "2": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 700
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1163",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "3": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 265
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1183",
+                    "n": 1
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "4": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 240
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1158",
+                    "n": 1
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "5": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 140
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "14065",
+                    "n": 50
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "6": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 140
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1175",
+                    "n": 1
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "7": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 85
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1096",
+                    "n": 1
+                }
+            ],
+            "maxnum": 4,
+            "rtime": 0
+        },
+        "8": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 22
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2011",
+                    "n": 3
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "9": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 15
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 10
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "10": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 70
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2059",
+                    "n": 1
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "11": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 15
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2039",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "12": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 6
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2071",
+                    "n": 1
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "13": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 3
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2005",
+                    "n": 500
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "14": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 3
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2004",
+                    "n": 500
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "15": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 1
+                }
+            ],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "useexp",
+                    "n": 50000
+                }
+            ],
+            "maxnum": 99,
+            "rtime": 0
+        },
+        "16": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5100",
+                    "n": 1
+                }
+            ],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "jinbi",
+                    "n": 100000
+                }
+            ],
+            "maxnum": 99,
+            "rtime": 0
+        }
+    },
+	"guanka":[
+		{"name": "黑暗之门始", "level": 0, "page": 1, "prize": [{"a": "attr", "t": "rmbmoney", "n": 100},{"a": "item", "t": "2022", "n": 100}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"51016": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 51016,"num":1},"53026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 53026,"num":1},"31106": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 31106,"num":1},"43076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43076,"num":1},"52046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 52046,"num":1},"52056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 52056,"num":1},"63036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 63036,"num":1},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":1}},"buff":{"atkpro": 550,"hppro": 700},"npcid":"100014"},
+		{"name": "黑暗之门终", "level": 1, "page": 1, "prize": [{"a": "attr", "t": "rmbmoney", "n": 200},{"a": "item", "t": "2021", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":2},"32056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32056,"num":2},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":2},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":1},"45046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 45046,"num":1}},"buff":{"atkpro": 560,"hppro": 800},"npcid":"100015"},
+		{"name": "黑暗之门续", "level": 2, "page": 1, "prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a": "item", "t": "2018", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"41066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41066,"num":1},"42026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 42026,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"45046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 45046,"num":1},"44056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 44056,"num":1},"21066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21066,"num":1},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":1}},"buff":{"atkpro": 580,"hppro": 820},"npcid":"100016"},
+		{"name": "亡灵之门始", "level": 3, "page": 2, "prize": [{"a": "attr", "t": "rmbmoney", "n": 100},{"a": "item", "t": "2022", "n": 100}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"35056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 35056,"num":1},"33036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 33036,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":1},"34026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34026,"num":2},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 610,"hppro": 840},"npcid":"100017"},
+        {"name": "亡灵之门终", "level": 4, "page": 2, "prize": [{"a": "attr", "t": "rmbmoney", "n": 200},{"a": "item", "t": "2021", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"24046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 24046,"num":1},"21056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21056,"num":1},"23036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 23036,"num":1},"22076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 22076,"num":1},"25086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 25086,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 620,"hppro": 870},"npcid":"100018"},
+        {"name": "亡灵之门续", "level": 5, "page": 2, "prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a": "item", "t": "2018", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"31116": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 31116,"num":1},"15046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 15046,"num":1},"11106": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 11106,"num":1},"13056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 13056,"num":1},"14046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14046,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 670,"hppro": 900},"npcid":"100019"},
+        {"name": "邪能之门始", "level": 6, "page": 3, "prize": [{"a": "attr", "t": "rmbmoney", "n": 100},{"a": "item", "t": "2022", "n": 100}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"31116": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 31116,"num":1},"21056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21056,"num":1},"51026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 51026,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"61026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61026,"num":1},"13056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 13056,"num":1},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 600,"hppro": 970},"npcid":"100020"},
+		{"name": "邪能之门终", "level": 7, "page": 3, "prize": [{"a": "attr", "t": "rmbmoney", "n": 200},{"a": "item", "t": "2021", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"35056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 35056,"num":1},"65016": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 65016,"num":1},"15046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 15046,"num":1},"25086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 25086,"num":1},"45066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 45066,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"61036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 61036,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 670,"hppro": 1055},"npcid":"100021"},
+		{"name": "邪能之门续", "level": 8, "page": 3, "prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a": "item", "t": "2018", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"33036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 33036,"num":1},"23036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 23036,"num":1},"53026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 53026,"num":1},"43076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43076,"num":1},"13056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 13056,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 721,"hppro": 1117},"npcid":"100022"},
+		{"name": "幽影之门始", "level": 9, "page": 4, "prize": [{"a": "attr", "t": "rmbmoney", "n": 100},{"a": "item", "t": "2022", "n": 100}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"24046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 24046,"num":1},"14046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14046,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":2},"44056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 44056,"num":1},"55016": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 55016,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 874,"hppro": 1225},"npcid":"100023"},
+        {"name": "幽影之门终", "level": 10, "page": 4, "prize": [{"a": "attr", "t": "rmbmoney", "n": 200},{"a": "item", "t": "2021", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"24046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 24046,"num":1},"14046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14046,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":2},"44056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 44056,"num":1},"55016": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 55016,"num":1},"41076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 41076,"num":1},"43086": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 43086,"num":1}},"buff":{"atkpro": 955,"hppro": 1445},"npcid":"100024"},
+        {"name": "幽影之门续", "level": 11, "page": 4, "prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a": "item", "t": "2018", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"11096": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 11096,"num":1},"53026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 53026,"num":1},"33036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 33036,"num":1},"12046": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 12046,"num":2},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":1},"21066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21066,"num":1}},"buff":{"atkpro": 1023,"hppro": 1444},"npcid":"100025"},
+        {"name": "地狱之门始", "level": 12, "page": 5, "prize": [{"a": "attr", "t": "rmbmoney", "n": 100},{"a": "item", "t": "2022", "n": 100}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"53026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 53026,"num":2},"55026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 55026,"num":2},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":2},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":1},"21066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21066,"num":1}},"buff":{"atkpro": 1099,"hppro": 1569},"npcid":"100026"},
+		{"name": "地狱之门终", "level": 13, "page": 5, "prize": [{"a": "attr", "t": "rmbmoney", "n": 200},{"a": "item", "t": "2021", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"33036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 33036,"num":1},"63036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 63036,"num":2},"13056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 13056,"num":1},"53026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 53026,"num":1},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":1},"21066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21066,"num":1}},"buff":{"atkpro": 1149,"hppro": 1669},"npcid":"100027"},
+        {"name": "地狱之门续", "level": 14, "page": 5, "prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a": "item", "t": "2018", "n": 50}], "hero": {"14066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 14066,"num":1},"33036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 33036,"num":1},"63036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 63036,"num":2},"13056": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 13056,"num":1},"53026": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 53026,"num":1},"32076": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 32076,"num":1},"34036": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 34036,"num":1},"21066": {"lv": 250, "star": 10, "dengjielv": 10, "hid": 21066,"num":1}},"buff":{"atkpro": 1149,"hppro": 1669},"npcid":"100028"}
+	],
+    "guankapassprize": [
+        {"val": [2], "prize": [{"a": "item", "t": "5100", "n": 5},{"a": "attr", "t": "rmbmoney", "n": 300}]},
+        {"val": [5], "prize": [{"a": "item", "t": "5100", "n": 3},{"a": "attr", "t": "rmbmoney", "n": 300}]},
+        {"val": [8], "prize": [{"a": "item", "t": "5100", "n": 5},{"a": "attr", "t": "rmbmoney", "n": 300}]},
+        {"val": [11], "prize": [{"a": "item", "t": "5100", "n": 3},{"a": "attr", "t": "rmbmoney", "n": 300}]},
+        {"val": [14], "prize": [{"a": "item", "t": "5100", "n": 5},{"a": "attr", "t": "rmbmoney", "n": 300}]}
+    ],
+    "guankaopen": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5},
+    "upflagexp":100,
+    "buyexpneed": [{"a": "attr", "t": "rmbmoney","n": 300}],
+    "flagpayinfo": {"proid": "heroflag128", "money": 12800},
+    "flagprize": {
+        "1": {"freeprize": [{"a": "item", "t": "5100","n": 3}], "payprize":[{"a": "attr", "t": "jinbi","n": 50000},{"a": "item", "t": "2022","n": 100}]},
+        "2": {"freeprize": [{"a": "attr", "t": "rmbmoney","n": 300}], "payprize":[{"a": "item", "t": "4009","n": 20},{"a": "item", "t": "14065","n": 50}]},
+        "3": {"freeprize": [{"a": "item", "t": "4009","n": 20}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 200},{"a": "item", "t": "2021","n": 50}]},
+        "4": {"freeprize": [{"a": "item", "t": "5100","n": 2}], "payprize":[{"a": "item", "t": "2026","n": 100},{"a": "item", "t": "2022","n": 100}]},
+        "5": {"freeprize": [{"a": "item", "t": "2022","n": 100}], "payprize":[{"a": "item", "t": "2003","n": 1000},{"a": "item", "t": "2053","n": 10}]},
+        "6": {"freeprize": [{"a": "item", "t": "2021","n": 50}], "payprize":[{"a": "item", "t": "2005","n": 500},{"a": "item", "t": "2004","n": 300}]},
+        "7": {"freeprize": [{"a": "item", "t": "5100","n": 3}], "payprize":[{"a": "item", "t": "2071","n": 2},{"a": "item", "t": "2011","n": 2}]},
+        "8": {"freeprize": [{"a": "item", "t": "2005","n": 200}], "payprize":[{"a": "item", "t": "2018","n": 10},{"a": "item", "t": "2055","n": 10}]},
+        "9": {"freeprize": [{"a": "item", "t": "5100","n": 2}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 200},{"a": "item", "t": "2022","n": 100}]},
+        "10": {"freeprize": [{"a": "attr", "t": "rmbmoney","n": 200}], "payprize":[{"a": "item", "t": "2023","n": 500},{"a": "item", "t": "2055","n": 10}]},
+        "11": {"freeprize": [{"a": "item", "t": "5100","n": 3}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 200},{"a": "item", "t": "2021","n": 50}]},
+        "12": {"freeprize": [{"a": "item", "t": "4009","n": 30}], "payprize":[{"a": "item", "t": "2071","n": 4},{"a": "item", "t": "2022","n": 200}]},
+        "13": {"freeprize": [{"a": "item", "t": "5100","n": 2}], "payprize":[{"a": "attr", "t": "rmbmoney","n": 200},{"a": "item", "t": "2004","n": 300}]},
+        "14": {"freeprize": [{"a": "item", "t": "2005","n": 500}], "payprize":[{"a": "item", "t": "4009","n": 30},{"a": "item", "t": "2010","n": 10}]},
+        "15": {"freeprize": [{"a": "item", "t": "5100","n": 5}], "payprize":[{"a": "item", "t": "2089","n": 5},{"a": "item", "t": "2007","n": 5}]}
+
+    },
+    "task": {
+        "1": { "tiaozhuan": "", "desc": "今日登录{1}次", "pval": 1, "addjifen": 40, "prize": [{"a": "attr", "t": "zhlexp", "n":40 }] },
+        "2": { "tiaozhuan": "", "desc": "今日领取日常任务终极奖励", "pval": 1, "addjifen": 50, "prize": [{"a": "attr", "t": "zhlexp", "n":50 }] },
+        "3": { "tiaozhuan": "", "desc": "今日部落试炼挑战{1}次", "pval": 6, "addjifen": 50, "prize": [{"a": "attr", "t": "zhlexp", "n":50 }] },
+        "4": { "tiaozhuan": "", "desc": "今日消耗钻石{1}", "pval": 2000, "addjifen": 100, "prize": [{"a": "attr", "t": "zhlexp", "n":100 }] }
+    },
+    "shilian": {
+        "1": {"npcid":"100010", "prize": [{"a": "item", "t": "5100", "n": 3},{"a": "item", "t": "2010", "n": 5},{"a": "item", "t": "1186", "n": 3}], "jifen": 500},
+        "2": {"npcid":"100011", "prize": [{"a": "item", "t": "5100", "n": 3},{"a": "item", "t": "2018", "n": 100},{"a": "item", "t": "1186", "n": 3}], "jifen": 500},
+        "3": {"npcid":"100012", "prize": [{"a": "item", "t": "5100", "n": 3},{"a": "item", "t": "2005", "n": 300},{"a": "item", "t": "1186", "n": 3}], "jifen": 500},
+        "4": {"npcid":"100013", "prize": [{"a": "item", "t": "5100", "n": 3},{"a": "item", "t": "2026", "n": 400},{"a": "item", "t": "1186", "n": 3}], "jifen": 500},
+        "5": {"npcid":"11011", "prize": [{"a": "attr", "t": "rmbmoney","n": 300},{"a": "item", "t": "2004", "n": 300},{"a": "item", "t": "5100", "n": 5},{"a": "item", "t": "1186", "n": 5}], "jifen": 0, "fightprize": [{"a": "item", "t": "5100", "n": 1},{"a": "item", "t": "1186", "n": 1}]}
+    },
+    "dpsjifen": [
+        {"area": [0, 50000], "jifen": 100},
+        {"area": [50001, 100000], "jifen": 300},
+        {"area": [100001, 200000], "jifen": 400},
+        {"area": [200001, 1000000], "jifen": 500},
+        {"area": [1000001, 5000000], "jifen": 600},
+        {"area": [5000001, 10000000], "jifen": 650},
+        {"area": [10000001, 20000000], "jifen": 700},
+        {"area": [20000001, 40000000], "jifen": 720},
+        {"area": [40000001, 60000000], "jifen": 750},
+        {"area": [60000001, 90000000], "jifen": 780},
+        {"area": [90000001, 100000000], "jifen": 800},
+        {"area": [100000001, 110000000], "jifen": 820},
+        {"area": [110000001, 310000000], "jifen": 880},
+        {"area": [310000001, 510000000], "jifen": 890},
+        {"area": [510000001, 9999999999], "jifen": 900}
+    ],
+    "herostarpro": {
+        "5": {"jifen": 100, "buff":  100},
+        "6": {"jifen": 120, "buff":  120},
+        "7": {"jifen": 150, "buff":  150},
+        "8": {"jifen": 180, "buff":  180},
+        "9": {"jifen": 200, "buff":  200},
+        "10": {"jifen": 240, "buff":  220},
+        "11": {"jifen": 280, "buff":  250},
+        "12": {"jifen": 320, "buff":  280},
+        "13": {"jifen": 350, "buff":  300},
+        "14": {"jifen": 380, "buff":  320},
+        "15": {"jifen": 400, "buff":  360}
+    },
+    "shilianfightnum": 6,
+    "turnjifen": 500,
+    "boss":{
+			"intr":[
+				{"name":"暗影掌控","ico":"mw_lhzk","intr":"暗影魔王每回合对全体目标造成20%生命上限的伤害，自身化为雷电能量，并控制对手的灵魂为自己战斗", "title":  "暗影掌控"},
+				{"name":"暗影不朽","ico":"mw_lhcs","intr":"每次受到攻击获得一层暗影庇护，每回合召唤一个傀儡。傀儡每回合给魔王增加10%护甲，傀儡死亡后，增加护甲效果消失", "title":  "魔王永恒"},
+				{"name":"魔王领域","ico":"mw_mwzq","intr":"魔王威能形成的领域，导致行动缓慢速度为1，强大的魔威使得命中+999%，免控+999%，在战斗中所有单位造成的伤害都不会超过999.9万", "title":  "魔王领域"}
+			],
+			"boss":[
+
+                {
+                    "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"31023012","nuqi":100,
+                    "lv":1,"zhongzu":0,"hp":5000000,"maxhp":5000000,"atk":1,"def":5.8,"speed":5,"color":"5",
+                    "jingzhunpro":0,"miankongpro":9990,"gedangpro":50,
+                    "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":["530200024","530200034"],
+                    "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"normalskill":"1","job":0,"hid":"31023"},
+                {
+                    "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"31023012","nuqi":100,
+                    "lv":1,"zhongzu":0,"hp":5000000,"maxhp":5000000,"atk":1,"def":5.8,"speed":5,"color":"5",
+                    "jingzhunpro":0,"miankongpro":9990,"gedangpro":50,
+                    "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":["530200024","530200034"],
+                    "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":2,"side":1,"normalskill":"1","job":0,"hid":"31023"},
+                {
+                    "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"31023012","nuqi":100,
+                    "lv":1,"zhongzu":0,"hp":5000000,"maxhp":5000000,"atk":1,"def":5.8,"speed":5,"color":"5",
+                    "jingzhunpro":0,"miankongpro":9990,"gedangpro":50,
+                    "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":["530200024","530200034"],
+                    "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"normalskill":"1","job":0,"hid":"31023"},
+                {
+                    "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"31023012","nuqi":100,
+                    "lv":1,"zhongzu":0,"hp":5000000,"maxhp":5000000,"atk":1,"def":5.8,"speed":5,"color":"5",
+                    "jingzhunpro":0,"miankongpro":9990,"gedangpro":50,
+                    "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":["530200024","530200034"],
+                    "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"normalskill":"1","job":0,"hid":"31023"},
+                {
+                    "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"31023012","nuqi":100,
+                    "lv":1,"zhongzu":0,"hp":5000000,"maxhp":5000000,"atk":1,"def":5.8,"speed":5,"color":"5",
+                    "jingzhunpro":0,"miankongpro":9990,"gedangpro":50,
+                    "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":["530200024","530200034"],
+                    "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":6,"side":1,"normalskill":"1","job":0,"hid":"31023"},
+                  {
+                    "name":"暗影魔王","heroico":"5302001","model":"5302001","xpskill":"5302002","nuqi":100,"mowangskillani":"5302002","skill":["530200004","530200014"],"kuileinum":6,
+                    "lv":300,"zhongzu":0,"hp":999999999,"maxhp":999999999,"atk":1,"def":2200,"speed":1,"fakemodel": "5302001","color":"5",
+                    "jingzhunpro":9990,"miankongpro":9990,"gedangpro":0,"enlargepro": 2,"lockHP":true,
+                    "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+                    "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":4,"side":1,"mowangtype":"97","normalskill":"1510002","job":0,"isSkill":[1]}
+            ],
+			"headdata":{"lv":"300","head":"5302001","name":"暗影魔王"}
+		},
+    "rankprize": [
+     {"val": 1,"valkey":[1,1],"p": [{"a": "item", "t": "1187", "n":1},{"a": "attr", "t": "rmbmoney", "n":2000},{"a": "item", "t": "2021", "n": 1000},{"a": "item", "t": "3006", "n": 100}], "percentum": 0,"show":"1"},
+      {"val": 3,"valkey":[2,3],"p": [{"a": "item", "t": "1187", "n":1},{"a": "attr", "t": "rmbmoney", "n":1000},{"a": "item", "t": "2021", "n": 800},{"a": "item", "t": "3006", "n": 100}], "percentum": 0,"show":"2-3"},
+      {"val": 10, "valkey":[4,10],"p": [{"a": "item", "t": "1187", "n":1},{"a": "attr", "t": "rmbmoney", "n":1000},{"a": "item", "t": "2021", "n": 500},{"a": "item", "t": "3006", "n": 100}], "percentum": 0,"show":"4-10"},
+      {"val": 5,"valkey":[0,5],"p": [{"a": "attr", "t": "rmbmoney", "n":800},{"a": "item", "t": "2021", "n": 400},{"a": "item", "t": "3004", "n": 100}], "percentum": 1,"show":"前10%"},
+      {"val": 20,"valkey":[6,20],"p": [{"a": "attr", "t": "rmbmoney", "n":600},{"a": "item", "t": "2022", "n": 1500},{"a": "item", "t": "3004", "n": 50}], "percentum": 1,"show":"前20%"},
+      {"val": 50,"valkey":[21,50],"p": [{"a": "attr", "t": "rmbmoney", "n":400},{"a": "item", "t": "2022", "n": 1000},{"a": "item", "t": "3003", "n": 100}], "percentum": 1,"show":"前50%"},
+      {"val": 100, "valkey":[51,100],"p": [{"a": "attr", "t": "rmbmoney", "n":200},{"a": "item", "t": "2022", "n": 800},{"a": "item", "t": "3003", "n": 50}], "percentum": 1,"show":"前100%"}
+  ],
+    "email": {
+    "title": "部落试炼排名奖励发放",
+    "content": "亲爱的勇士，您在本次部落试炼中获得了{1}，获得以下奖励，请查收"
+    },
+    "todayemail": {
+        "title": "部落试炼活动",
+        "content": "亲爱的勇士，你在部落试炼活动中的的永劫之门奖励未领取，获得以下奖励，请查收"
+    }
+}

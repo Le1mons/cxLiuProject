@@ -1,0 +1,16 @@
+shouchong_open: 获取首冲数据接口
+参数：[]
+返回值：{'s': 1, 'd': {
+                    'shouchong': {
+		        '1': {'rec': [], 'chkrectime': [], 'show': 1}, 
+			'3': {'rec': [], 'chkrectime': [], 'show': 0}, 
+			'2': {'rec': [], 'chkrectime': [], 'show': 1}
+			}
+		}
+	}
+
+
+
+shouchong_recprize：领取奖励
+参数：["1",0] - [领取类型,领取下标]
+返回值：{s:1}

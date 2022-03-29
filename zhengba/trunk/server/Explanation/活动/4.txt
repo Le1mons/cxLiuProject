@@ -1,0 +1,43 @@
+{
+    "hdid": 活动的id 唯一(显示排序从小到大),
+    "showtime": 显示时间(注释用,实际会根据活动时间生成),
+    "stime": 活动开始时间(天,huodong.json 会根据开区时间生成相对时间),
+    "etime": 活动结束时间(天,同时为显示的结束时间,huodong.json 会根据开区时间生成相对时间),
+    "rtime": 活动结束时间(天,同时为显示的结束时间,huodong.json 会根据开区时间生成相对时间),
+    "ttype": 时间类型(0相对开区时间,1相对玩家注册时间),
+    "name": "等级基金",
+    "htype": 4,
+    "stype": 10000开始 前端排序用,
+    "itype": 游戏图标icon 类型(0无图标,1 NEW图标 2 限时图标),
+    "showtype": 1,
+    "intr": 活动描述,
+    "img": 活动图标,
+    "arg": [
+      9999
+    ],
+    "data": {
+      "show": 显示标题,
+      "btn": 按钮标题,
+      "payinfo": {
+        "showrmbmoney": 显示金钱,
+        "unitprice": 价格(分),
+        "proid": 参数(pay.json里)
+      },
+      "showcond": [
+        "vip", 条件名
+        0      条件参数
+      ],
+      "arr": [
+        {
+          "val": 要求数量,
+          "p": [
+            {
+              "a": "attr",
+              "t": "rmbmoney",
+              "n": 500
+            }
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,11 @@
+equip_getlist: 获取所有装备
+参数：[]
+返回值：{'s': 1,'d':{'list': {tid: {'eid':'', 'color':'', 'usenum':0, 'type':'1', 'tzid':''}}}}
+
+equip_hecheng: 合成装备
+参数：[eid, num]
+返回值： {'s': 1}
+
+equip_sale: 装备与饰品出售
+参数: [tid, type, num]   装备tid，装备类型(string：12345),数量
+返回值：{'s': 1, 'd': {'prize': {atn}}}

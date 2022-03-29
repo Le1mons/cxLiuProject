@@ -1,0 +1,57 @@
+{
+    "common": {
+        "fighttime":"战斗时间",
+		"duihuantime": "兑换时间",
+		"openday": "总共开启的天数",
+		"fightday": "战斗开启的天数区间",
+		"duihuanday": "兑换开启的天数区间",
+		"initjifen": "初始胜点",
+		"addjifen": "战斗获得增加的胜点",
+		"randomtime": "随机秒数"
+	},
+	"maxlv" : 30,
+	"fighttime":[28800, 86400],
+	"duihuantime": [28800, 79200],
+	"openday":8,
+	"fightday": [1, 7],
+	"duihuanday": [8],
+	"initjifen": 1000,
+	"addjifen": 10,
+	"randomtime": [1, 15],
+	"fightprize": [{"a": "item", "t": "2088", "n": 100},{"a": "attr", "t": "gpjjcexp", "n": 10}],
+	"winprize": [{"a": "item", "t": "2088", "n": 100}],
+	"maxfightnum": 5,
+	"tqaddfightnum": 1,
+	"tqproid": {"proid": "juedoutequan", "money": 6800},
+	"diffgrade": 200,
+	"default": {
+		"shipin": "6096",
+		"baoshi": "5"
+	},
+	"embattle": {
+		"2": {"pos": ["1", "2"], "num": 2},
+		"3": {"pos": ["3", "4"], "num": 4},
+		"4": {"pos": ["5", "6", "sqid"], "num": 7}
+	},
+	"defaultembattle": [{"1":"24046", "2": "22076", "3":"22076", "4":"22076", "5":"22076", "6":"22076"}],
+
+
+	"prizeemail": {
+		"title": "决斗盛典排名奖励",
+		"content": "你在本届决斗盛典中位列{1}，获得以下奖励，请查收"
+	},
+	"tqemail": {
+		"title": "决斗盛典特权奖励",
+		"content": "补发的经验奖励"
+	},
+	"emailprize":[
+      [[1,1],[{"a": "item", "t": "1130", "n": 1},{"a": "item", "t": "1133", "n": 1}],"第1名"],
+      [[2,3],[{"a": "item", "t": "1131", "n": 1},{"a": "item", "t": "1133", "n": 1}],"2-3名"],
+      [[4,10],[{"a": "item", "t": "1132", "n": 1},{"a": "item", "t": "1133", "n": 1}],"4-10名"],
+      [[11,200],[{"a": "item", "t": "1133", "n": 1}],"11-200名"]
+    ],
+	"libao": [
+		{"proid": "juedoutequan", "money": 6800, "prize": [], "tq": 1, "name": "决斗特权", "need": [], "buynum": 1}
+
+	]
+}

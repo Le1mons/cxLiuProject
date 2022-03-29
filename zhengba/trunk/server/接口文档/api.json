@@ -1,0 +1,2200 @@
+{
+  "fightres":{
+    "fightlog": [
+      {
+        "v": "第一回合",
+        "act": "turn"
+      },
+      {
+        "from": "角色的id",
+        "act": "startAct" // 开始攻击
+      },
+      {
+        "from": "role_0", //来自哪个角色
+        "atkType": "normalskill",//普通攻击
+        "extData": {
+          "role_1": {//被攻击的角色rid
+            "hp": {
+              "nv": 99999867.0, // 剩余血量
+              "v": -133.0 // 扣了多少血
+            },
+            "bj": false // 是否暴击
+          }
+        },
+        "to": {
+          "role_1": -133.0 // 被攻击的角色rid
+        },
+        "act": "atk 攻击",
+        "skillid": "7 使用的哪个技能"
+      },
+      {
+        "dps": -133.0, // 伤害
+        "jz": true, //  是否精准
+        "f": "role_0", // 哪个角色
+        "baojidps": 0, // 暴击伤害
+        "act": "hp",// 变化的类型
+        "bj": false, // 是否暴击
+        "r": "role_1", // 被攻击的角色
+        "at": "nm", // nm是普通攻击
+        "v": -133.0, // 变化值
+        "nv": 99999867.0, // 现在的值
+        "skillid": "7" //  技能id
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao", // buff的id
+        "bt": "zhuoshao", // buff类型
+        "r": 15, // buff的轮数
+        "t": "role_1", // 给谁的灼烧
+        "act": "buff", // act类型
+        "_id": "buff_0" // buff的id
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 100,
+        "act": "nuqi" // 行动类型 怒气增加
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct" // 这个角色停止攻击
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99999256.0,
+              "v": -744.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -744.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -744.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -744.0,
+        "nv": 99999256.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_1"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 110,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 110,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 2, // 第二回合
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -200,
+        "nv": 99999667.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "xpskill", // 消耗怒气释放的技能
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99999465.0,
+              "v": -202.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -202.0
+        },
+        "act": "atk",
+        "skillid": "12024012"
+      },
+      {
+        "dps": -202.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "xp", // xp技能
+        "v": -202.0,
+        "nv": 99999465.0,
+        "skillid": "12024012" // xp技能id
+      },
+      {
+        "f": "role_0",
+        "bid": "liuxue", // 流血buff
+        "bt": "liuxue",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_2"
+      },
+      {
+        "r": "role_0",
+        "v": -110,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "xpskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99998139.0,
+              "v": -1117.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -1117.0
+        },
+        "act": "atk",
+        "skillid": "11011012"
+      },
+      {
+        "dps": -1117.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "xp",
+        "v": -1117.0,
+        "nv": 99998139.0,
+        "skillid": "11011012"
+      },
+      {
+        "r": "role_1",
+        "v": -120,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_3"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 3,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -430,
+        "nv": 99999035.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99998908.0,
+              "v": -127.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -127.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -127.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -127.0,
+        "nv": 99998908.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_4"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99997387.0,
+              "v": -752.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -752.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -752.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -752.0,
+        "nv": 99997387.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_5"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 4,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -630,
+        "nv": 99998278.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99998147.0,
+              "v": -131.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -131.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -131.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -131.0,
+        "nv": 99998147.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_6"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99996643.0,
+              "v": -744.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -744.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -744.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -744.0,
+        "nv": 99996643.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_7"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 5,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -830,
+        "nv": 99997317.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "xpskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99997068.0,
+              "v": -249.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -249.0
+        },
+        "act": "atk",
+        "skillid": "12024012"
+      },
+      {
+        "dps": -249.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "xp",
+        "v": -249.0,
+        "nv": 99997068.0,
+        "skillid": "12024012"
+      },
+      {
+        "f": "role_0",
+        "bid": "liuxue",
+        "bt": "liuxue",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_8"
+      },
+      {
+        "r": "role_0",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "xpskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99995433.0,
+              "v": -1210.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -1210.0
+        },
+        "act": "atk",
+        "skillid": "11011012"
+      },
+      {
+        "dps": -1210.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "xp",
+        "v": -1210.0,
+        "nv": 99995433.0,
+        "skillid": "11011012"
+      },
+      {
+        "r": "role_1",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_9"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 6,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -1060,
+        "nv": 99996008.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99995879.0,
+              "v": -129.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -129.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -129.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -129.0,
+        "nv": 99995879.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_10"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99994696.0,
+              "v": -737.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -737.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -737.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -737.0,
+        "nv": 99994696.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_11"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 7,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -1260,
+        "nv": 99994619.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99994490.0,
+              "v": -129.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -129.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -129.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -129.0,
+        "nv": 99994490.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_12"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99993966.0,
+              "v": -730.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -730.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -730.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -730.0,
+        "nv": 99993966.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_13"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 8,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -1460,
+        "nv": 99993030.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "xpskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99992791.0,
+              "v": -239.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -239.0
+        },
+        "act": "atk",
+        "skillid": "12024012"
+      },
+      {
+        "dps": -239.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "xp",
+        "v": -239.0,
+        "nv": 99992791.0,
+        "skillid": "12024012"
+      },
+      {
+        "f": "role_0",
+        "bid": "liuxue",
+        "bt": "liuxue",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_14"
+      },
+      {
+        "r": "role_0",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "xpskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99992744.0,
+              "v": -1222.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -1222.0
+        },
+        "act": "atk",
+        "skillid": "11011012"
+      },
+      {
+        "dps": -1222.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "xp",
+        "v": -1222.0,
+        "nv": 99992744.0,
+        "skillid": "11011012"
+      },
+      {
+        "r": "role_1",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_15"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 9,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -1690,
+        "nv": 99991101.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99990970.0,
+              "v": -131.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -131.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -131.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -131.0,
+        "nv": 99990970.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_16"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99991985.0,
+              "v": -759.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -759.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -759.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -759.0,
+        "nv": 99991985.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_17"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 10,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -1890,
+        "nv": 99989080.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99988949.0,
+              "v": -131.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -131.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -131.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -131.0,
+        "nv": 99988949.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_18"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99991248.0,
+              "v": -737.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -737.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -737.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -737.0,
+        "nv": 99991248.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_19"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 11,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -2090,
+        "nv": 99986859.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "xpskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99986620.0,
+              "v": -239.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -239.0
+        },
+        "act": "atk",
+        "skillid": "12024012"
+      },
+      {
+        "dps": -239.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "xp",
+        "v": -239.0,
+        "nv": 99986620.0,
+        "skillid": "12024012"
+      },
+      {
+        "f": "role_0",
+        "bid": "liuxue",
+        "bt": "liuxue",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_20"
+      },
+      {
+        "r": "role_0",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "xpskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99990026.0,
+              "v": -1222.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -1222.0
+        },
+        "act": "atk",
+        "skillid": "11011012"
+      },
+      {
+        "dps": -1222.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "xp",
+        "v": -1222.0,
+        "nv": 99990026.0,
+        "skillid": "11011012"
+      },
+      {
+        "r": "role_1",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_21"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 12,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -2320,
+        "nv": 99984300.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99984171.0,
+              "v": -129.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -129.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -129.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -129.0,
+        "nv": 99984171.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_22"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99989274.0,
+              "v": -752.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -752.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -752.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -752.0,
+        "nv": 99989274.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_23"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 60,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 13,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -2520,
+        "nv": 99981651.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "normalskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99981524.0,
+              "v": -127.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -127.0
+        },
+        "act": "atk",
+        "skillid": "7"
+      },
+      {
+        "dps": -127.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "nm",
+        "v": -127.0,
+        "nv": 99981524.0,
+        "skillid": "7"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_24"
+      },
+      {
+        "r": "role_0",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 70,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99988530.0,
+              "v": -744.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -744.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -744.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -744.0,
+        "nv": 99988530.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_25"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 120,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 14,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -2720,
+        "nv": 99978804.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_0",
+        "act": "startAct"
+      },
+      {
+        "from": "role_0",
+        "atkType": "xpskill",
+        "extData": {
+          "role_1": {
+            "hp": {
+              "nv": 99978563.0,
+              "v": -241.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_1": -241.0
+        },
+        "act": "atk",
+        "skillid": "12024012"
+      },
+      {
+        "dps": -241.0,
+        "jz": true,
+        "f": "role_0",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_1",
+        "at": "xp",
+        "v": -241.0,
+        "nv": 99978563.0,
+        "skillid": "12024012"
+      },
+      {
+        "f": "role_0",
+        "bid": "liuxue",
+        "bt": "liuxue",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_26"
+      },
+      {
+        "r": "role_0",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_1",
+        "v": 10,
+        "nv": 130,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_0",
+        "act": "stopAct"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "xpskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99987332.0,
+              "v": -1198.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -1198.0
+        },
+        "act": "atk",
+        "skillid": "11011012"
+      },
+      {
+        "dps": -1198.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "xp",
+        "v": -1198.0,
+        "nv": 99987332.0,
+        "skillid": "11011012"
+      },
+      {
+        "f": "role_1",
+        "bid": "xuanyun",
+        "bt": "xuanyun",
+        "r": 2,
+        "t": "role_0",
+        "act": "buff",
+        "_id": "buff_27"
+      },
+      {
+        "r": "role_1",
+        "v": -130,
+        "nv": 0,
+        "act": "nuqi"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_28"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 10,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 15,
+        "act": "turn"
+      },
+      {
+        "r": "role_1",
+        "v": -2950,
+        "nv": 99975613.0,
+        "act": "hp"
+      },
+      {
+        "from": "role_1",
+        "act": "startAct"
+      },
+      {
+        "from": "role_1",
+        "atkType": "normalskill",
+        "extData": {
+          "role_0": {
+            "hp": {
+              "nv": 99986595.0,
+              "v": -737.0
+            },
+            "bj": false
+          }
+        },
+        "to": {
+          "role_0": -737.0
+        },
+        "act": "atk",
+        "skillid": "1"
+      },
+      {
+        "dps": -737.0,
+        "jz": true,
+        "f": "role_1",
+        "baojidps": 0,
+        "act": "hp",
+        "bj": false,
+        "r": "role_0",
+        "at": "nm",
+        "v": -737.0,
+        "nv": 99986595.0,
+        "skillid": "1"
+      },
+      {
+        "f": "role_0",
+        "bid": "zhuoshao",
+        "bt": "zhuoshao",
+        "r": 15,
+        "t": "role_1",
+        "act": "buff",
+        "_id": "buff_29"
+      },
+      {
+        "r": "role_1",
+        "v": 50,
+        "nv": 50,
+        "act": "nuqi"
+      },
+      {
+        "r": "role_0",
+        "v": 10,
+        "nv": 20,
+        "act": "nuqi"
+      },
+      {
+        "from": "role_1",
+        "act": "stopAct"
+      },
+      {
+        "v": 16,
+        "act": "turn"
+      },
+      {
+        "v": -2,
+        "act": "fightres"
+      }
+    ],
+    "roles": {
+      "role_1": {
+        "dengjielv": 1,
+        "zhongzu": 1,
+        "normalskill": "1",
+        "gedangpro": 0,
+        "undpspro": 0,
+        "miankongpro": 0,
+        "unbaojipro": 0,
+        "skill": [],
+        "defpro": 1000,
+        "rid": "role_1",
+        "shenqidpspro": 0,
+        "xpskill": "11011012",
+        "hppro": 1000,
+        "jianshangpro": 0,
+        "isBack": true,
+        "speed": 268,
+        "pojiapro": 0,
+        "pvpundpspro": 0,
+        "lv": 60,
+        "zhongdudpsdrop": 0,
+        "isFront": true,
+        "maxnuqi": 100,
+        "dpspro": 0,
+        "zhongdudpspro": 0,
+        "baoshangpro": 0,
+        "side": 1,
+        "star": 1,
+        "nuqi": 50,
+        "hp": 100000000,
+        "pos": 1,
+        "job": 1,
+        "bd2skill": [],
+        "hid": "11011",
+        "dead": false,
+        "maxhp": 100000000,
+        "bd1skill": [],
+        "bd3skill": [],
+        "jingzhunpro": 0,
+        "baojipro": 0,
+        "atk": 1000,
+        "speedpro": 1000,
+        "atkpro": 1000,
+        "skilldpspro": 0,
+        "pvpdpspro": 0,
+        "undotdpspro": 0,
+        "def": 1200
+      },
+      "role_0": {
+        "dengjielv": 4,
+        "zhongzu": 1,
+        "normalskill": "7",
+        "gedangpro": 0,
+        "undpspro": 0,
+        "miankongpro": 0,
+        "unbaojipro": 0,
+        "skill": [
+          "12024114",
+          "12024214"
+        ],
+        "defpro": 1000,
+        "rid": "role_0",
+        "shenqidpspro": 0,
+        "xpskill": "12024012",
+        "hppro": 1000,
+        "jianshangpro": 0,
+        "isBack": true,
+        "speed": 401,
+        "pojiapro": 0,
+        "pvpundpspro": 0,
+        "lv": 60,
+        "zhongdudpsdrop": 0,
+        "isFront": true,
+        "maxnuqi": 100,
+        "dpspro": 0,
+        "zhongdudpspro": 1000,
+        "baoshangpro": 0,
+        "side": 0,
+        "star": 4,
+        "nuqi": 50,
+        "hp": 100000000,
+        "pos": 1,
+        "job": 2,
+        "bd2skill": [
+          "12024214"
+        ],
+        "hid": "12024",
+        "dead": false,
+        "maxhp": 100000000,
+        "bd1skill": [
+          "12024114"
+        ],
+        "bd3skill": [],
+        "jingzhunpro": 0,
+        "baojipro": 0,
+        "atk": 1000,
+        "speedpro": 1000,
+        "atkpro": 1000,
+        "skilldpspro": 0,
+        "pvpdpspro": 0,
+        "undotdpspro": 0,
+        "def": 352
+      }
+    },
+    "winside": -2,
+    "zhenfa": [
+      {},
+      {}
+    ],
+    "signdata": {
+      "role_1": {
+        "addhp": 0,
+        "dps": 13405.0
+      },
+      "role_0": {
+        "addhp": 0,
+        "dps": 24387.0
+      }
+    },
+    "fightres": {
+      "role_1": {
+        "dengjielv": 1,
+        "zhongzu": 1,
+        "normalskill": "1",
+        "gedangpro": 0,
+        "undpspro": 0,
+        "miankongpro": 0,
+        "unbaojipro": 0,
+        "zhuoshao": 2400,
+        "skill": [],
+        "defpro": 1000,
+        "rid": "role_1",
+        "dpspro": 0,
+        "xpskill": "11011012",
+        "hppro": 1000,
+        "jianshangpro": 0,
+        "isBack": true,
+        "speed": 268,
+        "pojiapro": 0,
+        "pvpundpspro": 0,
+        "lv": 60,
+        "zhongdudpsdrop": 0,
+        "isFront": true,
+        "maxnuqi": 100,
+        "liuxue": 650,
+        "zhongdudpspro": 0,
+        "baoshangpro": 0,
+        "side": 1,
+        "star": 1,
+        "nuqi": 50,
+        "hp": 99975613.0,
+        "pos": 1,
+        "baojipro": 0,
+        "job": 1,
+        "bd2skill": [],
+        "hid": "11011",
+        "dead": false,
+        "maxhp": 100000000,
+        "bd1skill": [],
+        "bd3skill": [],
+        "jingzhunpro": 0,
+        "shenqidpspro": 0,
+        "atk": 1000,
+        "speedpro": 1000,
+        "atkpro": 1000,
+        "skilldpspro": 0,
+        "pvpdpspro": 0,
+        "undotdpspro": 0,
+        "def": 1200
+      },
+      "role_0": {
+        "dengjielv": 4,
+        "zhongzu": 1,
+        "normalskill": "7",
+        "gedangpro": 0,
+        "undpspro": 0,
+        "miankongpro": 0,
+        "xuanyun": 0,
+        "skill": [
+          "12024114",
+          "12024214"
+        ],
+        "defpro": 1000,
+        "rid": "role_0",
+        "shenqidpspro": 0,
+        "xpskill": "12024012",
+        "hppro": 1000,
+        "jianshangpro": 0,
+        "isBack": true,
+        "speed": 401,
+        "pojiapro": 0,
+        "pvpundpspro": 0,
+        "lv": 60,
+        "zhongdudpsdrop": 0,
+        "isFront": true,
+        "maxnuqi": 100,
+        "dpspro": 0,
+        "zhongdudpspro": 1000,
+        "baoshangpro": 0,
+        "side": 0,
+        "star": 4,
+        "nuqi": 20,
+        "hp": 99986595.0,
+        "pos": 1,
+        "job": 2,
+        "bd2skill": [
+          "12024214"
+        ],
+        "hid": "12024",
+        "dead": false,
+        "maxhp": 100000000,
+        "bd1skill": [
+          "12024114"
+        ],
+        "bd3skill": [],
+        "jingzhunpro": 0,
+        "unbaojipro": 0,
+        "baojipro": 0,
+        "atk": 1000,
+        "speedpro": 1000,
+        "atkpro": 1000,
+        "skilldpspro": 0,
+        "pvpdpspro": 0,
+        "undotdpspro": 0,
+        "def": 352
+      }
+    },
+    "dpsbyside": [
+    24387.0,
+    13405.0
+  ]
+  },
+  "headdata":{
+        "uid":"玩家uid",
+        "head": "玩家head",
+        "wzyj": "王者印记数量",
+        "lv": "玩家等级",
+        "name": "玩家姓名",
+        "guildname":"玩家公会名",
+        "vip": "玩家vip等级",
+        "model": "玩家模型",
+        "uuid":"玩家uuid",
+        "headborder":"玩家头像框",
+        "chatborder":"玩家聊天框",
+        "lasttime":"玩家最后时间"
+  },
+  "prize": [
+    {"a": "attr", "t": "jinbi", "n": 1}, // 玩家相关的金币属性 n代表数量
+    {"a": "item", "t": "1001", "n": 1}, // 物品为1001的id的奖励 n代表数量
+    {"a": "shipin", "t": "jinbi", "n": 1}, // 饰品为1001的id的奖励 n代表数量
+    {"a": "glyph", "t": "jinbi", "n": 1}, // 雕纹为1001的id的奖励 n代表数量
+    {"a": "hero", "t": "jinbi", "n": 1} // 英雄为1001的id的奖励 n代表数量
+  ],
+  "fight":{
+    "v":"具体数值",
+    "act":{
+      "turn":"回合",
+      "startAct":"开始攻击",
+      "act":"攻击",
+      "hp":"血量",
+      "nuqi":"怒气",
+      "stopAct":"停止行动"
+    },
+    "skillid":"使用的哪个技能的id",
+    "from":"角色的id 来自哪个角色",
+    "atkType":{
+      "normalskill":"普通攻击",
+      "xpskill":"怒气技能"
+    },
+    "extData":{
+      "role_1":{
+        "hp":{
+          "nv":"role_1的hp的当前值",
+          "v":"变化值"
+        }
+      }
+    },
+    "dps":"伤害",
+    "jz":"是否精准",
+    "f":"角色的id",
+    "baojidps":"暴击伤害",
+    "bj":"是否暴击",
+    "r":"被攻击的角色",
+    "at":"攻击类型 nm普通攻击, xp怒气技",
+    "nv":"现在的值",
+    "buff":{
+      "bid":"buff的id",
+      "bt":"buff的类型",
+      "r":"buff的生命周期 轮数",
+      "t":"给哪个角色的buff",
+      "_id":"buff的唯一id"
+    }
+  }
+}

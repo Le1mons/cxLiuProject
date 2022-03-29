@@ -1,0 +1,35 @@
+zypkjjc_open: 打开竞技场
+参数：[]
+返回值： {"s": 1,"d":{'myrank':0,'jifen':1000,'prizelist':[],'time':0,'pknum':1}}
+
+zypkjjc_fight: 竞技场开打
+参数：[{我方英雄站位信息},uid]
+返回值： {"s": 1,"d":{'fightres':{},'jifeninfo':{'add':0,"reduce":0,'jifen':0,'enemyjifen':0},'prize':[]}}
+
+zypkjjc_buypknum: 购买挑战卷
+参数：[num]
+返回值： {"s": 1,"d":{'prize':[]}
+
+zypkjjc_defend: 设置防守阵营
+参数：[{站位信息}]
+返回值： {"s": 1}
+
+zypkjjc_choose: 选择挑战对手
+参数：[0或1] 0不刷新  1刷新
+返回值： {"s": 1,"d":{'enemy':[{headdata:{},defhero:{1:tid},jifen:0,zhanli:0}]}
+
+zypkjjc_recording: 打开录像列表
+参数：[]
+返回值： {"s": 1,"d":{'recording':[{'head':{用户信息},'jifenchange':{'add':0,"rm":0},"tid":'','winside':0,'enemyuid':}]}
+
+zypkjjc_getprize: 获取通关次数奖励
+参数：[idx] 要领取的奖励的索引
+返回值： {"s": 1,'prize':[]}
+
+zypkjjc_watch: 观看录像
+参数：[tid] 录像的tid
+返回值： {"s": 1,'d':{'fightres':{'winside':0,'fightlog':[],'roles':{}}}}
+
+api_rank_open: 排行
+参数：[3]
+返回值： {"s": 1,'d':{'ranklist':[{'headdata': {'lv': 0, 'head': 0, 'vip': 0, 'uid':'', 'name': 0}, 'jifen': 1000}],'myrank':0}}

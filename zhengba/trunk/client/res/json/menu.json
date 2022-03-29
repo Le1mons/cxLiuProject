@@ -1,0 +1,498 @@
+{
+  "yingxiongxinxi": [
+    {
+      "id": "1",
+      "title": "培养"
+    },
+    {
+      "id": "2",
+      "title": "装备"
+    },
+    {
+      "id": "3",
+      "title": "融魂",
+      "dengjielv": 5,
+      "checkLv": "meltsoul",
+      "openlv": "100",
+      "show": "玩家等级{1}级开放融魂"
+    },
+    {
+      "id": "4",
+      "title": "升星",
+      "dengjielv": 6,
+      "closeLv": 15,
+      "needLv": 150,
+      "needLvDj": 13,
+      "needDay": 1
+    },
+    {
+      "id": "5",
+      "title": "雕文",
+      "dengjielv": 11
+    }
+  ],
+  "yingxiong": [
+    {
+      "id": "1",
+      "title": "英雄"
+    },
+    {
+      "id": "5",
+      "title": "碎片",
+      "redPoint": 5,
+      "type": 3
+    },
+    {
+      "id": "2",
+      "title": "图鉴"
+    },
+    {
+      "id": "3",
+      "title": "皮肤",
+      "checkFunc": "_skin"
+    },
+    {
+      "id": "4",
+      "title": "统御",
+      "checkLv": "tonyu",
+      "checkFunc": "_tongyu",
+      "redPoint": 4,
+      "show": "{1}级开启统御功能"
+    }
+  ],
+  "beibao": [
+    {
+      "id": "1",
+      "title": "装备"
+    },
+    {
+      "id": "2",
+      "title": "道具"
+    },
+    {
+      "id": "4",
+      "title": "饰品"
+    },
+    {
+      "id": "5",
+      "title": "雕文"
+    },
+    {
+      "id": "6",
+      "title": "圣器",
+      "checkIsOpenId": "wztt"
+    }
+  ],
+  "tiejiangpu": [
+    {
+      "id": "1",
+      "title": "武器"
+    },
+    {
+      "id": "2",
+      "title": "戒指"
+    },
+    {
+      "id": "3",
+      "title": "头盔"
+    },
+    {
+      "id": "4",
+      "title": "胸甲"
+    }
+  ],
+  "zhanhun": [
+    {
+      "id": "1",
+      "title": "等级奖励"
+    },
+    {
+      "id": "2",
+      "title": "战魂任务"
+    }
+  ],
+  "yijiexuanwo": [
+    {
+      "id": "1",
+      "title": "传说大厅",
+      "frame": "csdt_main"
+    },
+    {
+      "id": "2",
+      "title": "炼魂塔",
+      "frame": "lianhunta"
+    },
+    {
+      "id": "3",
+      "title": "噬渊战场",
+      "frame": "shiyuanzhanchang_floor"
+    }
+  ],
+  "huodong": [
+    {
+      "id": "1",
+      "icon": "ico_event_sign",
+      "title": "登录奖励",
+      "redPoint": "sign",
+      "order": 1
+    },
+    {
+      "id": "11",
+      "icon": "ico_event_mrth",
+      "title": "每日特惠",
+      "redPoint": "todaylibao",
+      "showKey": "isOpenTodaylibao",
+      "order": 2
+    },
+    {
+      "id": "4",
+      "icon": "ico_event_lvfund",
+      "title": "等级基金",
+      "redPoint": "sdjj",
+      "showKey": "isOpenLvFund",
+      "order": 4,
+      "red": "djjj"
+    },
+    {
+      "id": "10",
+      "icon": "ico_event_ztl",
+      "title": "征讨令",
+      "scale": 5,
+      "checkIsOpenId": "ztl",
+      "redPoint": "zhengtao",
+      "order": 10
+    },
+    {
+      "id": "20",
+      "icon":"ico_event_ztl",
+      "title": "噬渊补给",
+      "scale": 5,
+      "checkIsOpenId": "",
+      "redPoint": "stagefund",
+      "order": 7
+    },
+    {
+      "id": "12",
+      "icon": "ico_event_jthl",
+      "title": "积天豪礼",
+      "scale": 5,
+      "redPoint": "jthl",
+      "order": 12
+    },
+    {
+      "id": "13",
+      "icon": "ico_event_lvfund",
+      "title": "神殿基金",
+      "scale": 5,
+      "redPoint": "sdjj",
+      "order": 12,
+      "red": "sdjj",
+      "showKey": "isOpenSdjj"
+    },
+    {
+      "id": "15",
+      "icon": "ico_128jijin",
+      "title": "月基金",
+      "redPoint": "monthfund",
+      "order": 7
+    },
+    {
+      "id": "16",
+      "icon": "ico_event_weekgift",
+      "title": "福利礼包",
+      "redPoint": "weekmonthlibao",
+      "order": 7,
+      "objRed": true
+    },
+    {
+      "id": "17",
+      "icon": "ico_event_hhtq",
+      "title": "豪华特权",
+      "redPoint": "yueka",
+      "order": 8
+    }
+  ],
+  "zhounianqing": [
+    {
+      "id": "1",
+      "icon": "hd_xysz",
+      "title": "幸运骰子",
+      "redPoint": "tuozi",
+      "checkKey": "prizepool",
+      "order": 1
+    },
+    {
+      "id": "2",
+      "icon": "hd_zjrw",
+      "title": "自选祝福",
+      "redPoint": "signreceive",
+      "checkKey": "sign",
+      "order": 2
+    },
+    {
+      "id": "3",
+      "icon": "hd_zxzf",
+      "title": "终极任务",
+      "redPoint": "task",
+      "checkKey": "task",
+      "order": 3
+    }
+  ],
+  "official_huodong": {
+    "gzhlb": {
+      "id": "gzhlb",
+      "icon": "ico_event_gzhlb",
+      "title": "公众号礼包",
+      "scale": 5,
+      "order": 13
+    },
+    "xlhlb": {
+      "id": "xlhlb",
+      "icon": "ico_event_xlh",
+      "title": "小蓝盒礼包",
+      "scale": 5,
+      "order": 14
+    },
+    "sjbd": {
+      "id": "sjbd",
+      "icon": "ico_event_sjbd",
+      "title": "手机绑定",
+      "scale": 5,
+      "order": 15
+    },
+    "dyhl": {
+      "id": "dyhl",
+      "icon": "ico_event_gzhl",
+      "title": "抖音号礼",
+      "scale": 5,
+      "order": 16
+    }
+  },
+  "kaifukuanghuan": [
+    {
+      "id": "1",
+      "title": "今日福利"
+    },
+    {
+      "id": "2",
+      "title": "今日目标"
+    },
+    {
+      "id": "3",
+      "title": "今日任务"
+    },
+    {
+      "id": "4",
+      "title": "今日抢购"
+    }
+  ],
+  "jierikuanghuan": [
+    {
+      "id": "1",
+      "title": "每日福利"
+    },
+    {
+      "id": "2",
+      "title": "活动任务"
+    },
+    {
+      "id": "3",
+      "title": "节日兑换"
+    },
+    {
+      "id": "4",
+      "title": "半价礼包"
+    }
+  ],
+  "renwu": [
+    {
+      "id": 2,
+      "title": "任 务"
+    },
+    {
+      "id": 1,
+      "title": "成 就",
+      "checkLv": "succtask",
+      "show": "成就任务{1}级开启"
+    },
+    {
+      "id": 3,
+      "title": "进阶历练",
+      "checkLv": "succtask",
+      "show": "进阶历练{1}级开启"
+    }
+  ],
+  "rank": [
+    {
+      "id": 1,
+      "title": "主线榜"
+    },
+    {
+      "id": 11,
+      "title": "战力榜"
+    },
+    {
+      "id": 3,
+      "title": "竞技榜",
+      "checkLv": "zypkjjc",
+      "show": "{1}级开启"
+    },
+    {
+      "id": 10,
+      "title": "公会榜",
+      "checkLv": "gh",
+      "show": "加入公会开启"
+    },
+    {
+      "id": 2,
+      "title": "神殿榜",
+      "checkLv": "fashita",
+      "show": "{1}级开启"
+    },
+    {
+      "id": 14,
+      "title": "图鉴榜"
+    },
+    {
+      "id": 17,
+      "title": "成就榜",
+      "checkLv": "succtask",
+      "show": "{1}级开启"
+    }
+  ],
+  "shenqi": [
+    {
+      "id": 1,
+      "title": "升级属性"
+    },
+    {
+      "id": 2,
+      "title": "升级技能"
+    },
+    {
+      "id": 3,
+      "title": "神器觉醒",
+      "active": 50
+    }
+  ],
+  "damijing": [
+    {
+      "id": 1,
+      "title": "普通"
+    },
+    {
+      "id": 2,
+      "title": "稀有"
+    },
+    {
+      "id": 3,
+      "title": "史诗"
+    }
+  ],
+  "friend": [
+    {
+      "id": 1,
+      "title": "好 友"
+    },
+    {
+      "id": 2,
+      "title": "查 找"
+    },
+    {
+      "id": 3,
+      "title": "添 加"
+    }
+  ],
+  "shejiao": [
+    {
+      "id": 1,
+      "title": "头像"
+    },
+    {
+      "id": 2,
+      "title": "头像框"
+    },
+    {
+      "id": 3,
+      "title": "聊天框"
+    },
+    {
+      "id": 4,
+      "title": "展示英雄"
+    },
+    {
+      "id": 5,
+      "title": "称号"
+    }
+  ],
+  "email": [
+    {
+      "id": 1,
+      "title": "系 统"
+    },
+    {
+      "id": 2,
+      "title": "私 聊"
+    }
+  ],
+  "buluozhanqi": [
+    {
+      "id": 1,
+      "title": "战旗奖励"
+    },
+    {
+      "id": 2,
+      "title": "每日挑战"
+    },
+    {
+      "id": 3,
+      "title": "每周挑战"
+    },
+    {
+      "id": 4,
+      "title": "终极挑战"
+    }
+  ],
+  "alaxi": [
+    {
+      "id": 1,
+      "title": "跨服排行"
+    },
+    {
+      "id": 2,
+      "title": "公会排行"
+    },
+    {
+      "id": 3,
+      "title": "公会统计"
+    }
+  ],
+  "szn": [
+    {
+      "id": 1,
+      "title": "庆典活跃"
+    },
+    {
+      "id": 2,
+      "title": "庆典宝藏"
+    },
+    {
+      "id": 3,
+      "title": "庆典挑战"
+    }
+  ],
+  "xhsd": [
+    {
+      "id": 1,
+      "shopid": 13,
+      "name": "皮肤商店",
+      "img": "img_xinghunshangdian.png"
+    },
+    {
+      "id": 1,
+      "shopid": 13,
+      "name": "皮肤商店",
+      "img": "img_xinghunshangdian2.png"
+    }
+  ]
+}

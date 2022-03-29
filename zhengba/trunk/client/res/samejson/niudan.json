@@ -1,0 +1,128 @@
+{
+    "common": {
+		"libao": "礼包配置",
+        "duihuan": "兑换配置",
+        "task": "任务配置",
+        "duihuanNeed":"兑换活动需要的材料，有几个就配置几个，不需要配置num",
+		"tq": "特权配置",
+		"niudanneed": "扭蛋消耗"
+	},
+
+	"libao": {
+		"yuren30": {"proid": "yuren30","name": "节日超值礼包","money": 3000,"prize": [{"a":"item","t":"1157","n":10}],"buynum": 1},
+		"yuren128": {"proid": "yuren128","name": "节日特惠礼包","money": 12800,"prize": [{"a": "attr", "t": "rmbmoney", "n": 1280},{"a":"item","t":"1157","n":12},{"a":"item","t":"2071","n":1}],"buynum": 5},
+		"yuren328": {"proid": "yuren328","name": "节日高级礼包","money": 32800,"prize": [{"a": "attr", "t": "rmbmoney", "n": 3280},{"a":"item","t":"1157","n":30},{"a":"item","t":"2089","n":5}],"buynum": 6},
+		"yuren648": {"proid": "yuren648","name": "节日限购礼包","money": 64800,"prize": [{"a": "attr", "t": "rmbmoney", "n": 6480},{"a":"item","t":"1157","n":55},{"a":"item","t":"2011","n":5}],"buynum": 15}
+	},
+
+  "duihuanNeed":[{"a": "item", "t": "5078"}],
+
+	"fightinfo": {
+		"npcid": "1001",
+		"prize": [{"a":"item","t":"1157","n":1},{"a":"item","t":"1157","n":1},{"a":"item","t":"1157","n":1}]
+	},
+	"tq": {"proid": "niudantequan68", "money": 6800, "prize": []},
+	"niudanneed": [{"a": "item", "t":"1157", "n": 1 }],
+	"niudanprize": [{"a": "item", "t": "5078", "n": 1}],
+	"duihuan": {
+		"1":{"need": [{"a":"item","t":"5078","n":450}],"prize": [{"a":"item","t":"1151","n":1}],"maxnum": 2},
+		"2":{"need": [{"a":"item","t":"5078","n":250}],"prize": [{"a":"item","t":"1113","n":1}],"maxnum": 2},
+		"3":{"need": [{"a":"item","t":"5078","n":150}],"prize": [{"a":"item","t":"1158","n":1}],"maxnum": 7},
+		"4":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"34035","n":50}],"maxnum": 7},
+		"5":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"35055","n":50}],"maxnum": 7},
+		"6":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"41075","n":50}],"maxnum": 7},
+		"7":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"42025","n":50}],"maxnum": 7},
+		"8":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"25085","n":50}],"maxnum": 7},
+		"9":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"24045","n":50}],"maxnum": 7},
+		"10":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"13055","n":50}],"maxnum": 7},
+		"11":{"need": [{"a":"item","t":"5078","n":90}],"prize": [{"a":"item","t":"11105","n":50}],"maxnum": 7},
+		"12":{"need": [{"a":"item","t":"5078","n":10}],"prize": [{"a":"item","t":"2039","n":1}],"maxnum": 10},
+		"13":{"need": [{"a":"item","t":"5078","n":6}],"prize": [{"a":"item","t":"2005","n":1500}],"maxnum": 10},
+		"14":{"need": [{"a":"item","t":"5078","n":6}],"prize": [{"a":"item","t":"2011","n":1}],"maxnum": 10},
+		"15":{"need": [{"a":"item","t":"5078","n":1}],"prize": [{"a":"attr","t":"useexp","n":500000}],"maxnum": 99}
+			},
+	"email": {
+		"title": "欢度愚人节",
+		"content": "活动时间即将结束，请及时使用愚人节纪念币和愚人节兑换券，请各位勇士于{0}，0点之前及时兑换"
+	},
+	"clickNum": 30,
+
+	"task": {
+		"1": {
+
+			"desc": "今日登录1次",
+			"pval": 1,
+			 "ptprize": [
+				{
+					"a": "item",
+					"t": "1157",
+					"n": 1
+				}
+			],
+			"tqprize": [
+				{
+					"a": "item",
+					"t": "5034",
+					"n": 2
+				}
+			]
+		},
+		"2": {
+
+			"desc": "领取日常任务终极奖励",
+			"pval": 1,
+			"ptprize": [
+				{
+					"a": "item",
+					"t": "1157",
+					"n": 2
+				}
+			],
+			"tqprize": [
+				{
+					"a": "item",
+					"t": "5034",
+					"n": 2
+				}
+			]
+		},
+		"3": {
+
+			"desc": "今日累计充值30元",
+			"pval": 30,
+			"ptprize": [
+				{
+					"a": "item",
+					"t": "1157",
+					"n": 5
+				}
+			],
+			"tqprize": [
+				{
+					"a": "item",
+					"t": "5034",
+					"n": 2
+				}
+			]
+		},
+			"4": {
+
+			"desc": "今日累计消费2000钻石",
+			"pval": 2000,
+			"ptprize": [
+				{
+					"a": "item",
+					"t": "1157",
+					"n": 3
+				}
+			],
+			"tqprize": [
+				{
+					"a": "item",
+					"t": "5034",
+					"n": 2
+				}
+			]
+		}
+	}
+}

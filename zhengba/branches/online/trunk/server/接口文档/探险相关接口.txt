@@ -1,0 +1,118 @@
+探险接口主界面：tanxian_mian
+参数：无
+返回值：d:{
+    'maxbuytxnum': 3, 最大可购买探险次数
+    'txnum': 0,       当天已经探险次数
+    'freetxnum': 1    免费探险次数
+    'gjmapid':2,  用来计算挂机奖励的挂机地图id
+    'gjtime':3233,挂机秒数
+    'passprizeidx':[],  已经领取的阶段奖励下标，[]为默认值，未领取任何奖励的状态
+    'gjprize': [   挂机奖励
+        {'a': 'attr', 't': u'useexp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jinbi', 'n': 8100}, 
+	{'a': 'attr', 't': u'exp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jifen', 'n': 8100}
+    ]
+}
+
+
+
+快速探险：tanxian_fasttx
+参数：无
+返回值：d:{
+    'txnum': 0,       当天已经探险次数
+    'freetxnum': 1    免费探险次数
+    'prize': [   
+        {'a': 'attr', 't': u'useexp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jinbi', 'n': 8100}, 
+	{'a': 'attr', 't': u'exp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jifen', 'n': 8100}
+    ]
+}
+
+
+
+领取挂机奖励:tanxian_recgjprize
+参数：无
+返回值：d:{
+    'prize': [   
+        {'a': 'attr', 't': u'useexp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jinbi', 'n': 8100}, 
+	{'a': 'attr', 't': u'exp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jifen', 'n': 8100}
+    ]
+}
+
+
+
+挑战挂机地图:tanxian_changegjmap
+参数：[mapid] - [跳转的mapid]
+返回值：d:{
+    'maxbuytxnum': 3, 最大可购买探险次数
+    'txnum': 0,       当天已经探险次数
+    'freetxnum': 1    免费探险次数
+    'gjmapid':2,
+    'gjtime':3233,挂机秒数
+    'gjprize': [   挂机奖励
+        {'a': 'attr', 't': u'useexp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jinbi', 'n': 8100}, 
+	{'a': 'attr', 't': u'exp', 'n': 8100}, 
+	{'a': 'attr', 't': u'jifen', 'n': 8100}
+    ]
+}
+
+
+领取阶段奖励接口：tanxian_recpassprize
+参数：无
+返回值：{
+        's': 1, 
+        'd': {
+	    'passprizeidx': [], 当前已领取过的最大下标
+	    'prize': [{u'a': u'attr', u't': u'rmbmoney', u'n': 50}]
+	    }
+	 }
+
+
+
+挑战boss通关:tanxian_fightboss
+参数：[{"1":"tid","4":"tid"}]
+返回值：{
+             's': 1, 
+	     'd': {
+	         'prize': [{u'a': u'attr', u't': u'rmbmoney', u'n': 50}], --通关奖励，胜利时才会有
+	         'fightres': {   战斗信息
+		     'winside': 1, 胜利方 0左，1右
+		     'zhenfa':['','3'],
+		     'fightlog': [   战斗日志列表
+		         {'v': 1, 'act': 'turn'}, 
+			 {'from': 'role_2', 'act': 'startAct'}, 
+			 {'to': {'role_0': {'ifBaoJi': False, 'dps': -848, 'ifJingZhun': False, 'atkType': 'normalskill'}}, 'atkType': 'normalskill', 'skillid': '25075312', 'from': 'role_2', 'act': 'atk'}, 
+			 {'r': 'role_0', 'v': -848, 'nv': -583, 'act': 'hp'}, {'to': 'role_0', 'canFuHuo': False, 'act': 'dead'}, 
+			 {'to': ['role_2'], 'skillid': u'25075213', 'from': 'role_2', 'act': 'runskill'}, 
+			 {'r': 'role_2', 'v': 1048, 'nv': 4389, 'act': 'hp'}, 
+			 {'to': ['role_3'], 'skillid': u'25075213', 'from': 'role_3', 'act': 'runskill'}, 
+			 {'r': 'role_3', 'v': 500, 'nv': 2138, 'act': 'hp'}, 
+			 {'r': 'role_2', 'v': 50, 'nv': 50, 'act': 'nuqi'}, 
+			 {'r': 'role_0', 'v': 10, 'nv': 10, 'act': 'nuqi'}, 
+			 {'from': 'role_2', 'act': 'stopAct'}, {'from': 'role_3', 'act': 'startAct'}, 
+			 {'to': {'role_1': {'ifBaoJi': False, 'dps': -412, 'ifJingZhun': False, 'atkType': 'normalskill'}}, 'atkType': 'normalskill', 'skillid': '25075312', 'from': 'role_3', 'act': 'atk'}, 
+			 {'r': 'role_1', 'v': -412, 'nv': -147, 'act': 'hp'}, 
+			 {'to': 'role_1', 'canFuHuo': False, 'act': 'dead'}, 
+			 {'to': ['role_2'], 'skillid': u'25075213', 'from': 'role_2', 'act': 'runskill'}, 
+			 {'r': 'role_2', 'v': 1007, 'nv': 4389, 'act': 'hp'}, 
+			 {'to': ['role_3'], 'skillid': u'25075213', 'from': 'role_3', 'act': 'runskill'}, 
+			 {'r': 'role_3', 'v': 490, 'nv': 2138, 'act': 'hp'}, 
+			 {'r': 'role_3', 'v': 50, 'nv': 50, 'act': 'nuqi'}, 
+			 {'r': 'role_1', 'v': 10, 'nv': 10, 'act': 'nuqi'}, 
+			 {'from': 'role_3', 'act': 'stopAct'}, {'v': 1, 'act': 'fightres'}
+			 ], 
+		     'roles': {角色信息
+		         'role_3': {'zhongzu': 2, 'normalskill': u'5', 'gedangpro': 0, 'pos': 2, 'miankongpro': 0, 'skill': [u'25075111', u'25075121', u'25075131', u'25075214', u'25075314'], 'speed': 259, 'rid': 'role_3', 'xpskill': u'25075012', 'jianshangpro': 0, 'isBack': True, 'defpro': 0, 'pojiapro': 0, 'lv': 10, 'isFront': True, 'maxnuqi': 100, 'hppro': 0, 'baoshangpro': 0, 'nuqi': 0, 'hp': 2138, 'job': 5, 'dead': False, 'maxhp': 2138, 'jingzhunpro': 0, 'baojipro': 0, 'atk': 417, 'speedpro': 0, 'atkpro': 0, 'skilldpspro': 0, 'side': 1, 'def': 115}, 
+			 'role_2': {'zhongzu': 2, 'normalskill': u'5', 'gedangpro': 0, 'pos': 1, 'miankongpro': 0, 'skill': [u'25075111', u'25075121', u'25075131', u'25075214', u'25075314'], 'speed': 307, 'rid': 'role_2', 'xpskill': u'25075012', 'jianshangpro': 0, 'isBack': True, 'defpro': 0, 'pojiapro': 0, 'lv': 30, 'isFront': True, 'maxnuqi': 100, 'hppro': 0, 'baoshangpro': 0, 'nuqi': 0, 'hp': 4389, 'job': 5, 'dead': False, 'maxhp': 4389, 'jingzhunpro': 0, 'baojipro': 0, 'atk': 857, 'speedpro': 0, 'atkpro': 0, 'skilldpspro': 0, 'side': 1, 'def': 237}, 
+			 'role_1': {'zhongzu': 2, 'normalskill': u'3', 'gedangpro': 0, 'pos': 3, 'miankongpro': 0, 'skill': [u'23023111', u'23023214'], 'speed': 136, 'rid': 'role_1', 'xpskill': u'23023012', 'jianshangpro': 0, 'isBack': True, 'defpro': 0, 'pojiapro': 0, 'lv': 1, 'maxnuqi': 100, 'hppro': 0, 'baoshangpro': 0, 'nuqi': 0, 'hp': 265, 'job': 3, 'dead': False, 'maxhp': 265, 'jingzhunpro': 0, 'baojipro': 0, 'atk': 66, 'speedpro': 0, 'atkpro': 0, 'skilldpspro': 0, 'side': 0, 'def': 57}, 
+			 'role_0': {'zhongzu': 2, 'normalskill': u'3', 'gedangpro': 0, 'pos': 1, 'miankongpro': 0, 'skill': [u'23023111', u'23023214'], 'speed': 136, 'rid': 'role_0', 'xpskill': u'23023012', 'jianshangpro': 0, 'defpro': 0, 'pojiapro': 0, 'lv': 1, 'isFront': True, 'maxnuqi': 100, 'hppro': 0, 'baoshangpro': 0, 'nuqi': 0, 'hp': 265, 'job': 3, 'dead': False, 'maxhp': 265, 'jingzhunpro': 0, 'baojipro': 0, 'atk': 66, 'speedpro': 0, 'atkpro': 0, 'skilldpspro': 0, 'side': 0, 'def': 57}
+			 }
+		}
+	}
+}
+

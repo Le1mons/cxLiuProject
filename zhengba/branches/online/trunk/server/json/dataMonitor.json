@@ -1,0 +1,11 @@
+[
+	{"desc":"单日获得钻石超过5万","table":"stat","where":{"YUANBAO_GETED_{{DAY}}":{"$gt":50000}},"keys":"uid,ctype,v"},
+	{"desc":"单日消耗钻石超过10万","table":"stat","where":{"YUANBAO_USED_{{DAY}}":{"$gt":100000}},"keys":"uid,ctype,v"},
+	{"desc":"包裹内灵魂石上限超过10万","table":"itemlist","where":{"itemid":"2001","num":{"$gt":100000}},"keys":"uid,itemid,name,num"},
+	{"desc":"包裹内勇气徽章超过20万","table":"itemlist","where":{"itemid":"2004","num":{"$gt":200000}},"keys":"uid,itemid,name,num"},
+	{"desc":"包裹内五星英雄碎片超过10000个","table":"itemlist","where":{"itemid":"4009","num":{"$gt":10000}},"keys":"uid,itemid,name,num"},
+	{"desc":"包裹内四星英雄碎片超过50000个","table":"itemlist","where":{"itemid":"4002","num":{"$gt":50000}},"keys":"uid,itemid,name,num"},
+	{"desc":"包裹内召唤卷超过1000","table":"itemlist","where":{"itemid":"2011","num":{"$gt":1000}},"keys":"uid,itemid,name,num"},
+	{"desc":"包裹内先祖印记超过1000","table":"itemlist","where":{"itemid":"2010","num":{"$gt":1000}},"keys":"uid,itemid,name,num"},
+	{"desc":"包裹内精铁超过20万","table":"itemlist","where":{"itemid":"2017","num":{"$gt":200000}},"keys":"uid,itemid,name,num"}
+]

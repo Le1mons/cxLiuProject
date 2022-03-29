@@ -1,0 +1,37 @@
+watcher_open: 打开守望者主界面
+参数：[]
+返回值：{'s': 1,d:{herolist:备战英雄信息,
+                  npc:{headdata:{},herolist:[],fightless:对方状态},
+                  layer:层数,
+                  target:[目标的层数],
+                  status:己方状态, 下面的字段(包括此条)可能都没有
+                  reclist:[已领取的层数],
+                  deadnum:阵亡英雄个数,
+                  prize: [如果有就要立马弹窗显示之前的层数获取的奖励]
+                  trader: [商店物品数据],
+                  supply: [补给物品数据]}}
+返回值：{'s': -2, 没有设置备战英雄  需要先设置备战英雄}
+
+watcher_prepare: 守望者英雄备战
+参数：[tid,tid,tid] 英雄tid 最多六个
+返回值:{s:1}
+
+watcher_fight: 守望者战斗
+参数：[index] 上阵的英雄索引
+返回值: {s:1, d:{fightres:{},
+                winprize 战斗胜利后随机的奖励 输了就没有
+                    {key: box 宝箱奖励 直接获取
+                          mixture 合剂奖励 直接使用
+                          trader 商人物品
+                          supply 补给药水
+                    val: []},
+                data: 和开启界面一样的返回值}}
+
+watcher_useitem: 守望者 使用补给 或者购买商品
+参数：[act, idx, heroidx] act:1是使用补给,2是购买商品 idx:使用或者购买的索引 heroidx:购买商品就不传
+返回值: {s:1, act是1的时候  d:{status: {英雄的状态}}
+             act是2的时候  d:{prize:[], trader:[商店物品]}
+
+watcher_getprize: 领取目标奖励
+参数: [layer] 要领取的层数
+返回值: {s:1 d:{prize:[], reclist:[已领取列表]}}

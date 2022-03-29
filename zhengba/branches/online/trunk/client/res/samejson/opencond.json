@@ -1,0 +1,133 @@
+{
+	"comment": {
+		"about": "本配置文件用于控制功能的开启条件，前后端公用",
+		"cond": "城市解锁使用:{opencityid:14};等级解锁:{'lv',14}; 等级范围解锁: {'lvrange':[1,20]};多个条件举例:[{'lv':14},{'opencityid':18}];vip解锁",
+		"main": "必要晚上的条件",
+		"optional": "可选条件",
+		"注意事项": "*****************严格按照从小到大的开放顺序填写*************",
+		"temprory": {
+			"临时屏蔽内容": 1
+		}
+	},
+	"base": {
+		"worldtree": {
+			"main": [
+				["lv", 25]
+			]
+		},
+		"xuyuanchi": {
+			"main": [
+				["lv", 14],
+				["lv", 45],
+				["vip", 3]
+			]
+		},
+		"zypkjjc":{
+			"main":[
+				["lv", 18]
+			]
+		},
+		"baoshijihuo":{
+			"main":[
+				["lv", 40]
+			]
+		},
+		"championtrial":{
+			"main":[
+				["lv", 55]
+			]
+		},
+		"shizijun":{
+			"main":[
+				["lv", 40]
+			]
+		},
+		"fashita": {
+			"main": [
+				["lv", 24]
+			]
+		},
+		"meirishilian": {
+			"main": [
+				["lv", 20]
+			]
+		},
+		"gonghui": {
+			"main": [
+				["lv", 21]
+			]
+		},
+		"friendhelp":{
+			"main":[
+				["lv", 22]
+			]
+		},
+
+		"succtask":{
+			"main":[
+				["lv", 45]
+			]
+		},
+		"xuanshangrenwu":{
+			"main":[
+				["lv", 28]
+			]
+		},
+		"crosszb":{
+			"main":[
+				["lv", 50]
+			]
+		},
+		"comment":{
+			"optional":[
+				["lv", 60],
+				["vip", 2]
+			]
+		},
+		"watcher":{
+			"main":[
+				["lv", 52]
+			]
+		},
+		"meltsoul": {
+			"main": [
+				["lv", 52]
+			]
+		},
+		"meltsoulnum": {
+			"main": [
+				["vip", 2]
+			]
+		},
+		"president": {
+			"main": [
+				["lv", 60]
+			]
+		},
+		"tonyu": {
+			"main": [
+				["lv", 65]
+			]
+		},
+		"ghcompeting": {
+			"main": [
+				["lv", 30]
+			]
+		},
+		"glyphrefine": {
+			"main": [
+				["lv", 75]
+			]
+		},
+		"tuanduifuben": {
+			"main": [
+				["lv", 35]
+			]
+		},
+		"temple_devil": {
+			"main": [
+				["lv", 45]
+			]
+		}
+	}
+}

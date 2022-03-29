@@ -1,0 +1,18 @@
+﻿文件:shop.json  --商店配置表
+字段说明:
+rattr:"yuanbao",刷新花费单位
+rcalc:"rnum*100", 刷新消耗公式
+name:"元宝商店", 商店名字
+shopitems:[1,1,1,1,1],产出的物品,子元素为shopitem.json中的key
+sale:[1,10],商品折扣-数组代表递增折扣
+times:[9,23],商店更新时间，空数组为不刷新[]
+coin:"yuanbao",前端显示用的图标信息
+
+
+
+文件:shopitem.json 
+字段说明:
+need:{"a": "attr","t": "yuanbao", "n": 1000}, 花费
+iteminfo:{"a": "attr", "p"-权重: 500, "t": "yinbi","n": 2000},掉落组中的元素
+sale:0,本身折扣,0为无折扣
+bnum:3，可购买次数 ，-1为无限次购买

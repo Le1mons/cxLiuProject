@@ -1,0 +1,588 @@
+{
+    "common": {
+        "libao": "礼包配置",
+        "duihuan": "兑换配置",
+        "task": "任务配置",
+        "gameprize": "小游戏奖励步数",
+        "lotteryprize": {
+            "needval": "需要的开启进度",
+            "prize": "发奖奖励",
+            "baseprizenum":"基础发奖数量",
+            "addlimit": "每多几个人多一份奖励"
+        },
+        "lotteryneed": "抽奖消耗",
+        "gamenum": "每天参加小游戏的次数"
+    },
+    "libao": {
+        "zhounianRmb": {
+            "proid": "",
+            "name": "限时钻石礼包",
+            "money": 1000,
+            "need": [{"a": "attr", "t": "rmbmoney", "n": 1000}],
+            "subsidynum": 0,
+            "img": 1,
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 10
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 5
+                }
+            ],
+            "buynum": 6
+        },
+        "autumn6": {
+            "proid": "autumn6",
+            "name": "金秋限购礼包",
+            "money": 600,
+            "need": [],
+            "subsidynum": 0,
+            "img": 1,
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 60
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 10
+                }
+            ],
+            "buynum": 1
+        },
+        "autumn128": {
+            "proid": "autumn128",
+            "name": "金秋超值礼包",
+            "money": 12800,
+            "need": [],
+            "subsidynum": 0,
+            "img": 2,
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 1280
+                },
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 10
+                },
+                {
+                    "a": "item",
+                    "t": "2004",
+                    "n": 2000
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 18
+                }
+            ],
+            "buynum": 3
+        },
+        "autumn328": {
+            "proid": "autumn328",
+            "name": "金秋特惠礼包",
+            "money": 32800,
+            "need": [],
+            "subsidynum": 0,
+            "img": 3,
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 3280
+                },
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 20
+                },
+                {
+                    "a": "item",
+                    "t": "2089",
+                    "n": 20
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 45
+                }
+            ],
+            "buynum": 10
+        },
+        "autumn648": {
+            "proid": "autumn648",
+            "name": "金秋豪华礼包",
+            "money": 64800,
+            "need": [],
+             "subsidynum": 0,
+             "img": 4, 
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "rmbmoney",
+                    "n": 6480
+                },
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 40
+                },
+                {
+                    "a": "item",
+                    "t": "2005",
+                    "n": 15000
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 90
+                }
+            ],
+            "buynum": 15
+        }
+    },
+    "subsidyitem" : "2087",
+    "duihuanNeed": [
+        {
+            "a": "item",
+            "t": "5099"
+        },
+        {
+            "a": "item",
+            "t": "5098"
+        }
+    ],
+
+    "duihuan": {
+        "1": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 600
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1163",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "2": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 450
+                }
+            ],
+            "prize": [
+                {
+                    "a": "shipin",
+                    "t": "6481",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "3": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 180
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1183",
+                    "n": 1
+                }
+            ],
+            "maxnum": 4,
+            "rtime": 0
+        },
+        "4": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 160
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1158",
+                    "n": 1
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "5": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 120
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1175",
+                    "n": 1
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "6": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 120
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "33045",
+                    "n": 50
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "7": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 100
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "1096",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "8": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 22
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2011",
+                    "n": 3
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "9": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 15
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 10
+                }
+            ],
+            "maxnum": 5,
+            "rtime": 0
+        },
+        "10": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 80
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2059",
+                    "n": 1
+                }
+            ],
+            "maxnum": 1,
+            "rtime": 0
+        },
+        "11": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 15
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2039",
+                    "n": 1
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "12": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 6
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2071",
+                    "n": 1
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "13": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 3
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2005",
+                    "n": 500
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "14": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 3
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2004",
+                    "n": 500
+                }
+            ],
+            "maxnum": 10,
+            "rtime": 0
+        },
+        "15": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 1
+                }
+            ],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "useexp",
+                    "n": 500000
+                }
+            ],
+            "maxnum": 99,
+            "rtime": 0
+        },
+        "16": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 1
+                }
+            ],
+            "prize": [
+                {
+                    "a": "attr",
+                    "t": "jinbi",
+                    "n": 1000000
+                }
+            ],
+            "maxnum": 99,
+            "rtime": 0
+        },
+        "17": {
+            "need": [
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 1
+                }
+            ],
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "5099",
+                    "n": 1
+                }
+            ],
+            "maxnum": 999,
+            "rtime": 7
+        }
+    },
+    "task": {
+        "1": {
+            "tiaozhuan": "",
+            "desc": "今日登录1次",
+            "pval": 1,
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 2
+                }
+            ]
+        },
+        "2": {
+            "tiaozhuan": "14",
+            "desc": "今日领取日常任务终极奖励",
+            "pval": 1,
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 2
+                }
+            ]
+        },
+        "3": {
+            "tiaozhuan": "37",
+            "desc": "每日充值30元",
+            "pval": 30,
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 3
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 5
+                }
+            ]            
+        },
+        "4": {
+            "tiaozhuan": "4",
+            "desc": "消耗2000钻石",
+            "pval": 2000,
+            "prize": [
+                {
+                    "a": "item",
+                    "t": "2010",
+                    "n": 2
+                },
+                {
+                    "a": "item",
+                    "t": "5098",
+                    "n": 3
+                }
+            ]
+        }
+    },
+    "gameprize": [
+        {"val": [0, 12], "prize":[{"a": "attr", "t": "rmbmoney", "n": 200},{"a": "item", "t": "5098", "n": 1}],"img":"box1"},
+        {"val": [13, 17], "prize":[{"a": "attr", "t": "rmbmoney", "n": 150},{"a": "item", "t": "5098", "n": 1}],"img":"box2"},
+        {"val": [18, 22], "prize":[{"a": "attr", "t": "rmbmoney", "n": 100},{"a": "item", "t": "5098", "n": 1}],"img":"box3"},
+        {"val": [23, 99999], "prize":[{"a": "attr", "t": "rmbmoney", "n": 50},{"a": "item", "t": "5098", "n": 1}],"img":"box4"}
+    ],
+    "lotteryprize": {
+        "1": {"needval": 500, "prize": [[{"a": "item", "t": "1158", "n": 1}],[{"a": "attr", "t": "rmbmoney", "n": 6666}]], "baseprizenum": 1, "addlimit": 500},
+        "2": {"needval": 600, "prize": [[{"a": "item", "t": "1183", "n": 1}],[{"a": "item", "t": "2010", "n": 50}]], "baseprizenum": 1, "addlimit": 600},
+        "3": {"needval": 1000, "prize": [[{"a": "shipin", "t": "6591", "n": 1}],[{"a": "item", "t": "2010", "n": 50}]], "baseprizenum": 1, "addlimit": 1000},
+        "4": {"needval": 650, "prize": [[{"a": "item", "t": "1113", "n": 1}],[{"a": "item", "t": "2010", "n": 30}]], "baseprizenum": 1, "addlimit": 650},
+        "5": {"needval": 650, "prize": [[{"a": "item", "t": "1114", "n": 1}],[{"a": "item", "t": "2010", "n": 30}]], "baseprizenum": 1, "addlimit": 650},
+        "6": {"needval": 500, "prize": [[{"a": "item", "t": "2060", "n": 30}],[{"a": "item", "t": "2011", "n": 8}]], "baseprizenum": 1, "addlimit": 500}    
+    },
+    "lotteryneed": [
+        {
+            "a": "item",
+            "t": "5098",
+            "n": 1
+        }
+    ],
+    "gamenum": 1,
+    "lotterypro": 0.3,
+    "returnnum": 2,
+    "returprize":[
+        {
+            "a": "item",
+            "t": "5099",
+            "n": 1
+        }
+    ],
+    "lottreyprize": [
+        {
+            "a": "item",
+            "t": "5099",
+            "n": 1
+        }
+    ],
+    "email": {
+        "title": "金秋7天乐奖励",
+        "content": "恭喜你在秋日奖池中十分幸运的中奖了，请查收以下奖励",
+        "content1": "很遗憾你在秋日奖池中没有中奖，请再接再厉"
+    },
+    "todayemail": {
+        "title": "金秋7天乐活动",
+        "content": "亲爱的勇士，你在金秋7天乐活动中的庆典任务奖励未领取，获得以下奖励，请查收"
+    },
+  "tishiemail":{
+		"title": "金秋7天乐即将结束",
+		"content": "金秋7天乐即将结束，届时将无法兑换活动奖励，请各位勇士于{0}，0点之前及时兑换"
+	},
+    "tishi2email":{
+		"title": "金秋7天乐即将结束",
+		"content": "金秋7天乐即将结束，届时将无法兑换活动奖励，请各位勇士于{0}，0点之前及时兑换"
+	}
+}

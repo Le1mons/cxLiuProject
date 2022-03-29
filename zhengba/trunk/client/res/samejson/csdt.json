@@ -1,0 +1,22 @@
+{
+  "comment": {
+    "herodz": "英雄锻造",
+    "itemdz": "物品锻造"
+  },
+  "herodz": {
+    "71016": {
+      "heroneed1": {"star": 13, "hid": 6102, "cond": "gte"},
+      "heroneed2": {"star": 10, "hid": 6102, "cond": "eq"},
+      "itemneed": [{"a": "item", "t": "2091", "n": 200}],
+      "duanzaoneed": [{"a": "attr", "t": "jinbi", "n": 50000000}],
+      "getitem": [{"a": "item", "t": 1190, "n": 1},{"a": "item", "t": 1191, "n": 1}],
+      "gethero": {"hid": "71016"}
+    }
+  },
+  "itemdz": {
+    "2091": {
+      "itemneed": [{"a": "item", "t": "2093", "n": 8000}],
+      "getitem": [{"a": "item", "t": "2091", "n": 1}]
+    }
+  }
+}

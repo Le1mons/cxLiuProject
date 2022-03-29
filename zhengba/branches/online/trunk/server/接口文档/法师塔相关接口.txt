@@ -1,0 +1,27 @@
+fashita_buycrystal: 购买结晶
+参数：[num]
+返回值：{'s':1, "d":{'num': 0}}
+
+fashita_getcrystal: 每30分钟获得结晶的接口
+参数：[1] 1 获取数量 0 增加数量
+返回值：{'s':1, "d":{'jiejing': {'freetime':0,'num':10}}}
+
+fashita_fight: 打架
+参数：[layernum层数, {站位信息}]
+返回值：{'s':1, "d":{'fightres': {战斗信息}}
+
+fashita_getprize: 获取奖励
+参数：[layernum层数]
+返回值：{'s':1, "d":{'fashita': {'passlist':[],'prizelist':[]}}
+
+fashita_open: 打开法师塔
+参数：[]
+返回值：{'s':1, "d":{'fashita': {'passlist':[],'prizelist':[]},'jiejing':{'freetime':0,'num':10}}
+
+rank_open: 查看排行
+参数: [2]
+返回值：{'s':1, "d":{'fashita': {'ranklist':[]}}
+
+fashita_recording: 录像
+参数：[layernum 层数]
+返回值：{'s':1, "d":{'recording':[]}}

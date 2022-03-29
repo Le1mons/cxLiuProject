@@ -1,0 +1,11 @@
+kfkh_getprize: 开服狂欢  领取奖励
+参数：[day, hdid]
+返回值:{'s':1,'d':{'finish':1,'finipro':1}}
+
+kfkh_open: 开启界面
+参数：[day]  可传可不传
+返回值：{'s':1,'d':{'finipro': 1, 'oday': 7, 'data': [{'pval': 65, 'nval': 200, 'finish': 0, 'hdid': u'11'},], 'recprize': [1, 2, 3], 'sday': 7}}}
+
+kfkh_recproprize: 领取完成度奖励
+参数：[index]
+返回值：{'s':1,'d':{'recprize':[]}}

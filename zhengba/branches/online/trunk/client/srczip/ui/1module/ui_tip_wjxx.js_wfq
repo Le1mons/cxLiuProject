@@ -1,0 +1,157 @@
+/**
+ * Created by admin on 2018-03-09
+ */
+(function () {
+    //玩家信息
+    var ID = 'ui_tip_wjxx';
+    var fun = X.bUi.extend({
+        ctor: function (json, id) {
+            var me = this;
+            me._super(json, id);
+        },
+        getData: function(callback){
+            var me = this;
+
+            me.ajax('user_details',[me.data().uid,1],function(s, rd) {
+                if (rd.s === 1) {
+                    me.DATA = rd.d;
+                    callback && callback();
+                }
+            },true);
+        },
+        setContents: function () {
+            var me = this;
+            var view = me._view;
+            var d = me.DATA;
+
+            // 玩家头像
+            var widget = G.class.shead(d.userinfo);
+            X.addCenterChild(view.nodes.ico, widget);
+
+            X.render({
+                txt_name: d.userinfo.name,
+                txt_dj:X.STR(L('DENGJI1'), d.userinfo.lv), // 等级
+                txt_zl: d.userinfo.zhanli, // 战力
+                txt_vip: 'v' + (d.userinfo.vip || 0)
+            }, view.nodes)
+
+            view.nodes.panel_ico.removeAllChildren();
+            var autoLayout = new X.extendLayout(view.nodes.panel_ico, d.armyinfo.length, true);
+            autoLayout.setDelegate({
+                cellCount: function () {
+                    return 3;
+                },
+                nodeWidth: function () {
+                    return 130;
+                },
+                rowHeight: function () {
+                    return 130;
+                },
+                itemAtIndex: function (index) {
+                    var dd = d.armyinfo[index];
+                    var widget = G.class.ui_item_head(dd);
+                    widget.setName('_list'+index);
+                    widget.setScale(0.8);
+                    widget.title.setFontSize(20);
+                    var army = G.class.hero.getById(dd.hid);
+                    setTextWithColor(widget.title, army.name + (dd.pinzhi > 0 ?'+' + dd.pinzhi:''), G.gc.COLOR[army.color]);
+                    widget.setTouchEnabled(true);
+                    widget.click(function (sender, type) {
+                    });
+                    return widget;
+                }
+            });
+            autoLayout.layout();
+        },
+        robotFormat: function(d){
+            var me = this;
+
+            d.userinfo = {
+                name:d.name,
+                lv:d.lv,
+                vip:d.vip || 0,
+                zhanli:d.zhanli,
+                head:d.head,
+                headborder:d.headborder,
+                // sex:d.sex,
+                // body:d.body,
+                // pzid:d.pzid,
+                // weapon:d.weapon,
+                // horse:d.horse,
+            };
+
+            var armyinfo = [];
+            for(var i=0;i<d.army.length;i++){
+                armyinfo.push({
+                    hid:d.army[i][0],
+                    lv:d.army[i][1],
+                });
+            }
+            d.armyinfo = armyinfo;
+
+            return d;
+        },
+        bindBtn: function () {
+            var me = this;
+            var view = me._view;
+
+            me.ui.nodes.mask.click(function () {
+                me.remove();
+            });
+
+            var btns = me.data().btns || {
+                count:1,
+                colors:['btn_lan.png'],
+                titles:[L('QD')],
+                funs:[
+                  function(){
+                    me.remove();
+                  }
+                ]
+            };
+            if(btns){
+                X.addBtn(view.nodes.panel_btn, {
+                    count: btns.count,
+                    texture: btns.colors, // ['btn_lan.png', 'btn_hong.png']
+                    title: btns.titles, // [L('BTN_OK')],
+                    callback: btns.funs
+                });
+            }
+        },
+        onOpen: function () {
+            var me = this;
+
+            me.ui.render({
+                top_title: L('UI_TITLE_WJXX')
+            });
+        },
+        onShow: function () {
+            var me = this;
+
+            new X.bView('ui_tip_wjxx.json', function (view) {
+                me._view = view;
+                me.ui.nodes.panel_nr.addChild(view);
+                me.bindBtn();
+
+                if(me.data() && me.data().d){
+                    if(me.data().robot){
+                        me.DATA = me.robotFormat(me.data().d);
+                    }else{
+                        me.DATA = me.data().d;
+                    }
+                    me.setContents();
+                    me.data().type ? "": me._view.nodes.txt_dj.hide();
+                }else{
+                    me.getData(function(){
+                        me.setContents();
+                    });
+                }
+
+            });
+        },
+        onRemove: function () {
+        }
+    });
+
+    G.frame[ID] = new fun('ui_tip2.json', ID);
+})();

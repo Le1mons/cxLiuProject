@@ -1,0 +1,15 @@
+artifact_open: 开启神器界面
+参数：[]
+返回值：{'s': 1, 'd':{'task':[],'artifact':{1:{'lv':1,'dengjie':1}}}}
+
+artifact_receive: 神器任务领取
+参数: [任务类型, 神器id]
+返回值：{'s': 1, 'd':{'prize':[]}}
+
+artifact_lvup: 升级
+参数：[神器id, 升级类型['lv', 'djlv']]
+返回值：{'s': 1, 'd': {'artifact': {'hp':1,'atk':1}}
+
+artifact_recast: 神器重铸
+参数: [神器id]
+返回值：{'s': 1, 'd':{'prize':[]}}

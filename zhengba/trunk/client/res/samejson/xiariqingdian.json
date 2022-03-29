@@ -1,0 +1,57 @@
+{
+    "common": {
+		"libao": "礼包配置",
+        "duihuan": "兑换配置",
+        "task": "任务配置",
+        "shop": "商店配置",
+        "duihuanNeed":"兑换活动需要的材料，有几个就配置几个，不需要配置num"
+	},
+
+	"libao": {
+		"xiari30": {"proid": "xiari30","name": "夏日超值礼包","money": 3000,"prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a": "item","t": "1165","n": 10}],"buynum": 1},
+		"xiari98": {"proid": "xiari98","name": "夏日高级礼包","money": 9800,"prize": [{"a": "attr", "t": "rmbmoney", "n": 980},{"a": "item","t": "1165","n": 15},{"a": "item","t": "2005","n": 1000}],"buynum": 10},
+		"xiari328": {"proid": "xiari328","name": "夏日豪华礼包","money": 32800,"prize": [{"a": "attr", "t": "rmbmoney", "n": 3280},{"a": "item","t": "1165","n": 40},{"a": "item","t": "2089","n": 10}],"buynum": 10},
+		"xiari648": {"proid": "xiari648","name": "夏日至尊礼包","money": 64800,"prize": [{"a": "attr", "t": "rmbmoney", "n": 6480},{"a": "item","t": "1165","n": 80},{"a": "item","t": "2004","n": 3000},{"a": "item","t": "2010","n": 10}],"buynum": 10}
+  },
+  "duihuanNeed":[{"a": "item", "t": "5084"},{"a": "item", "t": "5086"}],
+	"duihuan": {
+		"1": {"prize": [{"a": "item", "t": "1165", "n": 1}], "need": [{"a": "item", "t": "5084", "n": 10}], "maxnum": 80},
+		"2": {"prize": [{"a": "item", "t": "1166", "n": 1}], "need": [{"a": "item", "t": "5084", "n": 1}], "maxnum": 99},
+		"3": {"prize": [{"a": "item", "t": "1163", "n": 1}], "need": [{"a": "item", "t": "5086", "n": 550}], "maxnum": 1},
+		"4": {"prize": [{"a": "item", "t": "1158", "n": 1}], "need": [{"a": "item", "t": "5086", "n": 150}], "maxnum": 5},
+		"5": {"prize": [{"a": "item", "t": "32075", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"6": {"prize": [{"a": "item", "t": "35055", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"7": {"prize": [{"a": "item", "t": "43085", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"8": {"prize": [{"a": "item", "t": "41075", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"9": {"prize": [{"a": "item", "t": "21065", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"10": {"prize": [{"a": "item", "t": "25085", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"11": {"prize": [{"a": "item", "t": "11105", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"12": {"prize": [{"a": "item", "t": "34035", "n": 50}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 5},
+		"13": {"prize": [{"a": "item", "t": "1096", "n": 1}], "need": [{"a": "item", "t": "5086", "n": 110}], "maxnum": 2},
+		"14": {"prize": [{"a": "item", "t": "2059", "n": 1}], "need": [{"a": "item", "t": "5086", "n": 45}], "maxnum": 1},
+		"15": {"prize": [{"a": "item", "t": "2039", "n": 1}], "need": [{"a": "item", "t": "5086", "n": 15}], "maxnum": 10},
+		"16": {"prize": [{"a": "item", "t": "2071", "n": 1}], "need": [{"a": "item", "t": "5086", "n": 6}], "maxnum": 10},
+		"17": {"prize": [{"a": "item", "t": "2010", "n": 5}], "need": [{"a": "item", "t": "5086", "n": 8}], "maxnum": 10},
+		"18": {"prize": [{"a": "attr", "t": "useexp", "n": 500000}], "need": [{"a": "item", "t": "5086", "n": 1}], "maxnum": 99}			
+	},
+	"youxiprize": [
+		{"val": [399, 9999], "prize": [{"a": "item", "t": "5084", "n": 5}]},
+		{"val": [299, 398], "prize": [{"a": "item", "t": "5084", "n": 4}]},
+		{"val": [199, 298], "prize": [{"a": "item", "t": "5084", "n": 3}]},
+		{"val": [1, 198], "prize": [{"a": "item", "t": "5084", "n": 2}]}
+	],
+	"youxiitemneed": [{"a": "item", "t": "5085", "n": 1}],
+	"youxizuanshineed": [{"a": "attr", "t": "rmbmoney", "n": 100}],
+	"buynum": 12,
+
+	"qiandao": [
+		{"prize": [{"a": "item", "t": "5085", "n": 12}, {"a": "item", "t": "2010", "n": 5}]},
+		{"prize": [{"a": "item", "t": "5085", "n": 10}, {"a": "item", "t": "2004", "n": 500}]},
+		{"prize": [{"a": "item", "t": "5085", "n": 10}, {"a": "item", "t": "2021", "n": 100}]},
+		{"prize": [{"a": "item", "t": "5085", "n": 12}, {"a": "item", "t": "2010", "n": 5}]},
+		{"prize": [{"a": "item", "t": "5085", "n": 10}, {"a": "item", "t": "2004", "n": 500}]},
+		{"prize": [{"a": "item", "t": "5085", "n": 10}, {"a": "item", "t": "2022", "n": 200}]},
+		{"prize": [{"a": "item", "t": "5085", "n": 12}, {"a": "item", "t": "2010", "n": 5}]}		
+	],
+	"taskprize": [{"a": "item", "t": "5085", "n": 2}]
+}

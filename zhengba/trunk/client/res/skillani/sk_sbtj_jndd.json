@@ -1,0 +1,126 @@
+{
+  "ID": "91689a9b-8fe3-4360-b9cb-2ebd9893a2b8",
+  "Version": "2.3.4",
+  "Name": "sk_sbtj_jndd",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 15,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 809243784,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/aoshu/dp/aosu_skill_dp_00000.png",
+                  "Plist": "skillani/sk_sbtj_jndd.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/aoshu/dp/aosu_skill_dp_00001.png",
+                  "Plist": "skillani/sk_sbtj_jndd.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/aoshu/dp/aosu_skill_dp_00002.png",
+                  "Plist": "skillani/sk_sbtj_jndd.plist"
+                },
+                "FrameIndex": 10,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/aoshu/dp/aosu_skill_dp_00003.png",
+                  "Plist": "skillani/sk_sbtj_jndd.plist"
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 18,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/aoshu/dp/aosu_skill_dp_00001.png",
+              "Plist": "skillani/sk_sbtj_jndd.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 120.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -116.0,
+            "RightMargin": -116.0,
+            "TopMargin": -301.5,
+            "BottomMargin": -61.5,
+            "Tag": 20,
+            "ActionTag": 809243784,
+            "Size": {
+              "X": 232.0,
+              "Y": 363.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/sk_sbtj_jndd.plist",
+        "skillani/sk_sbtj_jndd.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

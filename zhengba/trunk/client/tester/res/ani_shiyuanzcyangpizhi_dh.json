@@ -1,0 +1,195 @@
+{
+  "ID": "cb34fee9-24dc-4e26-9790-154e2c911e54",
+  "Version": "2.3.4",
+  "Name": "ani_shiyuanzcyangpizhi_dh",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 80,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -990991226,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.55,
+                "Y": 0.9981,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.47,
+                "Y": 0.9466,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.55,
+                "Y": 0.9981,
+                "FrameIndex": 80,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -27598389,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 15.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 20.0,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 15.0,
+                "FrameIndex": 80,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 68,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shiyuanzhanchang/xiaoguo/wuping/ty.png",
+              "Plist": "ani_shiyuanzcdaoju_dh.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.381,
+              "Y": -35.91
+            },
+            "Scale": {
+              "ScaleX": 1.55,
+              "ScaleY": 0.9981
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -42.119,
+            "RightMargin": -44.881,
+            "TopMargin": 2.41,
+            "BottomMargin": -69.41,
+            "Tag": 70,
+            "ActionTag": -990991226,
+            "Size": {
+              "X": 87.0,
+              "Y": 67.0
+            },
+            "Alpha": 179,
+            "Name": "ty_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "shiyuanzhanchang/xiaoguo/wuping/yanpizhi.png",
+              "Plist": "ani_shiyuanzcyangpizhi_dh.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 15.0
+            },
+            "Scale": {
+              "ScaleX": 0.6,
+              "ScaleY": 0.6
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -82.5,
+            "RightMargin": -82.5,
+            "TopMargin": -86.5,
+            "BottomMargin": -56.5,
+            "Tag": 69,
+            "ActionTag": -27598389,
+            "Size": {
+              "X": 165.0,
+              "Y": 143.0
+            },
+            "Name": "yanpizhi_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ani_shiyuanzcdaoju_dh.plist",
+        "ani_shiyuanzcdaoju_dh.png",
+        "ani_shiyuanzcyangpizhi_dh.plist",
+        "ani_shiyuanzcyangpizhi_dh.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

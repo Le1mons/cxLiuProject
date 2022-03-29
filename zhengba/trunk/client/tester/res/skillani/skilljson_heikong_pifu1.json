@@ -1,0 +1,178 @@
+{
+  "ID": "7b794dd8-69dc-4985-ac3f-dd69500b3428",
+  "Version": "3.10.0.0",
+  "Name": "skilljson_heikong_pifu1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 16,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 1464376992,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/heilong/atk/d/dd_16.png",
+                  "Plist": "skillani/skilljson_heikong_pifu1.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/heilong/atk/d/dd_17.png",
+                  "Plist": "skillani/skilljson_heikong_pifu1.plist"
+                },
+                "FrameIndex": 4,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/heilong/atk/d/dd_18.png",
+                  "Plist": "skillani/skilljson_heikong_pifu1.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/heilong/atk/d/dd_19.png",
+                  "Plist": "skillani/skilljson_heikong_pifu1.plist"
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/heilong/atk/d/dd_20.png",
+                  "Plist": "skillani/skilljson_heikong_pifu1.plist"
+                },
+                "FrameIndex": 16,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1096056861,
+            "Property": "FrameEvent",
+            "Frames": [
+              {
+                "Value": "hit",
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "EventFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 40,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/heilong/atk/d/dd_16.png",
+              "Plist": "skillani/skilljson_heikong_pifu1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 28.6819,
+              "Y": 102.9886
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -291.3181,
+            "RightMargin": -348.6819,
+            "TopMargin": -671.9886,
+            "BottomMargin": -466.0114,
+            "Tag": 46,
+            "ActionTag": 1464376992,
+            "Size": {
+              "X": 640.0,
+              "Y": 1138.0
+            },
+            "Name": "dd",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 66,
+            "ActionTag": -1096056861,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "hit_event",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/skilljson_heikong_pifu1.plist",
+        "skillani/skilljson_heikong_pifu1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,110 @@
+/**
+ * Created by LYF on 2018/6/11.
+ */
+(function () {
+    //购买
+    var ID = 'xuyuanchi_gm';
+
+    var fun = X.bUi.extend({
+        ctor: function (json, id) {
+            var me = this;
+            me._super(json, id);
+        },
+        initUi: function () {
+            var me = this;
+
+            me.ui.nodes.txt_title.setString(L("GM"));
+        },
+        bindBtn: function () {
+            var me = this;
+
+            me.nodes.mask.click(function (sender, type) {
+                me.remove();
+            })
+        },
+        onOpen: function () {
+            var me = this;
+            me.fillSize();
+
+            me.initUi();
+            me.bindBtn();
+        },
+        onAniShow: function () {
+            var me = this;
+        },
+        onShow: function () {
+            var me = this;
+
+            me.buyneed = me.data() && me.data().buyneed || G.class.xuyuanchi.get()["common"].buyneed[0];
+            me.buy = me.data() && me.data().buy || G.class.xuyuanchi.get()["common"].buyprize[0];
+            me.apiType = (me.data() && me.data().ajax) || "xuyuanchi_buycoin";
+
+            new X.bView("ui_tip_gm.json", function (node) {
+                me.view = node;
+                me.nodes.panel_nr.addChild(node);
+                me.view.nodes.textfield_sl.setPlaceHolderColor(cc.color(G.gc.COLOR.n11));
+                me.setContents();
+            })
+        },
+        onHide: function () {
+            var me = this;
+            me.event.emit('hide');
+        },
+        setContents: function () {
+            var me = this;
+            me.num = 0;
+
+            me.view.nodes.textfield_sl.setTextHorizontalAlignment(1);
+            me.view.nodes.textfield_sl.setTextVerticalAlignment(1);
+            me.view.finds("img_zs").loadTexture(G.class.getItemIco(me.buyneed.t));
+            me.setNUM(me.num);
+            var wid = G.class.sitem(me.buy);
+            me.view.nodes.panel_wp.addChild(wid);
+            wid.setPosition(me.view.nodes.panel_wp.width / 2, me.view.nodes.panel_wp.height / 2);
+            me.view.nodes.btn_qr.click(function () {
+                G.ajax.send(me.apiType, [me.num], function (d) {
+                    if (!d) return;
+                    var d = JSON.parse(d);
+                    if(d.s == 1){
+                        G.tip_NB.show(L("GMCG"));
+                        if(G.frame.xuyuanchi.isShow){
+                            G.frame.xuyuanchi.nodes.text_gssl.setString(G.class.getOwnNum(
+                                (G.frame.xuyuanchi.conf.tenneed[0].t),G.frame.xuyuanchi.conf.tenneed[0].a));
+                        }
+                        me.remove();
+                    }
+                })
+            });
+            me.view.nodes.btn_jia.click(function (sender, type) {
+                me.numJJ(true);
+            });
+            me.view.nodes.btn_jian.click(function (sender, type) {
+                me.numJJ(false);
+            })
+        },
+        setNUM: function (num) {
+            var me = this;
+            me.view.nodes.textfield_sl.setString(num);
+            me.view.nodes.text_zssl.setString(num * me.buyneed.n + "/" + P.gud[me.buyneed.t]);
+
+        },
+        numJJ: function (is) {
+            var me = this;
+            if(is){
+                me.num += 1;
+            }else{
+                if(me.num == 1){
+                    me.num = 1;
+                }else{
+                    me.num -= 1;
+                }
+            }
+            if(me.num * 50 > P.gud[me.buyneed.t]){
+                me.num = me.num -= 1;
+                return;
+            }
+            me.setNUM(me.num);
+        }
+    });
+    G.frame[ID] = new fun('ui_tip2.json', ID);
+})();

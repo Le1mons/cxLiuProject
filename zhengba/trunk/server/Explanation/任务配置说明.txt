@@ -1,0 +1,31 @@
+任务配置说明
+ 格式说明：
+  "10001": {
+    "ftaskid": "", 
+    "img": "ico_phb_10.png", 
+    "pval": 15, 
+    "openlv": 5, 
+    "title": "完成15次剿匪", 
+    "p": [
+      49999
+    ], 
+    "cond": [
+      "JIAOFEI", 
+      1
+    ], 
+    "type": 3, 
+    "stype": 1, 
+    "linktask": []
+  },
+
+
+ftaskid："20"           --前置任务id、
+img："ico_phb_10.png",  --任务图片
+pval：15，              --任务最大进度
+openlv：5，             --开放等级
+title："完成15次剿匪",  --任务标题
+p: [49999],             --奖励掉落组
+cond：["JIAOFEI",1],    --任务条件    JIAOFEI-剿匪，QIECUO-切磋，GUANKA-关卡进度，MSMQ-民生民情，TFQX-讨伐群雄，TXBW-天下比如，YXSL-英雄试炼，YZXY-远征西域，lv-等级
+type:1,                 --任务类型    1主线,2支线,3日常
+stype：1，              --任务处理类型  0属性改变事件，1战斗胜利事件
+linktask：["102","21"]            --完成当前任务后会生成那些任务id

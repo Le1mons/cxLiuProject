@@ -1,0 +1,209 @@
+{
+  "ID": "014a119b-5b37-4f2f-ba4d-57d22418eb3f",
+  "Version": "3.10.0.0",
+  "Name": "skilljson_yifulite_pifu1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 28,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 2060602906,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_00.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_01.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 4,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_02.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 8,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_03.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_04.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 16,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_05.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_06.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 24,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/yifulite/atk/dd/dd_07.png",
+                  "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+                },
+                "FrameIndex": 28,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 752906873,
+            "Property": "FrameEvent",
+            "Frames": [
+              {
+                "Value": "hit",
+                "FrameIndex": 16,
+                "Tween": false,
+                "ctype": "EventFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 209,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/yifulite/atk/dd/dd_04.png",
+              "Plist": "skillani/skilljson_yifulite_pifu1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -25.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -153.0,
+            "RightMargin": -103.0,
+            "TopMargin": -128.0,
+            "BottomMargin": -128.0,
+            "Tag": 213,
+            "ActionTag": 2060602906,
+            "Size": {
+              "X": 256.0,
+              "Y": 256.0
+            },
+            "Name": "dd",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 214,
+            "FrameEvent": "hit",
+            "ActionTag": 752906873,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "hit_event",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/skilljson_yifulite_pifu1.plist",
+        "skillani/skilljson_yifulite_pifu1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

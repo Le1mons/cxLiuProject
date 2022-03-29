@@ -1,0 +1,64 @@
+{
+  "common": {
+    "time": ["活动开始时间", "活动结束时间"],
+    "openday": "开区天数",
+    "open": "开启人数",
+    "group": "每组人数",
+    "swap": "每组交换的最少人数",
+    "pilao": "英雄每天最多的疲劳",
+    "refresh": "刷新对手次数",
+    "integral": "根据军团排名获取积分",
+    "star": "上阵英雄的星数"
+  },
+  "base": {
+    "time": {
+      "fight": [86400, 424800],
+      "not_signup": [79200, 432000]
+    },
+    "openday": 35,
+    "open": 50,
+    "group": 500,
+    "swap": 100,
+    "maxteam": 100,
+    "star": 8,
+    "pilao": 5,
+    "integral": [5,4,3,2,1],
+    "refresh": 5,
+    "boss":[{
+			  "name":"核心水晶","heroico":"shuijingboss","model":"shuijing_boss","xpskill":"1540012","nuqi":100,"mowangskillani":"1540012","skill":["1500004"],
+			  "lv":300,"zhongzu":0,"hp":999999999,"maxhp":999999999,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":0,"enlargepro": 1.5,"lockHP":true,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"77","normalskill":"1540012","job":0,"isSkill":[1],"issj":1}],
+      "headdata":{"lv":"300","head":"shuijingboss","name":"核心水晶"},
+    "prize":{
+      "daily":[
+        [{"a":"item","t":"3501","n":15},{"a":"item","t":"2026","n":50}],
+        [{"a":"item","t":"3501","n":12},{"a":"item","t":"2026","n":40}],
+        [{"a":"item","t":"3501","n":10},{"a":"item","t":"2026","n":30}],
+        [{"a":"item","t":"3501","n":8},{"a":"item","t":"2026","n":20}],
+        [{"a":"item","t":"3501","n":6},{"a":"item","t":"2026","n":10}]
+                ],
+      "season":[
+        [{"a":"item","t":"3502","n":20},{"a":"item","t":"2026","n":200}],
+        [{"a":"item","t":"3502","n":15},{"a":"item","t":"2026","n":170}],
+        [{"a":"item","t":"3502","n":12},{"a":"item","t":"2026","n":140}],
+        [{"a":"item","t":"3502","n":10},{"a":"item","t":"2026","n":120}],
+        [{"a":"item","t":"3502","n":8},{"a":"item","t":"2026","n":100}]
+        ],
+      "lianji":[
+        [1,1,[{"a":"item","t":"2053","n":25},{"a":"item","t":"2011","n":6},{"a":"item","t":"1087","n":1}]],
+        [2,3,[{"a":"item","t":"2053","n":20},{"a":"item","t":"2011","n":5},{"a":"item","t":"1088","n":1}]],
+        [4,10,[{"a":"item","t":"2053","n":17},{"a":"item","t":"2011","n":4},{"a":"item","t":"1089","n":1}]],
+        [11,50,[{"a":"item","t":"2053","n":14},{"a":"item","t":"2011","n":3}]],
+        [51,200,[{"a":"item","t":"2053","n":12},{"a":"item","t":"2011","n":2}]],
+        [201,999,[{"a":"item","t":"2053","n":10},{"a":"item","t":"2011","n":1}]]
+      ]
+    },
+    "email":{
+      "daily":{"title":"五军之战日排名奖励","content":"亲爱的玩家，你的阵营在五军之战日排名中获得第{1}名，获得以下奖励"},
+      "season":{"title":"五军之战赛季排名奖励","content":"亲爱的玩家，你的阵营在五军之战赛季排名中获得第{1}名，获得以下奖励"},
+      "lianji":{"title":"五军之战连击排名奖励","content":"亲爱的玩家，你在五军之战连击排名中获得第{1}名，获得以下奖励"}
+    }
+  }
+}

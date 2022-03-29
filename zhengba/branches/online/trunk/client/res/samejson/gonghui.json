@@ -1,0 +1,507 @@
+{
+	"comment": {
+		"maxnumperpage": "列表每页显示的最大数量",
+		"maxapplynum": "申请加入公会最大数量",
+		"createghneed": "创建公会所需消耗",
+		"renameneed": "修改公会名花费",
+		"flags": "旗帜配置",
+		"lv2conf": "公会等级对应的配置",
+		"changenameneed": "修改公会名字所需",
+		"juanxian": "捐献",
+		"skill": "技能配置",
+		"keji": "科技配置",
+		"maxpower1": "最大官员数量",
+		"kejiresetneed": "公会技能当前职业重置，首次免费，以后收费一致500",
+		"boxcd": "宝箱保留时间",
+		"boxmaxnum": "宝箱每天最大购买个数",
+		"boxmaxsavenum": "宝箱保留最大个数",
+		"boxrecnum": "单个宝箱可领取次数",
+		"boxbuyprize": "宝箱购买专属奖励",
+		"boxrecdlz": "宝箱领取掉落组",
+		"boxaddghexp": "购买宝箱增加工会经验的数量",
+		"impeach_time": "弹劾所需时间",
+		"impeach_email": "弹劾邮件"
+	},
+	"base": {
+		"boxcd": 86400,
+		"impeach_email": {
+			"title": "公会弹劾通知",
+			"content": "公会成员<{1}>发起了会长弹劾，发起24小时后，公会内所有玩家均可争夺会长之位，立即前往公会大厅竞争会长吧！"
+		},
+		"takeoffice_email": {
+			"title": "会长弹劾结果",
+			"content": "恭喜公会成员<{1}>成为新任会长"
+		},
+		"impeach_time": 259200,
+		"boxmaxnum": 10,
+		"boxmaxsavenum": 6,
+		"boxrecnum": 10,
+		"boxbuyprize": [{
+			"a": "attr",
+			"t": "rmbmoney",
+			"n": 6480
+		}, {
+			"a": "item",
+			"t": "2003",
+			"n": 8000
+		}, {
+			"a": "item",
+			"t": "2011",
+			"n": 10
+		}],
+		"boxrecdlz": "11",
+		"boxaddghexp": 300,
+		"maxnumperpage": 5,
+		"maxapplynum": 20,
+		"createghneed": [{
+			"a": "attr",
+			"t": "rmbmoney",
+			"n": 100
+		}],
+		"flags": {
+			"1": {
+				"name": "aaa",
+				"img": "img_qz_01.png"
+			},
+			"2": {
+				"name": "aaa",
+				"img": "img_qz_02.png"
+			},
+			"3": {
+				"name": "aaa",
+				"img": "img_qz_03.png"
+			},
+			"4": {
+				"name": "aaa",
+				"img": "img_qz_04.png"
+			},
+			"5": {
+				"name": "aaa",
+				"img": "img_qz_05.png"
+			},
+			"6": {
+				"name": "aaa",
+				"img": "img_qz_06.png"
+			},
+			"7": {
+				"name": "aaa",
+				"img": "img_qz_07.png"
+			},
+			"8": {
+				"name": "aaa",
+				"img": "img_qz_08.png"
+			},
+			"9": {
+				"name": "aaa",
+				"img": "img_qz_09.png"
+			},
+			"10": {
+				"name": "aaa",
+				"img": "img_qz_10.png"
+			},
+			"11": {
+				"name": "aaa",
+				"img": "img_qz_11.png"
+			},
+			"12": {
+				"name": "aaa",
+				"img": "img_qz_12.png"
+			},
+			"13": {
+				"name": "aaa",
+				"img": "img_qz_13.png"
+			},
+			"14": {
+				"name": "aaa",
+				"img": "img_qz_14.png"
+			},
+			"15": {
+				"name": "aaa",
+				"img": "img_qz_15.png"
+			},
+			"16": {
+				"name": "aaa",
+				"img": "img_qz_16.png"
+			},
+			"17": {
+				"name": "aaa",
+				"img": "img_qz_17.png"
+			},
+			"18": {
+				"name": "aaa",
+				"img": "img_qz_18.png"
+			}
+		},
+		"changenameneed": [{
+			"a": "attr",
+			"t": "rmbmoney",
+			"n": 200
+		}],
+		"maxpower1": 5,
+		"lv2conf": {
+			"1": {
+				"member": 15,
+				"exp": 100
+			},
+			"2": {
+				"member": 16,
+				"exp": 200
+			},
+			"3": {
+				"member": 16,
+				"exp": 300
+			},
+			"4": {
+				"member": 17,
+				"exp": 400
+			},
+			"5": {
+				"member": 17,
+				"exp": 500
+			},
+			"6": {
+				"member": 18,
+				"exp": 700
+			},
+			"7": {
+				"member": 18,
+				"exp": 900
+			},
+			"8": {
+				"member": 19,
+				"exp": 1100
+			},
+			"9": {
+				"member": 19,
+				"exp": 1300
+			},
+			"10": {
+				"member": 20,
+				"exp": 1500
+			},
+			"11": {
+				"member": 20,
+				"exp": 1800
+			},
+			"12": {
+				"member": 21,
+				"exp": 2100
+			},
+			"13": {
+				"member": 21,
+				"exp": 2400
+			},
+			"14": {
+				"member": 22,
+				"exp": 2700
+			},
+			"15": {
+				"member": 22,
+				"exp": 3000
+			},
+			"16": {
+				"member": 23,
+				"exp": 3600
+			},
+			"17": {
+				"member": 23,
+				"exp": 4200
+			},
+			"18": {
+				"member": 24,
+				"exp": 4800
+			},
+			"19": {
+				"member": 24,
+				"exp": 5400
+			},
+			"20": {
+				"member": 25,
+				"exp": 6000
+			},
+			"21": {
+				"member": 25,
+				"exp": 6900
+			},
+			"22": {
+				"member": 26,
+				"exp": 7800
+			},
+			"23": {
+				"member": 26,
+				"exp": 8700
+			},
+			"24": {
+				"member": 27,
+				"exp": 9600
+			},
+			"25": {
+				"member": 27,
+				"exp": 10500
+			},
+			"26": {
+				"member": 28,
+				"exp": 11700
+			},
+			"27": {
+				"member": 28,
+				"exp": 12900
+			},
+			"28": {
+				"member": 29,
+				"exp": 14100
+			},
+			"29": {
+				"member": 29,
+				"exp": 15300
+			},
+			"30": {
+				"member": 30,
+				"exp": 16500
+			},
+			"31": {
+				"member": 30,
+				"exp": 18000
+			},
+			"32": {
+				"member": 31,
+				"exp": 19500
+			},
+			"33": {
+				"member": 31,
+				"exp": 21000
+			},
+			"34": {
+				"member": 32,
+				"exp": 22500
+			},
+			"35": {
+				"member": 32,
+				"exp": 24000
+			},
+			"36": {
+				"member": 33,
+				"exp": 25800
+			},
+			"37": {
+				"member": 33,
+				"exp": 27600
+			},
+			"38": {
+				"member": 34,
+				"exp": 29400
+			},
+			"39": {
+				"member": 34,
+				"exp": 31200
+			},
+			"40": {
+				"member": 35,
+				"exp": 33000
+			},
+			"41": {
+				"member": 35,
+				"exp": 35100
+			},
+			"42": {
+				"member": 36,
+				"exp": 37200
+			},
+			"43": {
+				"member": 36,
+				"exp": 39300
+			},
+			"44": {
+				"member": 37,
+				"exp": 41400
+			},
+			"45": {
+				"member": 37,
+				"exp": 43500
+			},
+			"46": {
+				"member": 38,
+				"exp": 45900
+			},
+			"47": {
+				"member": 38,
+				"exp": 48300
+			},
+			"48": {
+				"member": 39,
+				"exp": 50700
+			},
+			"49": {
+				"member": 39,
+				"exp": 53100
+			},
+			"50": {
+				"member": 40,
+				"exp": 55500
+			}
+		},
+		"juanxian": {
+			"0": {
+				"name": "1",
+				"img": "bg_gonghui_jx1.png",
+				"icon": "img_gonghui_jxbx1.png",
+				"need": [{
+					"a": "attr",
+					"t": "jinbi",
+					"n": 10000
+				}],
+				"prize": [{
+					"a": "item",
+					"t": "2003",
+					"n": 100
+				}],
+				"exp": 10
+			},
+			"1": {
+				"name": "2",
+				"img": "bg_gonghui_jx2.png",
+				"icon": "img_gonghui_jxbx2.png",
+				"need": [{
+					"a": "attr",
+					"t": "rmbmoney",
+					"n": 100
+				}],
+				"prize": [{
+					"a": "item",
+					"t": "2003",
+					"n": 250
+				}],
+				"exp": 10
+			},
+			"2": {
+				"name": "3",
+				"img": "bg_gonghui_jx3.png",
+				"icon": "img_gonghui_jxbx3.png",
+				"need": [{
+					"a": "attr",
+					"t": "rmbmoney",
+					"n": 300
+				}],
+				"prize": [{
+					"a": "item",
+					"t": "2003",
+					"n": 800
+				}],
+				"exp": 10
+			}
+		},
+		"skill": {
+      "1":{"name":"战士生命率","id":"1","zhanli":20,"img":"keji_11.png","maxlv":60,"buff":{"hppro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*5000+4950"},{"a":"item","t":"2003","n":"lv*10+10"}]},
+      "2":{"name":"战士攻击率","id":"2","zhanli":40,"img":"keji_12.png","maxlv":50,"buff":{"atkpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*6000+29500"},{"a":"item","t":"2003","n":"lv*12+50"}]},
+      "3":{"name":"战士暴击率","id":"3","zhanli":75,"img":"keji_13.png","maxlv":40,"buff":{"baojipro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*7500+59000"},{"a":"item","t":"2003","n":"lv*14+100"}]},
+      "4":{"name":"战士格挡率","id":"4","zhanli":130,"img":"keji_14.png","maxlv":35,"buff":{"gedangpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*10000+98000"},{"a":"item","t":"2003","n":"lv*18+160"}]},
+      "5":{"name":"战士技能伤害增加","id":"5","zhanli":250,"img":"keji_15.png","maxlv":20,"buff":{"skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*20000+145000"},{"a":"item","t":"2003","n":"lv*30+240"}]},
+      "6":{"name":"战士敏捷","id":"6","zhanli":300,"img":"keji_16.png","maxlv":30,"buff":{"speed":"lv*4"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+195000"},{"a":"item","t":"2003","n":"lv*100+800"}]},
+      "7":{"name":"战士掌控","id":"7","zhanli":350,"img":"keji_17.png","maxlv":20,"buff":{"hppro":"lv*10","atkpro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+294000"},{"a":"item","t":"2003","n":"lv*160+1000"}]},
+      "8":{"name":"战士洞察","id":"8","zhanli":450,"img":"keji_18.png","maxlv":20,"buff":{"hppro":"lv*10","skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*50000+395000"},{"a":"item","t":"2003","n":"lv*200+1400"}]},
+      "41":{"name":"战士战斗技巧","id":"41","zhanli":600,"img":"keji_19.png","maxlv":30,"buff":{"pvpdpspro":"lv*5","pvpundpspro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*60000+497000"},{"a":"item","t":"2003","n":"lv*250+1800"}]},
+      "9":{"name":"法师生命率","id":"9","zhanli":20,"img":"keji_21.png","maxlv":60,"buff":{"hppro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*5000+4950"},{"a":"item","t":"2003","n":"lv*10+10"}]},
+      "10":{"name":"法师攻击率","id":"10","zhanli":40,"img":"keji_22.png","maxlv":50,"buff":{"atkpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*6000+29500"},{"a":"item","t":"2003","n":"lv*12+50"}]},
+      "11":{"name":"法师暴击率","id":"11","zhanli":75,"img":"keji_23.png","maxlv":40,"buff":{"baojipro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*7500+59000"},{"a":"item","t":"2003","n":"lv*14+100"}]},
+      "12":{"name":"法师命中率","id":"12","zhanli":130,"img":"keji_24.png","maxlv":35,"buff":{"jingzhunpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*10000+98000"},{"a":"item","t":"2003","n":"lv*18+160"}]},
+      "13":{"name":"法师技能伤害增加","id":"13","zhanli":250,"img":"keji_25.png","maxlv":20,"buff":{"skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*20000+145000"},{"a":"item","t":"2003","n":"lv*30+240"}]},
+      "14":{"name":"法师敏捷","id":"14","zhanli":300,"img":"keji_26.png","maxlv":30,"buff":{"speed":"lv*4"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+195000"},{"a":"item","t":"2003","n":"lv*100+800"}]},
+      "15":{"name":"法师掌控","id":"15","zhanli":350,"img":"keji_27.png","maxlv":20,"buff":{"hppro":"lv*10","atkpro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+294000"},{"a":"item","t":"2003","n":"lv*160+1000"}]},
+      "16":{"name":"法师洞察","id":"16","zhanli":450,"img":"keji_28.png","maxlv":20,"buff":{"hppro":"lv*10","skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*50000+395000"},{"a":"item","t":"2003","n":"lv*200+1400"}]},
+      "42":{"name":"法师战斗技巧","id":"42","zhanli":600,"img":"keji_29.png","maxlv":30,"buff":{"pvpdpspro":"lv*5","pvpundpspro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*60000+497000"},{"a":"item","t":"2003","n":"lv*250+1800"}]},
+      "17":{"name":"辅助生命率","id":"17","zhanli":20,"img":"keji_31.png","maxlv":60,"buff":{"hppro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*5000+4950"},{"a":"item","t":"2003","n":"lv*10+10"}]},
+      "18":{"name":"辅助格挡率","id":"18","zhanli":40,"img":"keji_32.png","maxlv":50,"buff":{"gedangpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*6000+29500"},{"a":"item","t":"2003","n":"lv*12+50"}]},
+      "19":{"name":"辅助暴击率","id":"19","zhanli":75,"img":"keji_33.png","maxlv":40,"buff":{"baojipro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*7500+59000"},{"a":"item","t":"2003","n":"lv*14+100"}]},
+      "20":{"name":"辅助敏捷","id":"20","zhanli":130,"img":"keji_34.png","maxlv":35,"buff":{"speed":"lv*2"},"need":[{"a":"attr","t":"jinbi","n":"lv*10000+98000"},{"a":"item","t":"2003","n":"lv*18+160"}]},
+      "21":{"name":"辅助技能伤害增加","id":"21","zhanli":250,"img":"keji_35.png","maxlv":20,"buff":{"skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*20000+145000"},{"a":"item","t":"2003","n":"lv*30+240"}]},
+      "22":{"name":"辅助急速","id":"22","zhanli":300,"img":"keji_36.png","maxlv":30,"buff":{"speed":"lv*1","atkpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+195000"},{"a":"item","t":"2003","n":"lv*100+800"}]},
+      "23":{"name":"辅助掌控","id":"23","zhanli":350,"img":"keji_37.png","maxlv":20,"buff":{"hppro":"lv*10","atkpro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+294000"},{"a":"item","t":"2003","n":"lv*160+1000"}]},
+      "24":{"name":"辅助洞察","id":"24","zhanli":450,"img":"keji_38.png","maxlv":20,"buff":{"hppro":"lv*10","skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*50000+395000"},{"a":"item","t":"2003","n":"lv*200+1400"}]},
+      "43":{"name":"辅助战斗技巧","id":"43","zhanli":600,"img":"keji_39.png","maxlv":30,"buff":{"pvpdpspro":"lv*5","pvpundpspro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*60000+497000"},{"a":"item","t":"2003","n":"lv*250+1800"}]},
+      "25":{"name":"刺客生命率","id":"25","zhanli":20,"img":"keji_41.png","maxlv":60,"buff":{"hppro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*5000+4950"},{"a":"item","t":"2003","n":"lv*10+10"}]},
+      "26":{"name":"刺客暴击伤害率","id":"26","zhanli":40,"img":"keji_42.png","maxlv":50,"buff":{"baoshangpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*6000+29500"},{"a":"item","t":"2003","n":"lv*12+50"}]},
+      "27":{"name":"刺客暴击率","id":"27","zhanli":75,"img":"keji_43.png","maxlv":40,"buff":{"baojipro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*7500+59000"},{"a":"item","t":"2003","n":"lv*14+100"}]},
+      "28":{"name":"刺客破甲率","id":"28","zhanli":130,"img":"keji_44.png","maxlv":35,"buff":{"pojiapro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*10000+98000"},{"a":"item","t":"2003","n":"lv*18+160"}]},
+      "29":{"name":"刺客技能伤害增加","id":"29","zhanli":250,"img":"keji_45.png","maxlv":20,"buff":{"skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*20000+145000"},{"a":"item","t":"2003","n":"lv*30+240"}]},
+      "30":{"name":"刺客敏捷","id":"30","zhanli":300,"img":"keji_46.png","maxlv":30,"buff":{"speed":"lv*4"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+195000"},{"a":"item","t":"2003","n":"lv*100+800"}]},
+      "31":{"name":"刺客掌控","id":"31","zhanli":350,"img":"keji_47.png","maxlv":20,"buff":{"hppro":"lv*10","atkpro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+294000"},{"a":"item","t":"2003","n":"lv*160+1000"}]},
+      "32":{"name":"刺客洞察","id":"32","zhanli":450,"img":"keji_48.png","maxlv":20,"buff":{"hppro":"lv*10","skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*50000+395000"},{"a":"item","t":"2003","n":"lv*200+1400"}]},
+      "44":{"name":"刺客战斗技巧","id":"44","zhanli":600,"img":"keji_49.png","maxlv":30,"buff":{"pvpdpspro":"lv*5","pvpundpspro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*60000+497000"},{"a":"item","t":"2003","n":"lv*250+1800"}]},
+      "33":{"name":"游侠生命率","id":"33","zhanli":20,"img":"keji_51.png","maxlv":60,"buff":{"hppro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*5000+4950"},{"a":"item","t":"2003","n":"lv*10+10"}]},
+      "34":{"name":"游侠攻击率","id":"34","zhanli":40,"img":"keji_52.png","maxlv":50,"buff":{"atkpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*6000+29500"},{"a":"item","t":"2003","n":"lv*12+50"}]},
+      "35":{"name":"游侠格挡率","id":"35","zhanli":75,"img":"keji_53.png","maxlv":40,"buff":{"gedangpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*7500+59000"},{"a":"item","t":"2003","n":"lv*14+100"}]},
+      "36":{"name":"游侠命中率","id":"36","zhanli":130,"img":"keji_54.png","maxlv":35,"buff":{"jingzhunpro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*10000+98000"},{"a":"item","t":"2003","n":"lv*18+160"}]},
+      "37":{"name":"游侠技能伤害增加","id":"37","zhanli":250,"img":"keji_55.png","maxlv":20,"buff":{"skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*20000+145000"},{"a":"item","t":"2003","n":"lv*30+240"}]},
+      "38":{"name":"游侠敏捷","id":"38","zhanli":300,"img":"keji_56.png","maxlv":30,"buff":{"speed":"lv*4"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+195000"},{"a":"item","t":"2003","n":"lv*100+800"}]},
+      "39":{"name":"游侠掌控","id":"39","zhanli":350,"img":"keji_57.png","maxlv":20,"buff":{"hppro":"lv*10","atkpro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*30000+294000"},{"a":"item","t":"2003","n":"lv*160+1000"}]},
+      "40":{"name":"游侠洞察","id":"40","zhanli":450,"img":"keji_58.png","maxlv":20,"buff":{"hppro":"lv*10","skilldpspro":"lv*10"},"need":[{"a":"attr","t":"jinbi","n":"lv*50000+395000"},{"a":"item","t":"2003","n":"lv*200+1400"}]},
+      "45":{"name":"游侠战斗技巧","id":"45","zhanli":600,"img":"keji_59.png","maxlv":30,"buff":{"pvpdpspro":"lv*5","pvpundpspro":"lv*5"},"need":[{"a":"attr","t":"jinbi","n":"lv*60000+497000"},{"a":"item","t":"2003","n":"lv*250+1800"}]}
+		},
+		"keji": {
+			"1": {
+				"skill": ["1", "2", "3", "4", "5", "6", "7", "8","41"]
+			},
+			"2": {
+				"skill": ["9", "10", "11", "12", "13", "14", "15", "16","42"]
+			},
+			"3": {
+				"skill": ["17", "18", "19", "20", "21", "22", "23", "24","43"]
+			},
+			"4": {
+				"skill": ["25", "26", "27", "28", "29", "30", "31", "32","44"]
+			},
+			"5": {
+				"skill": ["33", "34", "35", "36", "37", "38", "39", "40","45"]
+			}
+		},
+		"kejiresetneed": [{
+			"a": "attr",
+			"t": "rmbmoney",
+			"n": 500
+		}],
+		"rizhi": {
+			"types": {
+				"1": {
+					"act": "create",
+					"intr": "{1}创建了公会"
+				},
+				"2": {
+					"act": "join",
+					"intr": "{1}加入了公会"
+				},
+				"3": {
+					"act": "away",
+					"intr": "{1}离开了公会"
+				},
+				"4": {
+					"act": "baway",
+					"intr": "{1}被{2}请离了公会"
+				},
+				"5": {
+					"act": "appoint",
+					"intr": "{1}被{2}任命为{3}"
+				},
+				"6": {
+					"act": "changehz",
+					"intr": "{1}将公会会长移交给了{2}"
+				},
+				"7": {
+					"act": "killboss",
+					"intr": "公会成员齐心协力战胜了{1}号关卡首领"
+				},
+				"8": {
+					"act": "impeach",
+					"intr": "公会成员{1}对会长{2}发起了弹劾"
+				},
+				"9": {
+					"act": "position",
+					"intr": "公会会长{1}被弹劾成功，{2}成了新任会长"
+				}
+			}
+		},
+		"email": {
+			"title": "公会解散",
+			"content": "很遗憾，{1}公会会长{2}对公会进行了解散处理，你被迫离开了公会"
+		}
+	}
+}

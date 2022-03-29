@@ -1,0 +1,191 @@
+创建公会接口：gonghui_create
+参数：[{'ghname':'aaa','flag':'1','info':'aaa'}]
+返回值：{s:1}
+
+
+申请加入公会：gonghui_apply
+参数：[ghid]
+返回值：{s:1}
+
+
+
+同意申请：gonghui_join
+参数:[touid]-[被邀请的玩家uid]
+返回值：{s:1}
+
+
+会员任职：gonghui_renzhi
+参数:[touid,power]
+返回值：{s:1}
+
+
+公会列表信息:gonghui_getlist
+参数：[page]
+返回值：{'s': 1, 'd': {
+                    'maxpage': 1, 
+		    'applylist':[ghid],
+		    'list': [
+		         {'ghid':'fdsffsfds',u'lv': 1,'flag':'1', 'hzname': u'aaa', u'joinlv': 1, u'name': u'aaa', u'usernum': 3, u'maxusernum': 5}
+			 ]
+		}
+	}
+
+
+
+公会详细信息:gonghui_open
+参数：[]
+返回值：{'s': 1, 'd': {
+                 'juanxian':'0',可选key
+                 'ghdata': {
+                      'notice': u'aaa', 
+                      'gmoney': 0, 
+                      'ctime': 1529937672, 
+                      'usernum': 3, 
+                      'maxusernum': 5, 
+                      'lv': 1, 
+                      'flag': u'1', 
+                      'joinlv': 1, 
+                      'exp': 0, 
+                      'name': 'aaa'
+		      }
+		}
+	}
+
+
+
+公会申请列表：gonghui_applylist
+参数：[]
+返回值{'s': 1, 'd': {
+                'applylist': [
+		     {
+		         'uid': u'0_5aec54eb625aee6374e25e01', 
+                         'name': u'4', 
+                         'lv': 29, 
+			 'maxzhanli': 1743, 
+			 'ghid': u'5b30ff08625aeebb340efbee',
+			 'headdata': {'head': 1001, 'uuid': u'04835201', 'name': u'4', 'lv': 29, 'vip': 8, 'uid': u'0_5aec54eb625aee6374e25e01'}, 
+			 'ctime': 1529980877}
+			 ]
+		}
+	}
+
+
+
+公会成员列表：gonghui_userlist
+参数:[]
+返回值：{'s': 1, 'd': {
+                  'userlist': [
+		      {u'uid': u'0_5aea7b67625aee5548970d49', u'power': 0, 'hearttime': 1528257434, 'maxzhanli': 5629, 'headdata': {'head': 1001, 'uuid': u'0899337', 'name': u'aaa', 'lv': 31, 'vip': 8, 'uid': u'0_5aea7b67625aee5548970d49'}, u'ghid': u'5b30ff08625aeebb340efbee', u'lasttime': 1529937673, u'sungongxian': 0, u'ctime': 1529937673}, 
+		      {u'uid': u'0_5aec54eb625aee6374e25dfe', u'power': 3, 'hearttime': 1529982192, 'maxzhanli': 804517, 'headdata': {'head': 1001, 'uuid': u'04835198', 'name': u'1', 'lv': 50, 'vip': 9, 'uid': u'0_5aec54eb625aee6374e25dfe'}, u'ghid': u'5b30ff08625aeebb340efbee', u'lasttime': 1529938684, u'sungongxian': 0, u'ctime': 1529938684}
+		      ]
+		   }
+	}
+
+
+
+拒绝公会加入申请：gonghui_refuse
+参数:[touid]-[被邀请的玩家uid]
+返回值：{s:1}
+
+
+
+离开公会：gonghui_exit
+参数:[]
+返回值：{s:1}
+
+
+
+踢出公会：gonghui_kick
+参数:[kickuid] - [被踢玩家的uid]
+返回值：{s:1}
+
+
+
+
+修改公会信息：gonghui_changedata
+参数：[{k,v}]  - k:flag，notice,joinlv
+返回值：{s:1}
+
+
+修改公会名：gonghui_rename
+参数：[name]
+返回值：{s:1}
+
+
+公会捐献：gonghui_juanxian
+参数：[jxtype]
+返回值：{s:1,'d':{'prize':[atn]}}
+
+
+公会副本主界面信息：gonghuifuben_open
+参数：[]
+返回值：{'s': 1, 'd': {'pknum'-当日已经挑战的次数: 0, 'fuben': '1'}}
+
+
+公会挑战boss：gonghuifuben_fight
+参数：[fbid,fightdata]-- [副本id,战斗格式]
+返回值：{s:1,'d':{'fightres':{战斗信息格式},prize:[]}}
+
+
+公会副本详情：gonghuifuben_fbdata
+参数：[fbid]-- [副本id]
+返回值：
+已通关：{'s': 1, 'd': {
+                      'pknum': 1, 
+		      'hp': 0, 
+		      'ranklist': [
+		      {u'dps': 723519, u'showhead': {u'head': 1001, u'uid': u'0_5aec54eb625aee6374e25e0c', u'name': u'15', u'lv': 100, u'vip': 8, u'uuid': u'04835212'}}
+		      ], 
+		      'maxhp': 570987}
+		      }
+
+
+未通关未挑战：{'s': 1, 'd': {'pknum': 0, 'ranklist': []}}
+未通关已挑战：{'s': 1, 'd': {
+                        'pknum': 1, 
+			'maxhp': 570987,
+			'hp': 500390, 
+			'ranklist': [
+			    {'dps': 75782, 'showhead': {'head': 1001, 'uuid': u'04835212', 'name': u'15', 'lv': 100, 'vip': 8, 'uid': u'0_5aec54eb625aee6374e25e0c'}, 'power': 3}
+			    ]
+			}
+		}
+
+
+公会科技主界面：ghkeji_open
+参数：[]
+返回值：{'s': 1, 'd': {'kejidata': {u'1': 60, u'2': 50}, 'resetnum': {}}}     
+
+
+
+公会科技等级：ghkeji_lvup
+参数：[职业，科技技能id]
+返回值：{s:1}
+
+
+
+公会科技重置：ghkeji_clear
+参数：[职业]
+返回值：{s:1}
+
+
+公会日志列表: gonghui_loglist
+参数：[]
+返回值：{'s': 1, 'd': {'list': [{'ctype':'1','args':[xxx,xxx],'ctime':1393784949}]}}
+
+公会宝库打开接口：gonghui_baokuopen
+参数：[]
+返回值：{s:1:{d:{buynum:宝箱剩余购买次数,boxdata:[{
+                                               ctime:生成时间,
+                                               reclist:[已领取奖励的uid列表],
+                                               buyer:{里面都是headdata},
+                                               _id:宝箱唯一id
+                                                    }]}}}
+
+公会宝库购买接口: gonghui_buybox
+参数：[]
+返回值：{s:1,d:{prize:[], boxdata:[和上面一样],buynum:剩余购买次数}}
+
+公会领取宝箱接口: gonghui_recboxprize
+参数：[tid] 宝箱的唯一id
+返回值：{s:1,d:{prize:[], boxdata:[和上面一样]}}

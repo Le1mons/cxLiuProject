@@ -1,0 +1,1210 @@
+{
+  "ID": "2a718ad9-151c-497d-9003-18ca4078c198",
+  "Version": "2.3.3.0",
+  "Name": "gonghui_tip1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 25,
+        "Speed": 1.0,
+        "ActivedAnimationName": "out",
+        "Timelines": [
+          {
+            "ActionTag": -341017609,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.1,
+                "Y": 1.1,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 15,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.01,
+                "Y": 0.01,
+                "FrameIndex": 25,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -341017609,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 25,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -341017609,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 255,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 15,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 25,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 15,
+          "Name": "in",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 15,
+          "EndIndex": 25,
+          "Name": "out",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 1530,
+        "Children": [
+          {
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2059,
+            "Children": [
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.0,
+                  "Y": 568.0
+                },
+                "Scale": {
+                  "ScaleX": 0.109,
+                  "ScaleY": 0.109
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.6602
+                },
+                "VerticalEdge": "BothEdge",
+                "TopMargin": 193.0,
+                "BottomMargin": 193.0,
+                "Tag": 2060,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "img/bg/bg_tip_3.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 612,
+                    "Scale9Height": 739,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 316.928,
+                      "Y": 370.5128
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4952,
+                      "Y": 0.494
+                    },
+                    "PreSize": {
+                      "X": 0.9563,
+                      "Y": 0.9853
+                    },
+                    "LeftMargin": 10.928,
+                    "RightMargin": 17.072,
+                    "TopMargin": 9.9872,
+                    "BottomMargin": 1.0128,
+                    "Tag": 2080,
+                    "ActionTag": 658326675,
+                    "Size": {
+                      "X": 612.0,
+                      "Y": 739.0
+                    },
+                    "Name": "bg_jjc",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 316.955,
+                      "Y": 371.0127
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4952,
+                      "Y": 0.4947
+                    },
+                    "PreSize": {
+                      "X": 0.9563,
+                      "Y": 0.9867
+                    },
+                    "LeftMargin": 10.955,
+                    "RightMargin": 17.045,
+                    "TopMargin": 8.9873,
+                    "BottomMargin": 1.0127,
+                    "Tag": 2081,
+                    "ActionTag": 1211012864,
+                    "Size": {
+                      "X": 612.0,
+                      "Y": 740.0
+                    },
+                    "Name": "panel_nr$",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/public/btn/btn_fanhui.png",
+                      "Plist": "public.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 92,
+                    "Scale9Height": 33,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 621.956,
+                      "Y": -62.7
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9718,
+                      "Y": -0.0836
+                    },
+                    "PreSize": {
+                      "X": 0.1906,
+                      "Y": 0.0733
+                    },
+                    "LeftMargin": 499.956,
+                    "RightMargin": 18.044,
+                    "TopMargin": 757.7,
+                    "BottomMargin": -62.7,
+                    "Tag": 2079,
+                    "ActionTag": 870053001,
+                    "Size": {
+                      "X": 122.0,
+                      "Y": 55.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "btn_fh$",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_jgzs.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 2,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 2,
+                    "Scale9Height": 7,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 575.9538,
+                      "Y": 722.5129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8999,
+                      "Y": 0.9634
+                    },
+                    "PreSize": {
+                      "X": 0.8594,
+                      "Y": 0.0253
+                    },
+                    "LeftMargin": 25.9538,
+                    "RightMargin": 64.0462,
+                    "TopMargin": 17.9871,
+                    "BottomMargin": 713.0129,
+                    "Tag": 2207,
+                    "ActionTag": 540077086,
+                    "Size": {
+                      "X": 550.0,
+                      "Y": 19.0
+                    },
+                    "Name": "img_jgzs",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_zs.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Width": 49,
+                    "Scale9Height": 50,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.9546,
+                      "Y": 728.5116
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0531,
+                      "Y": 0.9713
+                    },
+                    "PreSize": {
+                      "X": 0.0766,
+                      "Y": 0.0667
+                    },
+                    "LeftMargin": 9.4546,
+                    "RightMargin": 581.5454,
+                    "TopMargin": -3.5116,
+                    "BottomMargin": 703.5116,
+                    "Tag": 2208,
+                    "ActionTag": 1197076405,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 50.0
+                    },
+                    "Name": "img_zs1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_zs.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Width": 49,
+                    "Scale9Height": 50,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 600.9539,
+                      "Y": 728.5116
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.939,
+                      "Y": 0.9713
+                    },
+                    "PreSize": {
+                      "X": 0.0766,
+                      "Y": 0.0667
+                    },
+                    "LeftMargin": 576.4539,
+                    "RightMargin": 14.5461,
+                    "TopMargin": -3.5116,
+                    "BottomMargin": 703.5116,
+                    "Tag": 2209,
+                    "ActionTag": 716496950,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 50.0
+                    },
+                    "Name": "img_zs2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_top.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Width": 456,
+                    "Scale9Height": 83,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 316.928,
+                      "Y": 702.011
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4952,
+                      "Y": 0.936
+                    },
+                    "PreSize": {
+                      "X": 0.7125,
+                      "Y": 0.1107
+                    },
+                    "LeftMargin": 88.928,
+                    "RightMargin": 95.072,
+                    "TopMargin": 6.489,
+                    "BottomMargin": 660.511,
+                    "Tag": 2205,
+                    "ActionTag": -1726001398,
+                    "Size": {
+                      "X": 456.0,
+                      "Y": 83.0
+                    },
+                    "Name": "img_top",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 24,
+                    "LabelText": "公会大厅",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "img/fnt/fzcyj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 60,
+                      "G": 83,
+                      "B": 169
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 318.9553,
+                      "Y": 706.5115
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4984,
+                      "Y": 0.942
+                    },
+                    "PreSize": {
+                      "X": 0.2813,
+                      "Y": 0.072
+                    },
+                    "LeftMargin": 228.9553,
+                    "RightMargin": 231.0447,
+                    "TopMargin": 16.4885,
+                    "BottomMargin": 679.5115,
+                    "Tag": 3227,
+                    "ActionTag": 828621294,
+                    "Size": {
+                      "X": 180.0,
+                      "Y": 54.0
+                    },
+                    "Name": "tip_title$",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "点击空白区域关闭窗口",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "img/fnt/fzcyj.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 60,
+                      "G": 83,
+                      "B": 169
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 316.928,
+                      "Y": -15.8291
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 240,
+                      "B": 203
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4952,
+                      "Y": -0.0211
+                    },
+                    "PreSize": {
+                      "X": 0.4688,
+                      "Y": 0.04
+                    },
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 166.928,
+                    "RightMargin": 173.072,
+                    "TopMargin": 750.8291,
+                    "BottomMargin": -30.8291,
+                    "Tag": 1716,
+                    "ActionTag": -1944601208,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 30.0
+                    },
+                    "Name": "txt_djgb$",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy1.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy1.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy2.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 24,
+                    "Scale9Height": 96,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 600.9539,
+                      "Y": 496.513
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.939,
+                      "Y": 0.662
+                    },
+                    "PreSize": {
+                      "X": 0.0844,
+                      "Y": 0.1573
+                    },
+                    "LeftMargin": 573.9539,
+                    "RightMargin": 12.0461,
+                    "TopMargin": 194.487,
+                    "BottomMargin": 437.513,
+                    "Tag": 2212,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "管\n理",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 27.0,
+                          "Y": 59.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 91,
+                          "G": 49,
+                          "B": 16
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.4259,
+                          "Y": 0.3898
+                        },
+                        "LeftMargin": 15.5,
+                        "RightMargin": 15.5,
+                        "TopMargin": 36.0,
+                        "BottomMargin": 36.0,
+                        "Tag": 2217,
+                        "ActionTag": 1492961766,
+                        "Size": {
+                          "X": 23.0,
+                          "Y": 46.0
+                        },
+                        "Name": "txt_gl$",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1986476609,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 118.0
+                    },
+                    "Name": "btn_gl$",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy1.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy1.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy2.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 24,
+                    "Scale9Height": 96,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 600.9539,
+                      "Y": 586.5127
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.939,
+                      "Y": 0.782
+                    },
+                    "PreSize": {
+                      "X": 0.0844,
+                      "Y": 0.1573
+                    },
+                    "LeftMargin": 573.9539,
+                    "RightMargin": 12.0461,
+                    "TopMargin": 104.4873,
+                    "BottomMargin": 527.5127,
+                    "Tag": 2211,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "日\n志",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.6,
+                          "Y": 56.7108
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 91,
+                          "G": 49,
+                          "B": 16
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4741,
+                          "Y": 0.4806
+                        },
+                        "PreSize": {
+                          "X": 0.4259,
+                          "Y": 0.3898
+                        },
+                        "LeftMargin": 14.1,
+                        "RightMargin": 16.9,
+                        "TopMargin": 38.2892,
+                        "BottomMargin": 33.7108,
+                        "Tag": 2213,
+                        "ActionTag": -207280224,
+                        "Size": {
+                          "X": 23.0,
+                          "Y": 46.0
+                        },
+                        "Name": "txt_r$",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "LabelText": "",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 27.0,
+                          "Y": 48.38
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 91,
+                          "G": 49,
+                          "B": 16
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.41
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 27.0,
+                        "RightMargin": 27.0,
+                        "TopMargin": 69.62,
+                        "BottomMargin": 48.38,
+                        "Tag": 2214,
+                        "ActionTag": 613251966,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "txt_z$",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -903720886,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 118.0
+                    },
+                    "Name": "btn_rz$",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy1.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy1.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/gonghui/img_gonghui_qy2.png",
+                      "Plist": "gonghui.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 24,
+                    "Scale9Height": 96,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 600.9539,
+                      "Y": 676.5123
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.939,
+                      "Y": 0.902
+                    },
+                    "PreSize": {
+                      "X": 0.0844,
+                      "Y": 0.1573
+                    },
+                    "LeftMargin": 573.9539,
+                    "RightMargin": 12.0461,
+                    "TopMargin": 14.4877,
+                    "BottomMargin": 617.5123,
+                    "Tag": 2210,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "主\n页",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 27.0,
+                          "Y": 64.9
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 91,
+                          "G": 49,
+                          "B": 16
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.55
+                        },
+                        "PreSize": {
+                          "X": 0.4259,
+                          "Y": 0.3898
+                        },
+                        "LeftMargin": 15.5,
+                        "RightMargin": 15.5,
+                        "TopMargin": 30.1,
+                        "BottomMargin": 41.9,
+                        "Tag": 2216,
+                        "ActionTag": 1451696716,
+                        "Size": {
+                          "X": 23.0,
+                          "Y": 46.0
+                        },
+                        "Name": "txt_zy$",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -432648646,
+                    "Size": {
+                      "X": 54.0,
+                      "Y": 118.0
+                    },
+                    "Name": "btn_zy$",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -341017609,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 750.0
+                },
+                "Name": "panel_zsy",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -339791305,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "mask$",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "gonghui.plist",
+        "gonghui.png",
+        "img/bg/bg_tip_3.png",
+        "img/fnt/fzcyj.ttf",
+        "public.plist",
+        "public.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

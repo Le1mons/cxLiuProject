@@ -1,0 +1,27 @@
+xuyuanchi_open: 打开许愿池界面
+参数：[poolname] 'common'或者'high'   许愿池的类型
+返回值：{'s':1,'d':{'xycdata': {'freetime':0,'shopitem':[item:{atn},buynum:1],'super':0}}}
+
+xuyuanchi_lottery: 抽奖
+参数：[poolname, num, issuper] num: 1或者10 issuper 是否是超级许愿池
+返回值：{'s':1,'d':{'prizelist':[{atn}],'xycdata':{'freetime':0,'shopitem':[item:{atn},buynum:1]}}}
+
+xuyuanchi_jilu: 查看中奖记录
+参数：[]
+返回值：{'s':1,'d':{'common':[],'high':[]}}
+
+xuyuanchi_shuaxin: 刷新许愿池物品
+参数：[poolname]
+返回值：{'s':1,'d':{'xycdata':[]}}
+
+xuyuanchi_buycoin: 购买许愿币
+参数：[num]
+返回值：{'s':1}
+
+xuyuanchi_getprize: 获取次数宝箱奖励
+参数：[index]
+返回值：{'s':1,d:{prize:[]}}
+
+xuyuanchi_upgrade: 升级超级许愿池
+参数：[poolname]
+返回值：{'s':1,d:{shopitem:[]]}

@@ -1,0 +1,242 @@
+{
+  "ID": "7a438e11-e9c7-4207-89ee-739ec76ff03b",
+  "Version": "2.3.4",
+  "Name": "ani_shengpanzhiren_skill_jiguang",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 15,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -777412576,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_41.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_42.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "FrameIndex": 3,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_43.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "FrameIndex": 6,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_44.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "FrameIndex": 9,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_45.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_46.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1185974428,
+            "Property": "FrameEvent",
+            "Frames": [
+              {
+                "Value": "hit",
+                "FrameIndex": 1,
+                "Tween": false,
+                "ctype": "EventFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 19,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": 2.2903
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -0.0001,
+            "RightMargin": -429.9999,
+            "TopMargin": -82.2903,
+            "BottomMargin": -77.7097,
+            "Tag": 21,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/shengpanzhiren/Skill/jiguang/jiguang_41.png",
+                  "Plist": "skillani/ani_shengpanzhiren_skill_jiguang.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 183.0334,
+                  "Y": 57.2304
+                },
+                "Scale": {
+                  "ScaleX": 2.0,
+                  "ScaleY": 1.26
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4257,
+                  "Y": 0.3577
+                },
+                "PreSize": {
+                  "X": 1.1628,
+                  "Y": 5.5563
+                },
+                "LeftMargin": -66.9666,
+                "RightMargin": -3.0334,
+                "TopMargin": -341.7304,
+                "BottomMargin": -387.2696,
+                "Tag": 22,
+                "ActionTag": -777412576,
+                "Size": {
+                  "X": 500.0,
+                  "Y": 889.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 601841143,
+            "Size": {
+              "X": 430.0,
+              "Y": 160.0
+            },
+            "Name": "ui",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 23,
+            "ActionTag": 1185974428,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "hit_event",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/ani_shengpanzhiren_skill_jiguang.plist",
+        "skillani/ani_shengpanzhiren_skill_jiguang.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

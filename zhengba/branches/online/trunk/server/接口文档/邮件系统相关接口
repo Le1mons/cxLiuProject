@@ -1,0 +1,24 @@
+api_email_open:个人邮件发送
+参数：[content,title,touid]  content:邮件内容  title:邮件标题  etype:邮件类型(传值1代表系统邮件，2代表工会邮件，3代表个人邮件) touid：收件人uid(发送个人邮件时传)
+返回值：{"s":1}
+
+api_email_sendGhemail:工会邮件发送
+参数：[content,title]  content:邮件内容  title:邮件标题  etype:邮件类型(传值1代表系统邮件，2代表工会邮件，3代表个人邮件) touid：收件人uid(发送个人邮件时传)
+返回值：{"s":1}
+
+api_email_open:邮件打开列表
+参数：[]
+返回值：{"s":1,"d"":["1":{"prize":[{"a":1,"t":"xxx","n":123}]},"2":{},"3":{"uid":"发送人id","title":"邮件标题","binduid":"本人姓名","ctime":"","passtime":""}]}  #如果系统邮件有奖励{"prize":[]}
+
+
+api_email_getprize: 领取奖励按钮
+参数：[eid]
+返回值 {"s":1}
+
+api_email_getallprize  一键领取所有奖励按钮
+参数  []
+返回值  {"s":1,"d":[{"a":"attr","t":"jinbi","n":1.0}]}
+
+api_email_deleteall 一键删除所有的邮件
+参数 []
+返回值 {"s":1}

@@ -1,0 +1,41 @@
+﻿zahuopu_open: 开启杂货铺 
+参数：[]
+返回值： {
+        's': 1,
+        'd':{'itemlist':
+                [
+                {'sid':商品id,
+                'item':{
+                        'a':'attr',
+                        't':'0000',
+                        'n':0},
+                'need':{'a':'','t':'','n':0},
+                'sale': 0,
+                'buynum': 1}
+                ],
+             'freetime': 131313113
+            }
+        }
+
+zahuopu_shuaxin: 刷新杂货铺
+参数：[]
+返回值： {
+        's': 1,
+        'd':{'itemlist':
+                [
+                {'sid':商品id,
+                'item':{
+                        'a':'attr',
+                        't':'0000',
+                        'n':0},
+                'need':{'a':'','t':'','n':0},
+                'sale': 0,
+                'buynum': 1}
+                ],
+             'freetime': 131313113
+            }
+        }
+
+zahuopu_buy：杂货铺购买商品
+参数：[idx]   商品在页面里的索引
+返回值：{'s': 1}

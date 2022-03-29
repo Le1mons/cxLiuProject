@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>通信协议</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+body{ font-family:Tahoma; line-height:25px;}a{ color:#009}h2{ border-bottom:3px solid #666; line-height:50px;}
+dl{ border:1px solid #999; margin:15px; padding-bottom:10px;}dt{ background:#060; padding:5px 10px; color:#fff; font-weight:bold;}dt a{ color:#fff}
+dd{ margin:0; padding-left:10px; padding-right:10px;  line-height:31px;}dd ol{ margin:0; padding:0; margin-left:3em}
+</style>
+</head>
+<body>
+<script>
+var D = [
+	{code:'item_getlist',desc:'获取背包物品',parm:'无',testurl:"http://127.0.0.1:7288/?a=item_getlist&d=&s=sid",res:['-102:未登录','1:成功']},
+    {code:'item_useitem',desc:'使用物品',parm:['itemid:物品id','num:使用个数'],testurl:"http://127.0.0.1:7288/?a=item_use&d=['','']&s=sid",res:['-102:未登录','1:成功']},
+    {code:'login',desc:'登录游戏',parm:['binduid:账号','t:时间戳','k:验证key'],testurl:"http://127.0.0.1:7288/?a=login&d=['binduid','t','k']&s=sid",res:['1:成功']},
+    {code:'user_changename',desc:'改名',parm:['name:账号'],testurl:"http://127.0.0.1:7288/?a=user_changename&d=['name']&s=sid",res:['-102:未登录','1:成功']},
+    {code:'city_move',desc:'移动到指定城池',parm:['cityid:城池id'],testurl:"http://127.0.0.1:7288/?a=city_move&d=['cityid']&s=sid",res:['-102:未登录','1:成功']},
+
+];
+</script>
+
+<h2>通信协议</h2>
+<ol id="menu"></ol>
+<div id="con"></div>
+
+<script>
+//以下内容不用修改，保持原样即可
+function menu(){
+	var html=[];
+	for(var i=0,l=D.length;i<l;i++){
+		if(D[i].del){
+			html.push('<li><a href="#'+ D[i].code +'"><s>'+ D[i].code + ' '+ D[i].desc +'</s></a></li>');
+		}else{
+			html.push('<li><a href="#'+ D[i].code +'">'+ D[i].code + ' '+ D[i].desc +'</a></li>');
+		}
+	}
+	document.getElementById('menu').innerHTML = html.join('');
+}
+function con(){
+	var html=[];
+	for(var i=0,l=D.length;i<l;i++){
+		var _html='<dl><dt><a name="'+ D[i].code +'">协议编号：'+ D[i].code +'</a></dt><dd><b>描述：</b>'+ D[i].desc +'</dd>';
+		
+		if(D[i].parm){
+			if(typeof D[i].parm=='string'){
+				_html+='<dd><b>参数：</b>'+ D[i].parm +'</dd>';
+			}else{
+				if(D[i].parm){
+					_html+='<dd><b>参数：</b><ol>';var p = D[i].parm;
+					for(var ii=0,ll=p.length;ii<ll;ii++){
+						_html+='<li>'+ p[ii] +'</li>';	
+					}
+					_html+='</ol></dd>';
+				}
+			}
+		}
+		if(D[i].testurl){
+			_html+='<dd><b>测试地址：</b><a href="'+ D[i].testurl +'" target="_blank">'+ D[i].testurl +'</a></dd>';
+		}
+		if(D[i].res){
+			if(typeof D[i].res=='string'){
+				_html+='<dd><b>返回值：</b>'+ D[i].res +'</dd>';
+			}else{
+				if(D[i].res){
+					_html+='<dd><b>返回值：</b><ol>';var p = D[i].res;
+					for(var ii=0,ll=p.length;ii<ll;ii++){
+						_html+='<li>'+ p[ii] +'</li>';	
+					}
+					_html+='</ol></dd>';
+				}
+			}
+		}
+		_html+='</dl>';
+		html.push(_html);
+	}
+	document.getElementById('con').innerHTML = html.join('');
+}
+menu();con();
+</script>
+
+</body>
+</html>

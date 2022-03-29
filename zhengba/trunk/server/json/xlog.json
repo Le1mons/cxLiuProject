@@ -1,0 +1,65 @@
+{
+  "url": "http://bigdataapi.legu.cc:8080",
+  "project": "zhengba",
+  "appid": "legu_zhengba",
+  "secret_token": "legu",
+  "user_upload_key": {
+    "ext_device_id": "_device_id",
+    "ext_first_device_id": "_first_device_id",
+    "ext_channel_uid": "_channel_uid",
+    "ext_owner": "_owner_name",
+    "ext_channel": "_channel_name",
+    "sid": "_district_server_id",
+    "uid": "_game_role_id",
+    "ctime": "role_create_time",
+    "name": "user_name",
+    "lv": "role_level",
+    "exp": "role_exp",
+    "vip": "role_vip",
+    "rmbmoney": "role_diamonds",
+    "jinbi": "role_yxb",
+    "ghid": "union_id",
+    "ghname": "union_name",
+    "lastlogintime": "last_login_time",
+    "zhanli": "combat_effectiveness"
+  },
+  "event_upload_key": {
+    "ext_device_id": "_device_id",
+    "ext_first_device_id": "_first_device_id",
+    "ext_channel_uid": "_channel_uid",
+    "ext_owner": "_owner_name",
+    "ext_channel": "_channel_name",
+    "sid": "_district_server_id",
+    "uid": "_game_role_id",
+    "ctime": "role_create_time",
+    "name": "user_name",
+    "lv": "role_level",
+    "exp": "role_exp",
+    "vip": "role_vip",
+    "rmbmoney": "role_diamonds",
+    "jinbi": "role_yxb",
+    "lastlogintime": "last_login_time",
+    "zhanli": "combat_effectiveness"
+  },
+  "main_upload_key": {
+    "ext_device_id": "_device_id",
+    "ext_first_device_id": "_first_device_id",
+    "ext_channel_uid": "_channel_uid",
+    "ext_owner": "_owner_name",
+    "ext_channel": "_channel_name",
+    "sid": "_district_server_id",
+    "uid": "_game_role_id"
+  },
+  "user_conf": {
+    "limit": 4000,
+    "callLater": 60
+  },
+  "paylist_conf": {
+    "limit": 4000,
+    "callLater": 60
+  },
+  "xlog_conf": {
+    "limit": 4000,
+    "callLater": 60
+  }
+}

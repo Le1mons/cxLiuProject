@@ -1,0 +1,228 @@
+{
+    "common": {
+        "gznum": "总共的格子数",
+        "event": "事件详情",
+        "mapinfo": "每一关的数据",
+        "mapcon": "读地图配置json名字",
+        "layerprize": "每轮过关奖励",
+        "toplayerprize": "最高过关奖励"
+    },
+
+  "eventgroup": {
+    "1": {"name": "起始点" , "event": [{"eid": 1,"p": 10}]},
+    "2": {"name": "小怪" , "event": [{"eid": 2,"p": 10}]},
+     "3": {"name": "boss" , "event": [{"eid": 3,"p": 10}]},
+     "4": {"name": "通用事件" , "event": [{"eid": 4,"p": 30},{"eid": 37,"p": 15},{"eid": 44,"p": 5},{"eid": 5,"p": 100},{"eid": 50,"p": 5},{"eid": 51,"p": 5},{"eid": 52,"p": 5},{"eid": 53,"p": 5},{"eid": 54,"p": 5},
+         {"eid": 7,"p": 50},{"eid": 8,"p": 50},{"eid": 9,"p": 50},{"eid": 15,"p": 75},{"eid": 16,"p": 50},{"eid": 17,"p": 13},{"eid": 18,"p": 37},{"eid": 19,"p": 500}]},
+     "5": {"name": "奖励事件" , "event": [{"eid": 20,"p": 10}]},
+     "6": {"name": "路障" , "event": [{"eid": 21,"p": 10},{"eid": 22,"p": 10},{"eid": 23,"p": 10}]},
+     "7": {"name": "情报交付" , "event": [{"eid": 6,"p": 10}]},
+     "8": {"name": "BOSS周边格子" , "event": [{"eid": 60,"p": 10}]},
+     "9": {"name": "下一关传送" , "event": [{"eid": 55,"p": 10}]},
+     "10": {"name": "案件说明" , "event": [{"eid": 25,"p": 10}]},
+     "11": {"name": "解谜完成奖励宝箱" , "event": [{"eid": 33,"p": 10}]},
+     "12": {"name": "羊皮纸" , "event": [{"eid": 24,"p": 10}]},
+     "13": {"name": "哨兵塔" , "event": [{"eid": 26,"p": 10}]},
+     "14": {"name": "物资艇" , "event": [{"eid": 27,"p": 10}]},
+     "15": {"name": "目标地" , "event": [{"eid": 28,"p": 10}]},
+     "16": {"name": "噬渊石1" , "event": [{"eid": 29,"p": 10}]},
+      "17": {"name": "噬渊石2" , "event": [{"eid": 30,"p": 10}]},
+      "18": {"name": "噬渊石3" , "event": [{"eid": 31,"p": 10}]},
+      "19": {"name": "噬渊石4" , "event": [{"eid": 32,"p": 10}]},
+      "20": {"name": "噬渊石5" , "event": [{"eid": 43,"p": 10}]},
+      "21": {"name": "一笔画-复活点" , "event": [{"eid": 34,"p": 10}]},
+      "22": {"name": "一笔画-终点" , "event": [{"eid": 35,"p": 10}]},
+      "23": {"name": "一笔画-地块" , "event": [{"eid": 36,"p": 10}]},
+      "24": {"name": "装饰1" , "event": [{"eid": 40,"p": 10}]},
+      "25": {"name": "装饰2" , "event": [{"eid": 41,"p": 10}]},
+      "26": {"name": "装饰3" , "event": [{"eid": 42,"p": 10}]}
+  },
+
+    "eventinfo": {
+      "1": {"name": "出生点","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 0,"ifxiaoshi": 0},
+      "2": {"name": "小崽子1","mingzi": "漂浮幽魂","tubiao": "ico_7","hero": "11045","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"outline": "#ca6f16"},
+      "3": {"name": "boss","mingzi": "镇魂领主","tubiao": "ico_6","outline": "#96138b","hero": "55026","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1},
+      "4": {"name": "老先知","mingzi": "老先知","tubiao": "ico_4","outline": "#d67d27","hero": "22046","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"prize": [{"a": "item", "t": "2093", "n": 30}],"duihua":1},
+      "5": {"name": "指挥官","mingzi": "指挥官","tubiao": "ico_4","outline": "#d67d27","hero": "61025","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"key":"questions", "dlz": "2001","duihua":2},
+      "6": {"name": "情报交付","mingzi": "情报交付","tubiao": "ico_2","outline": "#381fcd","hero": "63036","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"need": [{"a": "item", "t": "1208", "n": 1},{"a": "item", "t": "1209", "n": 1},{"a": "item", "t": "1210", "n": 1},{"a": "item", "t": "1211", "n": 1},{"a": "item", "t": "1212", "n": 1}], "dlz": "2002", "duihua":3},
+      "7": {"name": "委托事件——找人1","mingzi": "委托","tubiao": "ico_4","outline": "#d67d27","hero": "11096","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"time":1800, "target": 11,  "dlz": "2003", "biaoti":"寻找艾琳","duihua":4},
+      "8": {"name": "委托事件——战斗1","mingzi": "委托","tubiao": "ico_4","outline": "#d67d27","hero": "15035","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"target": 12,  "time":1800,  "dlz": "2003", "biaoti":"击杀暗影","duihua":5},
+      "9": {"name": "委托事件——找人2","mingzi": "委托","tubiao": "ico_4","outline": "#d67d27","hero": "24045","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"time":1800, "target": 13,  "dlz": "2003","biaoti":"寻找大法师","duihua":6},
+      "10": {"name": "委托事件——战斗2","mingzi": "委托","tubiao": "ico_4","outline": "#d67d27","hero": "31105","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"target": 14,  "time":1800,  "dlz": "2003", "biaoti":"击杀牛头人","duihua":2},
+      "11": {"name": "委托事件——找人1_目标","mingzi": "委托对象","tubiao": "ico_5","outline": "#119297","hero": "43075","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"duihua":7},
+      "12": {"name": "委托事件——战斗1_目标","mingzi": "委托对象","tubiao": "ico_5","outline": "#119297","hero": "52035","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"npc": "72001"},
+      "13": {"name": "委托事件——找人2_目标","mingzi": "委托对象","tubiao": "ico_5","outline": "#119297","hero": "32034","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"duihua":8},
+      "14": {"name": "委托事件——战斗2_目标","mingzi": "委托对象","tubiao": "ico_5","outline": "#119297","hero": "32034","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"npc": "72001"},
+      "15": {"name": "商人","mingzi": "战地商人","tubiao": "ico_4","outline": "#d67d27","hero": "41035","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "itemid": ["1200", "1200", "1200"]},
+      "16": {"name": "宝箱1","mingzi": "噬魂宝箱·青","tubiao": "ico_4","outline": "#d67d27","hero": "","image": "1","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "1207", "n": 1}], "dlz": "2006"},
+      "17": {"name": "宝箱2","mingzi": "噬魂宝箱·赤","tubiao": "ico_4","outline": "#d67d27","hero": "","image": "2","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "1205", "n": 1}], "dlz": "2004"},
+      "18": {"name": "宝箱3","mingzi": "噬魂宝箱·紫","tubiao": "ico_4","outline": "#d67d27","hero": "","image": "3","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "1206", "n": 1}], "dlz": "2005"},
+      "19": {"name": "奖励事件1","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 0,"ifxiaoshi": 1, "dlz": "2007"},
+      "20": {"name": "奖励事件2","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 0,"ifxiaoshi": 1, "dlz": "2008"},
+      "21": {"name": "奥术石碑","mingzi": "奥术石碑","tubiao": "ico_3","outline": "#dd3838","hero": "","image": "1","dongxiao": "","zudang": 1,"ifxiaoshi": 1, "needinfo": {"1": [{"a": "item", "t": "1201", "n": 1}],"2": [{"a": "item", "t": "1202", "n": 1}]}},
+      "22": {"name": "烈焰石碑","mingzi": "烈焰石碑","tubiao": "ico_3","outline": "#dd3838","hero": "","image": "3","dongxiao": "","zudang": 1,"ifxiaoshi": 1, "needinfo": {"1": [{"a": "item", "t": "1201", "n": 1}],"2": [{"a": "item", "t": "1203", "n": 1}]}},
+      "23": {"name": "亡灵石碑","mingzi": "亡灵石碑","tubiao": "ico_3","outline": "#dd3838","hero": "","image": "2","dongxiao": "","zudang": 1,"ifxiaoshi": 1, "needinfo": {"1": [{"a": "item", "t": "1201", "n": 1}],"2": [{"a": "item", "t": "1204", "n": 1}]}},
+      "24": {"name": "羊皮纸","mingzi": "羊皮纸","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "map_25","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "graph": {"1": "方框", "2": "三角", "3": "圆", "4": "菱形", "5": "星星"}},
+      "25": {"name": "解密事件说明点","mingzi": "战略部署","tubiao": "ico_1","outline": "#2c7a0d","hero": "11086","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"jiemian":[1,2,3,4]},
+      "26": {"name": "情报传输点","mingzi": "哨兵塔","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "map_12","dongxiao": "","zudang": 1,"ifxiaoshi": 1, "graph": {"1": "方框", "2": "三角", "3": "圆", "4": "菱形", "5": "星星"}},
+      "27": {"name": "运送物资-起始","mingzi": "物资艇","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 0, "target": 18, "graph": {"1": "方框", "2": "三角", "3": "圆", "4": "菱形", "5": "星星"}},
+      "28": {"name": "运送物资-结束","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 0,"ifxiaoshi": 0},
+      "29": {"name": "噬渊石1","mingzi": "噬魂石","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "1","dongxiao": "","zudang": 1,"ifxiaoshi": 1},
+      "30": {"name": "噬渊石2","mingzi": "噬魂石","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "2","dongxiao": "","zudang": 1,"ifxiaoshi": 1},
+      "31": {"name": "噬渊石3","mingzi": "噬魂石","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "3","dongxiao": "","zudang": 1,"ifxiaoshi": 1},
+      "32": {"name": "噬渊石4","mingzi": "噬魂石","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "4","dongxiao": "","zudang": 1,"ifxiaoshi": 1},
+      "33": {"name": "解密宝箱-通用","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "dlz": "2009", "duihua":2},
+      "34": {"name": "现场解密-复活点","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 0,"ifxiaoshi": 0},
+      "35": {"name": "现场解密-终点","mingzi": "终点","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "img_zk7","dongxiao": "","zudang": 0,"ifxiaoshi": 0},
+      "36": {"name": "现场解密-地块","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 0,"ifxiaoshi": 0},
+      "37": {"name": "老先知","mingzi": "老先知","tubiao": "ico_4","outline": "#d67d27","hero": "22046","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"prize": [{"a": "item", "t": "2093", "n": 60}],"duihua":1},
+      "40": {"name": "装饰地块","mingzi": "","tubiao": "","hero": "","image": "map_33","dongxiao": "","zudang": 1,"ifxiaoshi": 0},
+      "41": {"name": "装饰地块","mingzi": "","tubiao": "","hero": "","image": "map_34","dongxiao": "","zudang": 1,"ifxiaoshi": 0},
+      "42": {"name": "装饰地块","mingzi": "","tubiao": "","hero": "","image": "map_35","dongxiao": "","zudang": 1,"ifxiaoshi": 0},
+      "43": {"name": "噬渊石5","mingzi": "噬魂石","tubiao": "ico_8","outline": "#1e68a6","hero": "","image": "5","dongxiao": "","zudang": 1,"ifxiaoshi": 1},
+      "44": {"name": "老先知","mingzi": "老先知","tubiao": "ico_4","outline": "#d67d27","hero": "22046","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,"prize": [{"a": "item", "t": "2093", "n": 100}],"duihua":1},
+      "50": {"name": "情报事件","mingzi": "情报","tubiao": "ico_4","outline": "#d67d27","hero": "45013","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "2003", "n": 10}], "prize": [{"a": "item", "t": "1208", "n": 1}],
+            "wenben":"我这里有战场上各种绝密情报，给我{1}，我没准会考虑给你提供一些哦~"},
+      "51": {"name": "情报事件","mingzi": "情报","tubiao": "ico_4","outline": "#d67d27","hero": "45013","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "2004", "n": 10}], "prize": [{"a": "item", "t": "1209", "n": 1}],
+            "wenben":"我这里有战场上各种绝密情报，给我{1}，我没准会考虑给你提供一些哦~"},
+      "52": {"name": "情报事件","mingzi": "情报","tubiao": "ico_4","outline": "#d67d27","hero": "45013","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "2005", "n": 10}], "prize": [{"a": "item", "t": "1210", "n": 1}],
+            "wenben":"我这里有战场上各种绝密情报，给我{1}，我没准会考虑给你提供一些哦~"},
+      "53": {"name": "情报事件","mingzi": "情报","tubiao": "ico_4","outline": "#d67d27","hero": "45013","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "item", "t": "2017", "n": 10}], "prize": [{"a": "item", "t": "1211", "n": 1}],
+            "wenben":"我这里有战场上各种绝密情报，给我{1}，我没准会考虑给你提供一些哦~"},
+      "54": {"name": "情报事件","mingzi": "情报","tubiao": "ico_4","outline": "#d67d27","hero": "45013","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1,  "need": [{"a": "attr", "t": "jinbi", "n": 10000}], "prize": [{"a": "item", "t": "1212", "n": 1}],
+            "wenben":"我这里有战场上各种绝密情报，给我{1}，我没准会考虑给你提供一些哦~"},
+      "55": {"name": "下一关","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1, "target": "3"},
+      "60": {"name": "boss周边格子","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1, "target": "3"},
+      "61": {"name": "到终点的飞艇","mingzi": "","tubiao": "","hero": "","image": "","dongxiao": "","zudang": 1,"ifxiaoshi": 1}
+    },
+
+  "daoju": [1201,1202,1203,1204,1205,1206,1207,1208,1209,1210,1211,1212],
+    "useinfo": {
+    "1": {
+      "need": [{"a": "item", "t": "1213", "n": 1}],
+      "pro": 600,
+      "name": "大血瓶",
+      "intr":"回复百分60的血量"
+    },
+    "2": {
+      "need": [{"a": "item", "t": "1214", "n": 1}],
+      "pro": 300,
+      "name": "亡魂秘药",
+      "intr":"复活，并回复血量30%"},
+    "3": {
+      "need": [{"a": "item", "t": "1215", "n": 1}],
+      "pro": 0,
+      "fanwei":3,
+      "name": "强力毒药",
+      "intr":"直接杀死一名小怪"},
+    "4": {
+      "need": [{"a": "item", "t": "1216", "n": 1}],
+        "pro": 0,
+        "fanwei":10,
+      "name": "驱散迷雾",
+      "intr":"驱散全图迷雾"}
+    },
+
+
+    "questions": [
+      {	"id":1,"lihui":61025,"mingzi":"指挥官","content":"正常人类的血液容量，约占本人体积的比例是多少？","answer"	:{"1":{"intr":"1/14"},"2":{"intr":"1/16"},"3"	:{"intr":"1/15"}},"right":"1"},
+      {	"id":2,"lihui":61025,"mingzi":"指挥官","content":"唯一会飞的哺乳动物是什么？","answer"	:{"1":{"intr":"鸽子"},"2":{"intr":"蝙蝠"},"3"	:{"intr":"麻雀"}},"right":"2"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"人体汗腺分布最多的部位是？","answer"	:{"1":{"intr":"手掌和脚底"},"2":{"intr":"腋下和头部"},"3"	:{"intr":"背部"}},"right":"1"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"辛弃疾比陆游小多少岁？","answer"	:{"1":{"intr":"同岁"},"2":{"intr":"7岁"},"3"	:{"intr":"15岁"}},"right":"3"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"蝌蚪依靠什么器官呼吸？","answer"	:{"1":{"intr":"鳃"},"2":{"intr":"肺"},"3"	:{"intr":"胃"}},"right":"1"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"哈雷彗星的平均周期为？","answer"	:{"1":{"intr":"54年"},"2":{"intr":"82年"},"3"	:{"intr":"76年"}},"right":"3"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"白熊生长在什么地方？","answer"	:{"1":{"intr":"南极"},"2":{"intr":"北极"},"3"	:{"intr":"赤道"}},"right":"2"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"人耳听觉范围是？","answer"	:{"1":{"intr":"20Hz~20000Hz"},"2":{"intr":"200Hz~20000Hz"},"3"	:{"intr":"2000Hz~20000Hz"}},"right":"1"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"米是植物中的哪一部分？","answer"	:{"1":{"intr":"根茎"},"2":{"intr":"种子"},"3"	:{"intr":"果实"}},"right":"2"},
+      {	"id":3,"lihui":61025,"mingzi":"指挥官","content":"引起水体富营养化的是哪些元素？","answer"	:{"1":{"intr":"钾、铁"},"2":{"intr":"氧、钙"},"3"	:{"intr":"氮、磷"}},"right":"3"}
+      ],
+
+      "duihua": {
+        "1": {"xianshi": [1,22046],
+          "1":{"lihui":22046,"mingzi":"老先知","neirong":"你好年轻人，快来我这看看。"},
+          "2":{"lihui":1,"mingzi":"","neirong":"你好，请问有什么事？"},
+          "3":{"lihui":22046,"mingzi":"老先知","neirong":"我看你相貌不凡，来跟我玩个游戏吧~"}
+        },
+        "2": {"xianshi": [1,61025],
+          "1":{"lihui":61025,"mingzi":"指挥官","neirong":"你好勇士，为了证明你有资格踏上这战场，你必须回答我一个问题。"},
+          "2":{"lihui":1,"mingzi":"","neirong":"尊敬的指挥官，我愿意挑战！"},
+          "3":{"lihui":61025,"mingzi":"指挥官","neirong":"哈哈，果然爽快！"}
+        },
+        "3": {"xianshi": [1,63036],
+          "1":{"lihui":1,"mingzi":"","neirong":"我来上交情报！"},
+          "2":{"lihui":63036,"mingzi":"情报官","neirong":"很好，让我看看你你的收获！"}
+        },
+        "4": {"xianshi": [1,11096],
+          "1":{"lihui":1,"mingzi":"","neirong":"你好，请问有什么需要帮助的吗？"},
+          "2":{"lihui":11096,"mingzi":"冷血督军","neirong":"我和艾琳一起上的前线，但是在战乱中走散了，你能帮我<font color=#d67d27>找到艾琳</font>吗？"},
+          "3":{"lihui":1,"mingzi":"","neirong":"包在我身上！"}
+        },
+        "5": {"xianshi": [1,15035],
+          "1":{"lihui":1,"mingzi":"","neirong":"你好，请问有什么我可以帮助你的吗？"},
+          "2":{"lihui":15035,"mingzi":"暗影猎手","neirong":"我的小队就剩我一个重伤的人了，但是我很想帮他们报仇，你能帮我<font color=#d67d27>击杀暗影巫医</font>吗？"},
+          "3":{"lihui":1,"mingzi":"","neirong":"等我的好消息！"}
+        },
+        "6": {"xianshi": [1,24045],
+          "1":{"lihui":1,"mingzi":"","neirong":"你好像在找什么人？"},
+          "2":{"lihui":24045,"mingzi":"幻影利刃","neirong":"是的，我们的小队作战急需一位大法师，你能帮我<font color=#d67d27>寻找到逐日法师</font>吗？"},
+          "3":{"lihui":1,"mingzi":"","neirong":"交给我吧！"}
+        },
+        "7": {"xianshi": [1,43075],
+          "1":{"lihui":1,"mingzi":"","neirong":"可算找到你了艾琳，冷血督军在北面800米处等你，希望你尽快和她汇合！"},
+          "2":{"lihui":43075,"mingzi":"艾琳","neirong":"太感谢了你了，我正在找她呢，这就过去！"}
+        },
+        "8": {"xianshi": [1,32034],
+          "1":{"lihui":1,"mingzi":"","neirong":"逐日法师！你收到幻影利刃的邀请了吧，他在南面600米处等你，他现在需要你！"},
+          "2":{"lihui":32034,"mingzi":"逐日法师","neirong":"我收到了，我这就去与他汇合，谢谢你！"}
+        }
+        },
+    "saman": 
+      {"lihui":22046,"jushu":3,"beishu":[1,1,2],"yuansu":[{"1":"星星"},{"2":"月亮"},{"3":"太阳"}],
+      "hua0":"记住这三个图案，转换后你需要指出其中一张的位置，我们最多玩3局。每次正确将获得更多收益，但是失败1次奖励就归零哦~",
+      "hua1":"请记住{1}的位置","hua2":"请选择！","hua3":"厉害啊年轻人！","hua4":"到此结束了！","hua5":"已经3局了，下次再会！"},
+
+    "layerprize":[
+     {"prize": [{"a": "item", "t": "2093", "n": 1000},{"a": "attr", "t": "jinbi", "n": 200000}], "intr": "本轮通关1层:<font color={1}>{2}</font>/{3}", "pval": 1},
+     {"prize": [{"a": "item", "t": "2093", "n": 2000},{"a": "attr", "t": "jinbi", "n": 250000}], "intr": "本轮通关2层:<font color={1}>{2}</font>/{3}", "pval": 2},
+     {"prize": [{"a": "item", "t": "2093", "n": 3000},{"a": "attr", "t": "jinbi", "n": 300000}], "intr": "本轮通关4层:<font color={1}>{2}</font>/{3}", "pval": 4},
+     {"prize": [{"a": "item", "t": "2093", "n": 4000},{"a": "attr", "t": "jinbi", "n": 350000}], "intr": "本轮通关6层:<font color={1}>{2}</font>/{3}", "pval": 6},
+     {"prize": [{"a": "item", "t": "2093", "n": 5000},{"a": "attr", "t": "jinbi", "n": 400000}], "intr": "本轮通关8层:<font color={1}>{2}</font>/{3}", "pval": 8},
+     {"prize": [{"a": "item", "t": "2093", "n": 5000},{"a": "attr", "t": "jinbi", "n": 500000}], "intr": "本轮通关10层:<font color={1}>{2}</font>/{3}", "pval": 10}
+
+   ],
+    "toplayerprize": [
+     {"prize": [{"a": "item", "t": "61025", "n": 50}], "intr": "首次通关第10层:<font color={1}>{2}</font>/{3}", "pval": 10},
+     {"prize": [{"a": "item", "t": "61025", "n": 50}], "intr": "首次通关第20层:<font color={1}>{2}</font>/{3}", "pval": 20},
+     {"prize": [{"a": "item", "t": "61025", "n": 50}], "intr": "首次通关第30层:<font color={1}>{2}</font>/{3}", "pval": 30},
+     {"prize": [{"a": "item", "t": "61025", "n": 50}], "intr": "首次通关第40层:<font color={1}>{2}</font>/{3}", "pval": 40},
+     {"prize": [{"a": "item", "t": "61025", "n": 50}], "intr": "首次通关第50层:<font color={1}>{2}</font>/{3}", "pval": 50},
+     {"prize": [{"a": "item", "t": "4009", "n": 50}], "intr": "首次通关第60层:<font color={1}>{2}</font>/{3}", "pval": 60},
+     {"prize": [{"a": "item", "t": "4009", "n": 50}], "intr": "首次通关第70层:<font color={1}>{2}</font>/{3}", "pval": 70},
+     {"prize": [{"a": "item", "t": "4009", "n": 50}], "intr": "首次通关第80层:<font color={1}>{2}</font>/{3}", "pval": 80},
+     {"prize": [{"a": "item", "t": "4009", "n": 50}], "intr": "首次通关第90层:<font color={1}>{2}</font>/{3}", "pval": 90},
+     {"prize": [{"a": "item", "t": "4009", "n": 50}], "intr": "首次通关第100层:<font color={1}>{2}</font>/{3}", "pval": 100}
+   ],
+      "log": {
+        "win": "战斗胜利！我方小队在战场第{1}层成功击败一名{2}。",
+        "lost": "我方勇士在战场第{1}层不慎战败，一个小队牺牲了。"
+    },
+    "chatcontent": "快来帮我看看，这个问题的答案",
+    "huituicengshu": [0,-5,-10],
+    "gudingcengshu": [10,-10],
+    "maxcengshu": 100,
+    "layerlimit": 10,
+    "zdxueliangfs": 5,
+    "xueliangfudong": 0.05,
+    "meiluncengshu": 15,
+    "meirijiesuo": 5,
+    "duizhang":{
+        "1":"42016",
+        "2":"22036",
+        "3":"41066"
+    },
+    "eventHideTime": 3
+}
+
+
+
+

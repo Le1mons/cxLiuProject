@@ -1,0 +1,19 @@
+user_getgezinum: 获取英雄格子数量
+参数：[]
+返回值：{'s': 1, 'd': {'gezinum': 0}
+
+user_addgezinum: 增加英雄格子数量
+参数：[]
+返回值：{'s': 1, 'd': {'gezinum': 0}
+
+user_rename: 更换名称
+参数：[name]
+返回值：{'s': 1}
+
+user_changeavater: 更换头像
+参数：[新头像]
+返回值：{'s': 1}
+
+user_avaterlist: 头像列表
+参数：[name]
+返回值：{'s': 1,'d':{'avaterlist':[hid]}}

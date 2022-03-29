@@ -1,0 +1,333 @@
+[
+	{
+		"timestr":"00 23 * * 5",
+		"api":"crosszb_jifentopuser",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"01 22 * * 0",
+		"api":"crosszb_sendzbrankprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"05 23 * * 5",
+		"api":"crosszb_sendjfrankprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 1 * * 6",
+		"api":"crosszb_fmtzbdata",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 3 * * *",
+		"api":"competing_chkopen",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"10 3 * * *",
+		"api":"competing_mirror",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"55 3 * * *",
+		"api":"competing_match",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"55 4 * * *",
+		"api":"competing_match",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"55 5 * * *",
+		"api":"competing_match",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 22 * * *",
+		"api":"competing_settle",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"05 22 * * 2",
+		"api":"crosswz_dldjinjiprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"45 11 * * 3",
+		"api":"crosswz_domatch",
+		"arg":[0],
+		"karg":{}
+	},
+	{
+		"timestr":"50 19 * * 3",
+		"api":"crosswz_domatch",
+		"arg":[1],
+		"karg":{}
+	},
+	{
+		"timestr":"55 11 * * 4",
+		"api":"crosswz_domatch",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"55 19 * * 4",
+		"api":"crosswz_domatch",
+		"arg":[3],
+		"karg":{}
+	},
+	{
+		"timestr":"10 20 * * 4",
+		"api":"crosswz_giveprize",
+		"arg":["zuanshi"],
+		"karg":{}
+	},
+	{
+		"timestr":"55 11 * * 6",
+		"api":"crosswz_domatch",
+		"arg":[4],
+		"karg":{}
+	},
+	{
+		"timestr":"55 19 * * 6",
+		"api":"crosswz_domatch",
+		"arg":[5],
+		"karg":{}
+	},
+	{
+		"timestr":"55 11 * * 0",
+		"api":"crosswz_domatch",
+		"arg":[6],
+		"karg":{}
+	},
+	{
+		"timestr":"55 19 * * 0",
+		"api":"crosswz_domatch",
+		"arg":[7],
+		"karg":{}
+	},
+	{
+		"timestr":"20 20 * * 0",
+		"api":"crosswz_giveprize",
+		"arg":["wangzhe"],
+		"karg":{}
+	},
+	{
+		"timestr":"25 20 * * 0",
+		"api":"wangzhe_wanzhezhidian",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"30 20 * * 0",
+		"api":"crosswz_jingcaiprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * 2",
+		"api":"crosswz_generatenpc",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 22 * * 2",
+		"api":"wangzhe_daluandouupload",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * *",
+		"api":"wjzz_reserve",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 22 * * *",
+		"api":"wjzz_prize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"05 23 * * 1",
+		"api":"wjzz_group",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 05 * * 3",
+		"api":"cross_chkdata",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"10 22 * * 00",
+		"api":"ladder_prize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * 1",
+		"api":"cross_servergroup",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"05 20 * * *",
+		"api":"gonghuisiege_sendcityprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"59 11 * * *",
+		"api":"double11_prize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"30 22 * * *",
+		"api":"gpjjc_prize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 12 * * *",
+		"api":"herohot_kuaizhao",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"30 22 * * *",
+		"api":"herohot_kuaizhao",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"05 22 * * *",
+		"api":"herohot_promoted",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 12 * * *",
+		"api":"herohot_sendpoolprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * *",
+		"api":"herohot_sendprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * *",
+		"api":"herohot_tishi",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * *",
+		"api":"planttrees_sendprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"*/5 00 * * *",
+		"api":"planttrees_commonval",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 22 * * 4",
+		"api":"crosswz_extset",
+		"arg":[0],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 23 * * 4",
+		"api":"crosswz_extset",
+		"arg":[0],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 00 * * 5",
+		"api":"crosswz_extset",
+		"arg":[1],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 7 * * 5",
+		"api":"crosswz_extset",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 8 * * 5",
+		"api":"crosswz_extset",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 9 * * 5",
+		"api":"crosswz_extset",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 10 * * 5",
+		"api":"crosswz_extset",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"*/10 11 * * 5",
+		"api":"crosswz_extset",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"00 00 * * *",
+		"api":"lianhunta_creationguanka",
+		"arg":[2],
+		"karg":{}
+	},
+	{
+		"timestr":"59 21 * * *",
+		"api":"longzhou_star",
+		"arg":[],
+		"karg":{}
+	},
+		{
+		"timestr":"14 22 * * *",
+		"api":"longzhou_sendprize",
+		"arg":[],
+		"karg":{}
+	},
+	{
+		"timestr":"04 22 * * 0",
+		"api":"wujinzhita_sendprize",
+		"arg":[],
+		"karg":{}
+	},
+		{
+		"timestr":"00 12 * * *",
+		"api":"midautumn2_sendprize",
+		"arg":[],
+		"karg":{}
+	}
+]
+

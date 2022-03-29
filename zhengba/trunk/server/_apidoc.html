@@ -1,0 +1,2275 @@
+
+        <meta charset="utf-8"/>
+        <style>
+        table {  
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;  
+            color:#111;  
+            border-width: 1px;  
+            border-color: #666666;  
+            border-collapse: collapse;  
+            width:100%;
+            margin:30px 0;
+        }  
+        table th {  
+            border-width: 1px;  
+            padding: 8px;  
+            border-style: solid;  
+            border-color: #666666;  
+            background-color: #dedede;  
+        }  
+        table td {  
+            border-width: 1px;  
+            padding: 8px;  
+            border-style: solid;  
+            border-color: #666666;  
+            background-color: #ffffff;  
+        } 
+        .parmp{margin-bottom:15px;padding:5px; border-bottom:1px solid #eee}
+        .zhushi{color:#888}
+        #api{ width:90%;margin:auto;font-size:12px;font-family: verdana,arial,sans-serif;}
+        </style>
+        <table border = "1" id="api">
+                <tr>
+                        <th>接口</th>
+                        <th style="width:30%">描述</th>
+                        <th>参数</th>
+                </tr>
+                <tr>
+                        <td>api_area_explore.py</td>
+                        <td>
+探索区域接口
+</td>
+                        <td><p class='parmp'>    areaid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_businessman_buy.py</td>
+                        <td>
+    :param data: [iteminfo,shopidx]
+    </td>
+                        <td><p class='parmp'>    _itemid = int(data[0])
+</p><p class='parmp'>    _shopidx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_businessman_open.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_bzkj_open.py</td>
+                        <td>
+    兵种科技 - 打开接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_bzkj_upgrade.py</td>
+                        <td>
+兵种科技 - 升级兵种科技
+</td>
+                        <td><p class='parmp'>    bztype = str(data[0])
+</p><p class='parmp'>    _needtype = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_card_get.py</td>
+                        <td>
+翻牌 - 开始翻牌
+</td>
+                        <td><p class='parmp'>    act = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_card_getlist.py</td>
+                        <td>
+翻牌 - 获取翻牌奖励列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_chat_open.py</td>
+                        <td>
+    私聊打开接口
+</td>
+                        <td><p class='parmp'>        _touid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_chat_search.py</td>
+                        <td>
+    聊天 - 搜索好友接口
+</td>
+                        <td><p class='parmp'>    name = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_chat_send.py</td>
+                        <td>
+聊天 - 发送聊天消息
+</td>
+                        <td><p class='parmp'>    content = data[0]
+</p><p class='parmp'>    mtype = int(data[1])
+</p><p class='parmp'>                'url':data[2][0],
+</p><p class='parmp'>                'time':data[2][1]
+</p><p class='parmp'>        _touid = str(data[2])
+</p><p class='parmp'>            _vdata = data[3]
+</p><p class='parmp'>                'url':_vdata[0],
+</p><p class='parmp'>                'time':_vdata[1]
+</p><p class='parmp'>                'url':data[2][0],
+</p><p class='parmp'>                'time':data[2][1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_chat_settings.py</td>
+                        <td>
+聊天 - 发送聊天消息
+</td>
+                        <td><p class='parmp'>        _key = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_chongzhi_open.py</td>
+                        <td>
+充值功能 - 打开充值界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_chongzhi_pay.py</td>
+                        <td>
+充值功能
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #充值用户
+</span><br/>    uid = str(data[0])
+</p><p class='parmp'><span class='zhushi'>    #充值商品唯一配置id
+</span><br/>    proid = str(data[1])
+</p><p class='parmp'><span class='zhushi'>    #充值订单
+</span><br/>    orderid = str(data[2])
+</p><p class='parmp'><span class='zhushi'>        #实际价额
+</span><br/>        unitPrice = int(data[3])#分
+</p><p class='parmp'><span class='zhushi'>        #验证key
+</span><br/>        secKey = str(data[4])
+</p><p class='parmp'>        act = int(data[1])
+</p><p class='parmp'>        money = str(data[2])
+</p><p class='parmp'>        orderid = str(data[3])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_addarmy.py</td>
+                        <td>if _cityData['status'] == 0:
+        #未开战状态不可派兵
+        _res["s"]=-4
+        _res["errmsg"] = g.L("cityfight_addarmy_-4")
+        return _res</td>
+                        <td><p class='parmp'>    _cid = str(data[0])
+</p><p class='parmp'>    _tids = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_armylist.py</td>
+                        <td>
+派兵列表
+</td>
+                        <td><p class='parmp'>    _cid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_fhheros.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'><span class='zhushi'>    #数组为复活多个英雄，不为数组则是复活全部
+</span><br/>    _hidList = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_fuhuo.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_guide.py</td>
+                        <td>
+新手指导-城战开战
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_join.py</td>
+                        <td>
+城战 - 加入城战 --未使用
+</td>
+                        <td><p class='parmp'>    heros = data[0]
+</p><p class='parmp'>    cityid = int(data[1])
+</p><p class='parmp'>    side = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_openteam.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_retract.py</td>
+                        <td>
+    uid = conn.uid
+    _hidList = []
+    #撤回大本营中的队伍
+    _slTeam = g.mdb.find('shilicunbing',{'uid':uid})
+    if len(_slTeam) > 0:
+        #删除势力存兵
+        g.mdb.delete('shilicunbing',{'uid':uid})
+        for team in _slTeam:
+            _hidList += team['heros'].keys()
+
+    _sendData = {}
+    _sendData['uid'] = uid
+    #通知战斗服务器
+    g.m.mymq.sendToMQ('serversfight','cityfight_retract',_sendData)
+    if len(_hidList) > 0:
+        #删除英雄记录
+        g.mdb.delete("fightcity_hero",{'uid':uid,'hid':{'$in':_hidList}})
+
+    </td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_showxz.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _cid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_userlist.py</td>
+                        <td>
+城战 - 获取城战内玩家信息
+</td>
+                        <td><p class='parmp'>    cityname = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_userstatus.py</td>
+                        <td>
+城战 - 查看城池内人物信息
+</td>
+                        <td><p class='parmp'>    _cityname = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_xz.py</td>
+                        <td>
+城战宣战
+</td>
+                        <td><p class='parmp'>    _cid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cityfight_xz_buynum.py</td>
+                        <td>
+    势力功能 - 允许加入
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityprize_get.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityprize_getbox.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityprize_open.py</td>
+                        <td>
+    城池产出 - 打开接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_cityprize_openbox.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_city_getlist.py</td>
+                        <td>
+获取城池列表信息
+</td>
+                        <td><p class='parmp'>        for d in data[0]:
+</p><p class='parmp'><span class='zhushi'>    #太守信息
+</span><br/>    if data and len(data[0])==1:
+</p><p class='parmp'>        _cityname = data[0][0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_console.py</td>
+                        <td>
+    内部测试用接口
+    
+    Happy Hacking
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    elif data[0] in ('help',''):
+</p><p class='parmp'>    elif isinstance(data[0],basestring) and data[0] in ("whosyourdaddy","wyd","godmode","tobeno1","god","fuck","gm","baba"):
+</p><p class='parmp'>        if len(data)>1: _limit = int(data[1])
+</p><p class='parmp'>    elif str(data[0]) in ('我要小伙伴','allstar','allheros'):
+</p><p class='parmp'>    elif str(data[0])=='email':
+</p><p class='parmp'>        _title = str(data[1])
+</p><p class='parmp'>        _content = str(data[2])
+</p><p class='parmp'>    elif data[0] in ('delyzxy'):
+</p><p class='parmp'>    elif data[0] in ("shouhuo","makemerich"):
+</p><p class='parmp'>    elif data[0] == "hero":
+</p><p class='parmp'>        _hid = str(data[0])
+</p><p class='parmp'>    elif data[0] == "showmethemoney" or data[0] == "smtm":
+</p><p class='parmp'>    elif data[0] in ("google","search"):
+</p><p class='parmp'>        _name = str(data[1])
+</p><p class='parmp'>    elif data[0] in ("item","jianhun"):
+</p><p class='parmp'>        _type = str(data[0])
+</p><p class='parmp'>        _itemid = str(data[1])
+</p><p class='parmp'>        _num = int(data[2])
+</p><p class='parmp'>    elif data[0] == "itemup":
+</p><p class='parmp'>        _hid = str(data[1])
+</p><p class='parmp'>    elif data[0] == "delmsmq":
+</p><p class='parmp'>    elif data[0]=="deljdzd":
+</p><p class='parmp'>    elif data[0] == "deltask":
+</p><p class='parmp'>    elif data[0] == "gentask":
+</p><p class='parmp'>    elif data[0] == "fstatus":
+</p><p class='parmp'>    elif data[0] == "finfo":
+</p><p class='parmp'>    elif data[0] == 'delfstatus':
+</p><p class='parmp'>    elif data[0] == 'delfinfo':
+</p><p class='parmp'>    elif data[0] in ('takemetocity','city','gaotie','dongche','gt','dc','bus','lsj'):
+</p><p class='parmp'>        _cityidx = str(data[1])
+</p><p class='parmp'>    elif data[0]=='msg':
+</p><p class='parmp'>        msg = str(data[1])
+</p><p class='parmp'>        _attr,_value = data[0],data[1]
+</p><p class='parmp'><span class='zhushi'>    # 重算军衔等级
+</span><br/>    elif str(data[0]) == 'refjunxian':
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_cpzz_open.py</td>
+                        <td>
+长平之战-打开界面接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_email_delete.py</td>
+                        <td>
+邮件 - 一键删除邮件
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #删除邮件
+</span><br/>    eid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_email_deleteall.py</td>
+                        <td>
+邮件 - 删除所有已读and (领奖 or 没有奖励)的邮件
+
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_email_details.py</td>
+                        <td>
+邮件 - 查看邮件详细
+</td>
+                        <td><p class='parmp'>    eid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_email_getallprize.py</td>
+                        <td>
+邮件 - 一键领取奖励
+</td>
+                        <td><p class='parmp'>    etype = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_email_getprize.py</td>
+                        <td>
+邮件 - 领取邮件奖励
+</td>
+                        <td><p class='parmp'>    eid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_email_open.py</td>
+                        <td>
+邮件 - 打开邮件列表
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    # 如果是红点获取邮件列表会有额外参数，不设置检测时间
+</span><br/>    if data and data[0]==None:
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_email_sendemail.py</td>
+                        <td>
+邮件 - 发送个人邮件
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #邮件内容
+</span><br/>    content = data[0]
+</p><p class='parmp'><span class='zhushi'>    #接收人
+</span><br/>    touid = str(data[1])
+</p><p class='parmp'><span class='zhushi'>    #接受人名称
+</span><br/>    toname = str(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_accomplishupgrade.py</td>
+                        <td>
+    封地功能 - 立即完成升级接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    fid = str(data[0])
+</p><p class='parmp'>        idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_buybuilding.py</td>
+                        <td>
+    封地功能 - 购买生产类建筑接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    fid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_buyuplist.py</td>
+                        <td>
+    封地功能 - 升级队列数量购买接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_gjffinish.py</td>
+                        <td>
+    工匠坊 - 完成接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    bidx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_gjfljfinish.py</td>
+                        <td>
+    工匠坊 - 立即完成接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    bidx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_gjfmake.py</td>
+                        <td>
+    封地功能 - 工匠坊功能使用接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    bidx = int(data[0]) #建筑索引
+</p><p class='parmp'><span class='zhushi'>    bidx = int(data[0]) #建筑索引
+</span><br/>    jxidx = int(data[1]) #军械索引
+</p><p class='parmp'><span class='zhushi'>    jxidx = int(data[1]) #军械索引
+</span><br/>    hid = str(data[2])
+</p><p class='parmp'>    rate = int(data[3])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_jclq.py</td>
+                        <td>
+    封地功能 - 校场英雄训练
+    Programmmed by sgd
+</td>
+                        <td><p class='parmp'>    # data[0]=jxindex
+</p><p class='parmp'>    # data[1]=是否立即完成，1是立即完成
+</p><p class='parmp'>    _jcindex = int(data[0])
+</p><p class='parmp'>    if data[1] == 1:
+</p><p class='parmp'><span class='zhushi'>    # 如果时间没到：不能领取
+</span><br/>    if g.C.NOW() < _hEtime and data[1] != 1:
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_jcxl.py</td>
+                        <td>
+    封地功能 - 校场英雄训练
+    Programmmed by sgd
+</td>
+                        <td><p class='parmp'>    # data[0]=hid
+</p><p class='parmp'>    # data[1]=jxindex
+</p><p class='parmp'>    # data[2]=倍率
+</p><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _jcindex = int(data[1])
+</p><p class='parmp'>    _rate = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_jcxlopen.py</td>
+                        <td>
+    封地功能 - 校场英雄训练
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_open.py</td>
+                        <td>
+    封地功能 - 打开接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_openbuilding.py</td>
+                        <td>
+    封地功能 - 建筑打开接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    fid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_ronglianjunxie.py</td>
+                        <td>
+    封地功能 - 熔炼军械接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    itemid = str(data[0])
+</p><p class='parmp'>    num = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_shouhuo.py</td>
+                        <td>
+    封地功能 - 收获接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    _fid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fengdi_upbuilding.py</td>
+                        <td>
+    封地功能 - 封地建筑通用升级接口
+    两种情况：
+    1，生产类建筑：
+        由于生产类建筑会有多个，所以需要传入索引
+
+    2, 非生产类建筑：不需要索引
+    
+    #todo:
+        1, vip6以上升级不需要等待
+
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    fid = str(data[0])
+</p><p class='parmp'>        idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fighttest_start.py</td>
+                        <td>
+测试战斗接口
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #_myTeam格式：['1001','1023','1049','1011','1034']
+</span><br/>    _myTeam = data[0]
+</p><p class='parmp'>    _enemyTeam = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fight_cancel.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'><span class='zhushi'>    #战斗队伍信息,包含坐标信息和主将
+</span><br/>    _ftype = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fight_jump.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _ftype = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fight_ready.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _ftype = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fight_replay.py</td>
+                        <td>
+    战斗回放接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    fid = str(data[0])
+</p><p class='parmp'>    ftype = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_fight_start.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'><span class='zhushi'>    #战斗队伍信息,包含坐标信息和主将
+</span><br/>    _ftype = data[0]
+</p><p class='parmp'>            _res['d']['needliangcao'] = g.m.herofun.getHerosLiangCao(uid,data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_formation_add.py</td>
+                        <td>
+自定义阵型 - 新增/编辑阵型
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #heros 坐标
+</span><br/>    heros = data[0]
+</p><p class='parmp'><span class='zhushi'>    #idx 是否编辑的idx
+</span><br/>    idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_formation_altattr.py</td>
+                        <td>
+    自定义阵型 - 改变队伍属性
+
+    自动复活基于自动派兵，
+</td>
+                        <td><p class='parmp'>    idx = int(data[0])
+</p><p class='parmp'>    key = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_formation_rename.py</td>
+                        <td>
+势力功能 - 打开势力界面
+</td>
+                        <td><p class='parmp'>    _fid = data[0] #队伍id
+</p><p class='parmp'><span class='zhushi'>    _fid = data[0] #队伍id
+</span><br/>    _name = data[1] #队伍名
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_getayncbtn.py</td>
+                        <td>
+获取客户端动态按钮
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_getmsg.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_guanzhi_open.py</td>
+                        <td>
+官职 - 打开官职界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_guanzhi_upgrade.py</td>
+                        <td>
+官职 - 升级官职
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_hd_doubleopen.py</td>
+                        <td>
+活动-双倍活动
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_hd_herotjbuy.py</td>
+                        <td>
+活动-英雄推荐购买
+</td>
+                        <td><p class='parmp'>    _jhid = str(data[0])
+</p><p class='parmp'>    _act = data[1]['act']
+</p><p class='parmp'>        _buyNum = int(data[1]['num'])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hd_herotjopen.py</td>
+                        <td>
+活动-英雄推荐主界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_hd_tehuibuy.py</td>
+                        <td>
+活动-购买特惠信息
+</td>
+                        <td><p class='parmp'>    _idx = int(data[0])
+</p><p class='parmp'>    _chkPrize = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hd_tehuiczprize.py</td>
+                        <td>
+活动-领取充值prize
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_hd_tehuiopen.py</td>
+                        <td>
+活动-每日特惠主界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_herogroup_main.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_herogroup_stepup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _gid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_addexp.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _itemid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_addfb.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _fbid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_bzattrup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_fbup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_getfb.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_getlist.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_hero_itemup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_jianhundown.py</td>
+                        <td>
+    脱下剑魂
+</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _jhTid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_jianhunup.py</td>
+                        <td>
+    穿戴剑魂
+</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _jhTid = str(data[1])
+</p><p class='parmp'>    _pos = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_jihuomj.py</td>
+                        <td>
+    激活名将
+</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_openaddexp.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_pzup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_shenbingdown.py</td>
+                        <td>
+    卸下神兵
+</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_shenbingup.py</td>
+                        <td>
+    穿戴神兵
+</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _sbid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_starup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_yjaddexp.py</td>
+                        <td>
+                1, 主公20级之前，将领最多只能升级到20级
+                2, 主公20级之后，将领最多只能升到主公等级
+            </td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_yjbest.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_yjbzattrup.py</td>
+                        <td>
+    兵种特性一键升级
+</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p><p class='parmp'>    _idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_yjfb.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hero_yjitemup.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_hongdian_get.py</td>
+                        <td>
+红点 - 获取所有红点
+</td>
+                        <td><p class='parmp'>        _keys = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_huodong_open.py</td>
+                        <td>
+活动 - 打开活动子列表
+</td>
+                        <td><p class='parmp'>    hdid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_huodong_openlist.py</td>
+                        <td>
+活动 - 打开活动列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_huodong_use.py</td>
+                        <td>
+活动 - 使用活动(领取/购买)
+</td>
+                        <td><p class='parmp'>    hdid = int(data[0])
+</p><p class='parmp'>    act = int(data[1])
+</p><p class='parmp'>    idx = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_item_getlist.py</td>
+                        <td>
+获取背包信息
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_item_use.py</td>
+                        <td>
+使用物品,统一接口
+</td>
+                        <td><p class='parmp'>    itemid = str(data[0])
+</p><p class='parmp'>        num = int(data[1])
+</p><p class='parmp'>        tid = str(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jdzd_open.py</td>
+                        <td>
+	经典战斗-打开界面
+	1, 获取所有的任务信息
+</td>
+                        <td><p class='parmp'>    jdzdid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jianhun_bufffmt.py</td>
+                        <td>
+获取剑魂buff等级信息
+</td>
+                        <td><p class='parmp'>    _color = str(data[0])
+</p><p class='parmp'>    _buff = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jianhun_getlist.py</td>
+                        <td>
+获取剑魂信息
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_jianhun_shengji.py</td>
+                        <td>
+    剑魂升级
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #升级剑魂tid
+</span><br/>    _jhTid = str(data[0])
+</p><p class='parmp'><span class='zhushi'>    #被吞噬的tid列表
+</span><br/>    _tsJHTidList = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jianhun_yjshengji.py</td>
+                        <td>
+    剑魂一键升级
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #升级剑魂tid
+</span><br/>    _jhTid = str(data[0])
+</p><p class='parmp'><span class='zhushi'>    #需要吞噬剑魂的color
+</span><br/>    _colorList = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jiaofei_open.py</td>
+                        <td>
+打开剿匪界面
+</td>
+                        <td><p class='parmp'>    cityid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jiaofei_sweep.py</td>
+                        <td>
+开始挂机扫荡剿匪
+</td>
+                        <td><p class='parmp'>    jiaofeiid = int(data[0])
+</p><p class='parmp'>    num = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_jiuguan_get.py</td>
+                        <td>
+酒馆接口 - 打开酒馆界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_jiuguan_prize.py</td>
+                        <td>
+    送豪宴领取按钮
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_jiuguan_shyopen.py</td>
+                        <td>
+    送豪宴 － 打开接口
+
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_jiuguan_use.py</td>
+                        <td>
+酒馆接口 - 使用酒馆
+</td>
+                        <td><p class='parmp'>    jtype = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_junfu_buygezi.py</td>
+                        <td>
+    军府功能 - 购买格子接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    jtype = str(data[0])
+</p><p class='parmp'>    jfid = str(data[1])
+</p><p class='parmp'>    # gzidx = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_junfu_open.py</td>
+                        <td>
+    军府功能 - 打开接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_junfu_openweiren.py</td>
+                        <td>
+    军府功能 - 打开委任接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    jtype = str(data[0])
+</p><p class='parmp'>    jfid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_junfu_weiren.py</td>
+                        <td>
+    军府功能 - 委任接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    jtype = str(data[0])
+</p><p class='parmp'>    jfid = str(data[1])
+</p><p class='parmp'>    hidlist = data[2]
+</p><p class='parmp'>        idx = int(data[3])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_login.py</td>
+                        <td>
+登陆接口
+</td>
+                        <td><p class='parmp'>    _binduid = data[0]
+</p><p class='parmp'>    _t = data[1]
+</p><p class='parmp'>    _k = data[2]
+</p><p class='parmp'>        _userData = data[3]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_msmq_getlist.py</td>
+                        <td>
+民生民情 - 获取任务列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_msmq_open.py</td>
+                        <td>
+民生民情 - 获取任务列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_mubiao_open.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_notice.py</td>
+                        <td>
+活动-公告
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_office_salaryopen.py</td>
+                        <td>
+官职日常奖励
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_office_salaryprize.py</td>
+                        <td>
+官职日常奖励领取
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_oncetask_getlist.py</td>
+                        <td>
+获取所有固定活动列表
+</td>
+                        <td><p class='parmp'>    _groupName = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_oncetask_getprize.py</td>
+                        <td>
+获取某活动组详细数据
+</td>
+                        <td><p class='parmp'>    _groupid = str(data[0])
+</p><p class='parmp'>    _taskid = str(data[1])
+</p><p class='parmp'>    _data = _data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_oncetask_getprogprize.py</td>
+                        <td>
+获取某活动组详细数据
+</td>
+                        <td><p class='parmp'>    _groupname = str(data[0]) #如：qirikuanghuan
+</p><p class='parmp'><span class='zhushi'>    _groupname = str(data[0]) #如：qirikuanghuan
+</span><br/>    _prizekey = str(data[1]) #如：40
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_oncetask_gettaskinfo.py</td>
+                        <td>
+获取某活动组详细数据
+</td>
+                        <td><p class='parmp'>    _groupid = str(data[0])
+</p><p class='parmp'>        _data = _data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_onlineprize_open.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_onlineprize_recprize.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    _idx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_passlog_get.py</td>
+                        <td>
+播放通关攻略
+</td>
+                        <td><p class='parmp'>    tid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_passlog_open.py</td>
+                        <td>
+打开查看攻略
+</td>
+                        <td><p class='parmp'>    ftype = data[0]
+</p><p class='parmp'>    gid = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_qiecuo_auto.py</td>
+                        <td>
+切磋功能 - 自动切磋
+</td>
+                        <td><p class='parmp'>    hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_qiecuo_jingjiu.py</td>
+                        <td>
+	切磋—敬酒
+</td>
+                        <td><p class='parmp'>    hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_qiecuo_open.py</td>
+                        <td>
+切磋功能 - 打开切磋界面
+</td>
+                        <td><p class='parmp'>    hid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_qiecuo_visit.py</td>
+                        <td>
+切磋功能 - 拜访英雄
+</td>
+                        <td><p class='parmp'>    hid = str(data[0])
+</p><p class='parmp'>    num = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_rank_open.py</td>
+                        <td>
+排行 - 打开排行榜界面
+</td>
+                        <td><p class='parmp'>    rid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sdjl_open.py</td>
+                        <td>
+	杀敌奖励 - 打开界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sdjl_prize.py</td>
+                        <td>
+    杀敌奖励 - 领奖界面
+</td>
+                        <td><p class='parmp'>    _p = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sfcc_open.py</td>
+                        <td>
+	收复城池-打开界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sfcc_prize.py</td>
+                        <td>
+    收复城池-领奖界面
+</td>
+                        <td><p class='parmp'>    _area = int(data[0]) #区域编号
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shenbing_dazao.py</td>
+                        <td>
+    打造神兵
+</td>
+                        <td><p class='parmp'>    _sbid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shenbing_getlist.py</td>
+                        <td>
+获取神兵信息
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shiji_buy.py</td>
+                        <td>
+市集 - 购买
+</td>
+                        <td><p class='parmp'>    types = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shiji_open.py</td>
+                        <td>
+市集 - 打开市集界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_allowjoin.py</td>
+                        <td>
+势力功能 - 允许加入
+</td>
+                        <td><p class='parmp'>    _toUid = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_create.py</td>
+                        <td>
+势力功能 - 创建势力
+</td>
+                        <td><p class='parmp'>    name = data[0]
+</p><p class='parmp'>    fstype = data[1]#势力旗帜样式
+</p><p class='parmp'><span class='zhushi'>    fstype = data[1]#势力旗帜样式
+</span><br/>    fname = data[2]#势力旗号，为1字中文
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_dismiss.py</td>
+                        <td>
+势力功能 - 踢出势力
+</td>
+                        <td><p class='parmp'>    toUid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_editaclv.py</td>
+                        <td>
+势力功能 - 编辑自动收纳等级
+</td>
+                        <td><p class='parmp'>    aclv = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_editflag.py</td>
+                        <td>
+势力功能 - 编辑旗帜
+</td>
+                        <td><p class='parmp'>    flag = data[0] #旗帜名
+</p><p class='parmp'><span class='zhushi'>    flag = data[0] #旗帜名
+</span><br/>    style = int(data[1]) #旗帜样式
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_editgonggao.py</td>
+                        <td>
+势力功能 - 编辑公告
+</td>
+                        <td><p class='parmp'>    gonggao = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_givepower.py</td>
+                        <td>
+势力功能 - 任职权限
+</td>
+                        <td><p class='parmp'>    toUid = str(data[0])
+</p><p class='parmp'>    power = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_juanxian.py</td>
+                        <td>
+势力功能 - 科技功能 - 捐献资金
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_kejiopen.py</td>
+                        <td>
+势力功能 - 打开科技主界面
+</td>
+                        <td><p class='parmp'>    kid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_kejiup.py</td>
+                        <td>
+势力功能 - 升级科技
+</td>
+                        <td><p class='parmp'>    kid = str(data[0])
+</p><p class='parmp'>        _res = g.m.shilijunxian.upgradeKeji(conn,uid,_myshiliInfo,kid,str(data[1]))
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_open.py</td>
+                        <td>
+势力功能 - 打开势力界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_openapply.py</td>
+                        <td>
+势力功能 - 打开势力申请列表
+</td>
+                        <td><p class='parmp'>    page = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_openlist.py</td>
+                        <td>
+势力功能 - 打开势力列表
+</td>
+                        <td><p class='parmp'>    page = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_peoples.py</td>
+                        <td>
+势力功能 - 打开成员列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_peopleslist.py</td>
+                        <td>
+势力功能 - 打开成员短列表(只有名字和uid)
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_quit.py</td>
+                        <td>
+势力功能 - 退出势力
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_reject.py</td>
+                        <td>
+势力功能 - 拒绝加入
+</td>
+                        <td><p class='parmp'>    _toUid = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_sendapply.py</td>
+                        <td>
+势力功能 - 发送加入申请
+</td>
+                        <td><p class='parmp'>    name = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_sendemail.py</td>
+                        <td>
+势力 - 发送势力邮件
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #邮件内容
+</span><br/>    content = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_xzdata.py</td>
+                        <td>
+势力功能 - 打开势力界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_shili_ysldup.py</td>
+                        <td>
+势力功能 - 升级因势利导
+</td>
+                        <td><p class='parmp'>    sid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shili_zhaomu.py</td>
+                        <td>
+势力功能 - 发布招募消息
+</td>
+                        <td><p class='parmp'>    _zhaomu=data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shop_buy.py</td>
+                        <td>
+购买商店物品
+</td>
+                        <td><p class='parmp'>    sid = str(data[0])
+</p><p class='parmp'>    itemidx = int(data[1])
+</p><p class='parmp'>    if len(data) > 2: _buyNum = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shop_open.py</td>
+                        <td>
+打开商店接口
+</td>
+                        <td><p class='parmp'>    sid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shop_refresh.py</td>
+                        <td>
+手动刷新商店
+</td>
+                        <td><p class='parmp'>    sid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_shouchong_open.py</td>
+                        <td>
+首冲 - 打开首冲界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_signevery_getprize.py</td>
+                        <td>
+签到 - 领取每日签到奖励
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_signlux_getprize.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    mtype = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sign_acgetprize.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sign_getmrqdbox.py</td>
+                        <td>
+签到 - 领取每日签到宝箱奖励
+</td>
+                        <td><p class='parmp'>    idx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sign_getqtqd.py</td>
+                        <td>
+签到 - 领取签到奖励
+</td>
+                        <td><p class='parmp'>    _day = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sign_mrqdopen.py</td>
+                        <td>
+签到 - 打开每日签到界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sign_qtqdopen.py</td>
+                        <td>
+签到 - 打开7天签到界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_buynum.py</td>
+                        <td>
+三军演武 - 购买次数
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_changepos.py</td>
+                        <td>
+三军演武 - 更换阵容
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #0=前 1=中 2=后
+</span><br/>    _pos0 = int(data[0])
+</p><p class='parmp'>    _pos1 = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_getbox.py</td>
+                        <td>
+    三军演武 - 领取宝箱
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_open.py</td>
+                        <td>
+PK - 天下比武打开界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_openlog.py</td>
+                        <td>
+    三军演武 - 战斗日志功能
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_refresh.py</td>
+                        <td>
+三军比武 - 刷新对手
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_saveformation.py</td>
+                        <td>
+三军演武 - 保存阵容
+</td>
+                        <td><p class='parmp'>    heros = data[0]
+</p><p class='parmp'>    _pos = int(data[1]) #0=前 1=中 2=后
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sjyw_userdetails.py</td>
+                        <td>
+    三军演武 - 对手详情接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    touid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_slcjqs_buy.py</td>
+                        <td>
+    势力-春祭秋祀-购买接口
+</td>
+                        <td><p class='parmp'>    sid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_slgcld_detach.py</td>
+                        <td>
+    攻城略地-派遣部队
+</td>
+                        <td><p class='parmp'>    heros = data[0]
+</p><p class='parmp'>        idx = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_slgcld_retreat.py</td>
+                        <td>
+    攻城略地 - 撤回部队
+</td>
+                        <td><p class='parmp'>    tid = data[0]#部队的编号
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_slgcld_teaminfo.py</td>
+                        <td>
+    攻城略地 - 部队详情
+</td>
+                        <td><p class='parmp'>    _touid = str(data[0])
+</p><p class='parmp'>    tid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_sljunxian_buling.py</td>
+                        <td>
+    势力科技-军衔-补领军功
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_sljunxian_open.py</td>
+                        <td>
+    势力科技-军衔功能-军衔一览
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_specialty_open.py</td>
+                        <td>
+打开特产
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_system_changetime.py</td>
+                        <td>
+系统接口 - 改变时间
+</td>
+                        <td><p class='parmp'>    times = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_system_config.py</td>
+                        <td>
+读取config.py中的SERVERCONFIG
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_system_reload.py</td>
+                        <td>
+系统接口 - 重载配置接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_system_selfping.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_taishou_changeforce.py</td>
+                        <td>
+    太守功能 - 更换城防军
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    cityid = str(data[0])
+</p><p class='parmp'>    idx = int(data[1])
+</p><p class='parmp'>    hidlist = data[2]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_taishou_details.py</td>
+                        <td>
+    太守功能 - 详情界面
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    cityid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_taishou_open.py</td>
+                        <td>
+    太守功能 - 打开接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_taishou_qicheng.py</td>
+                        <td>
+    太守功能 - 弃城接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    cityid = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_taofa_open.py</td>
+                        <td>
+讨伐 - 打开讨伐主界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_task_finish.py</td>
+                        <td>
+任务 - 领取任务奖励
+</td>
+                        <td><p class='parmp'>    taskid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_task_gethyzbox.py</td>
+                        <td>
+    任务 - 领取活跃值宝箱
+</td>
+                        <td><p class='parmp'>    idx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_task_open.py</td>
+                        <td>
+任务 - 打开任务列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_tfqx_buynum.py</td>
+                        <td>
+讨伐 - 购买讨伐次数
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_tfqx_getbox.py</td>
+                        <td>
+讨伐 - 领取讨伐群雄宝箱
+</td>
+                        <td><p class='parmp'>    tid = int(data[0])
+</p><p class='parmp'>    _type = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_tfqx_open.py</td>
+                        <td>
+讨伐 - 打开讨伐群雄接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_tfqx_starprize.py</td>
+                        <td>
+    讨伐群雄-满星领奖
+</td>
+                        <td><p class='parmp'>    _page = str(data[0])#要领取奖励的阶段
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_txbw_buynum.py</td>
+                        <td>
+天下比武 - 购买次数
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_txbw_getbox.py</td>
+                        <td>
+天下比武 - 领取宝箱
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_txbw_open.py</td>
+                        <td>
+PK - 天下比武打开界面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_txbw_openlog.py</td>
+                        <td>
+天下比武 - 打开战报
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_txbw_prize_getdaily.py</td>
+                        <td>
+天下比武-领取每日积分奖励
+</td>
+                        <td><p class='parmp'>    _idx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_txbw_prize_gethis.py</td>
+                        <td>
+天下比武-领取历史排名奖励
+</td>
+                        <td><p class='parmp'>    _idx = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_txbw_prize_open.py</td>
+                        <td>
+天下比武-奖励打开页面
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_txbw_refresh.py</td>
+                        <td>
+天下比武 - 刷新对手
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_txbw_saveformation.py</td>
+                        <td>
+天下比武 - 保存防守阵容
+</td>
+                        <td><p class='parmp'><span class='zhushi'>    #heros 坐标
+</span><br/>    heros = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_user_changename.py</td>
+                        <td>
+改名接口
+</td>
+                        <td><p class='parmp'>    newname = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_user_details.py</td>
+                        <td>
+角色 - 查看他人角色信息
+</td>
+                        <td><p class='parmp'>    _touid = data[0] #要查看的人uid
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_user_getcard.py</td>
+                        <td>
+人物 - 领取兑换码
+</td>
+                        <td><p class='parmp'>    cdata = str(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_user_getinfo.py</td>
+                        <td>
+角色 - 读取信息
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_user_guide.py</td>
+                        <td>
+    玩家指引 - 接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_user_ping.py</td>
+                        <td>
+系统认证 - 心跳
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_user_rename.py</td>
+                        <td>
+rename user's name
+</td>
+                        <td><p class='parmp'>    _new = str(data[0])
+</p><p class='parmp'>        _gmk = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_user_sethead.py</td>
+                        <td>
+角色 - 设置头像
+</td>
+                        <td><p class='parmp'>    head =  int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_vip_getpack.py</td>
+                        <td>
+vip功能 - 领取vip礼包
+</td>
+                        <td><p class='parmp'>    viplv = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_yxsl_buynum.py</td>
+                        <td>
+英雄试炼 - 购买次数
+</td>
+                        <td><p class='parmp'>    stype = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_yxsl_open.py</td>
+                        <td>
+讨伐 - 打开英雄试炼
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_buynum.py</td>
+                        <td>
+远征西域 - 购买次数
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_buyshop.py</td>
+                        <td>
+远征西域 - 使用神秘商店
+</td>
+                        <td><p class='parmp'>    stype = int(data[0])
+</p><p class='parmp'>    _hid = data[1]
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_citydetails.py</td>
+                        <td>
+    远征西域 - 城池详情接口
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    _cityid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_exchange.py</td>
+                        <td>
+远征西域 - 兑换西域币
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_fasttz.py</td>
+                        <td>
+    远征西域 - 快速挑战
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_getbox.py</td>
+                        <td>
+    远征西域 - 领取宝箱接口
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_open.py</td>
+                        <td>
+远征西域 - 打开远征西域
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_openarmy.py</td>
+                        <td>
+远征西域 - 打开部队信息
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_openshop.py</td>
+                        <td>
+远征西域 - 打开神秘商店
+</td>
+                        <td><p class='parmp'>    stype = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_reset.py</td>
+                        <td>
+远征西域 - 重置进度
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_yzxy_usebuff.py</td>
+                        <td>
+    远征西域 - 使用buff
+    
+    Programmmed by gch
+</td>
+                        <td><p class='parmp'>    btype = str(data[0])
+</p><p class='parmp'>    hid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_altstatus.py</td>
+                        <td> 
+    奏书 - 更改状态接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_lqjl.py</td>
+                        <td>
+    批阅奏书 - 领取奖励
+
+    Programmmed by sgd
+</td>
+                        <td><p class='parmp'>    #data[0] 领取的积分奖励15
+</p><p class='parmp'>    jf = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_open.py</td>
+                        <td> 
+    奏书打开功能接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_pyzoushu.py</td>
+                        <td> 
+    奏书 - 批阅功能接口
+</td>
+                        <td><p class='parmp'>    zsid = str(data[0])
+</p><p class='parmp'>    cid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_refresh.py</td>
+                        <td> 
+    奏书 - 刷新奏书列表
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_resetgy.py</td>
+                        <td> 
+    奏书 - 重置国运
+    只会重置出更好的国运
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>api_zoushu_talk.py</td>
+                        <td> 
+    奏书 - 更改状态接口
+</td>
+                        <td><p class='parmp'>    zsid = str(data[0])
+</p><p class='parmp'>    cid = str(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>cfight_binduid.py</td>
+                        <td>无</td>
+                        <td><p class='parmp'>    uid = data[0]
+</p></td>
+                </tr>
+                <tr>
+                        <td>cfight_cityfight_chkdata.py</td>
+                        <td>
+城战 - 检测城战接口
+</td>
+                        <td><p class='parmp'>    _cid = int(data[0])
+</p></td>
+                </tr>
+                <tr>
+                        <td>cfight_cityfight_exit.py</td>
+                        <td>
+城战 - 加入城战
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>cfight_cityfight_join.py</td>
+                        <td>
+城战 - 加入城战
+</td>
+                        <td><p class='parmp'>    heros = data[0]
+</p><p class='parmp'>    cityname = data[1]
+</p><p class='parmp'>    side = int(data[2])
+</p></td>
+                </tr>
+                <tr>
+                        <td>cfight_cityfight_login.py</td>
+                        <td>
+城战 - 进入城战界面
+</td>
+                        <td><p class='parmp'>    cityname = data[0]
+</p><p class='parmp'>    uid = str(data[0])
+</p><p class='parmp'>    cityname = data[1]
+</p><p class='parmp'>    checkey = data[2]
+</p></td>
+                </tr>
+                <tr>
+                        <td>cfight_ping.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>cfight_tfyq_join.py</td>
+                        <td>
+    讨伐义渠 - 加入战斗
+</td>
+                        <td><p class='parmp'>    heros = data[0]
+</p><p class='parmp'>    # side = int(data[1])
+</p></td>
+                </tr>
+                <tr>
+                        <td>mqapi_cityfight_addarmy.py</td>
+                        <td>
+mq接口-派兵
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>mqapi_cityfight_retract.py</td>
+                        <td>
+mq接口-鸣金收兵
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>mqapi_cityfight_xz.py</td>
+                        <td>
+mq接口-宣战
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>socket_binduid.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>socket_ping.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>socket_system_reload.py</td>
+                        <td>
+系统接口 - 重载配置接口
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>socket_system_selfping.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_pkjjc_loghistory.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_sdjl_prize.py</td>
+                        <td>
+    征战天下 - 杀敌奖励 - 前100名玩家发奖
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_shiliprize.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_shili_junxian.py</td>
+                        <td>
+    重算军衔
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_specialty.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_taishou_prize.py</td>
+                        <td>
+    太守功能 - 每天00点发奖
+    
+    Programmmed by gch
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_testaaa.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_tfyq_prize.py</td>
+                        <td>
+	讨伐义渠 - 结算发奖
+</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_txbw_loghistory.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>timer_userattr_delzuier.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr>
+                <tr>
+                        <td>__init__.py</td>
+                        <td>无</td>
+                        <td>无</td>
+                </tr></table>

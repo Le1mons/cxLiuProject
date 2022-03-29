@@ -1,0 +1,71 @@
+{
+  "common":{
+    "target":"目标的配置，每多少层为一个目标",
+    "targetnum":"目标的个数",
+    "maxheronum":"最多上阵英雄数量",
+    "prize":"目标对应的奖励,第一个目标就是第一个元素，一次类推",
+    "winprize":"获胜后随机的配置{trader商人: 权重, supply补给: 权重, box宝箱: 权重, mixture合剂: 权重，flop翻牌 快速自动屏蔽}",
+    "supply":{"补给id":{}},
+    "mixture":{"合剂id":{}},
+    "itemlist":"商人的shopitem配置",
+    "diaoluozu":"宝箱的掉落组",
+    "backlayer":"每次轮回倒退的层数"
+  },
+  "base":{
+    "backlayer":30,
+    "leveltxt": [
+      "<font color=#30ff01>简单：{1}</font>",
+      "<font color=#0ff1ff>普通：{1}</font>",
+      "<font color=#ea5dff>困难：{1}</font>",
+      "<font color=#ff4513>地狱：{1}</font>",
+      "<font color=#ffc002>噩梦：{1}</font>",
+      "<font color=#ff4513>绝望：{1}</font>",
+      "<font color=#ff4513>绝望Ⅱ：{1}</font>",
+      "<font color=#ff4513>绝望Ⅲ：{1}</font>",
+      "<font color=#ff4513>绝望Ⅳ：{1}</font>",
+      "<font color=#ff4513>绝望Ⅴ：{1}</font>"
+    ],
+    "target":6,
+    "targetnum":5,
+    "maxheronum":6,
+    "prize":[
+			[{"a":"item","t":"2022","n":100},{"a":"attr","t":"jinbi","n":50000}],
+			[{"a":"item","t":"2022","n":100},{"a":"attr","t":"jinbi","n":50000}],
+			[{"a":"item","t":"2022","n":200},{"a":"attr","t":"jinbi","n":50000}],
+			[{"a":"item","t":"2021","n":20},{"a":"attr","t":"jinbi","n":100000}],
+			[{"a":"item","t":"2021","n":40},{"a":"attr","t":"jinbi","n":150000}]
+			],
+    "winprize":[
+      {"kind":"box","p":500},
+      {"kind":"trader","p":244},
+      {"kind":"supply","p":96},
+      {"kind":"mixture","p":120},
+      {"kind":"flop","p":40}
+    ],
+    "supply":
+      {
+      "1":{"name":"特效治疗石","buff":{"hp":50},"desc":"回复当前英雄生命上限50%的生命值","p":10,"id":"1","ext":{}},
+      "2":{"name":"炼金师的生啤","buff":{"nuqi": 350},"desc":"回复当前英雄350点能量","p":4,"id":"2","ext":{}},
+      "5":{"name":"幸运硬币","buff":{},"desc":"使用召唤1个地精商人","p":3,"id":"5","ext":{"shopitem":"2001"}, "intr": "召唤商人"},
+      "4":{"name":"恶毒药剂","buff":{},"desc":"使用后击杀当前关卡守关首领","p":3,"id":"4","ext":{}, "intr": "毒杀守卫"}
+      },
+    "mixture":[
+      {"id":"1","name":"泰坦之力合剂","buff":{"dpspro":15},"limit":20,"p":1,"show": "增加英雄{1}%的伤害"},
+      {"id":"2","name":"无尽打击合剂","buff":{"baojipro":20},"limit":20,"p":1,"show": "增加英雄{1}%的暴击率"},
+      {"id":"3","name":"黑暗吞噬合剂","buff":{"skilldpspro":20},"limit":20,"p":1,"show": "增加英雄{1}%的技能伤害"}
+	  	],
+    "trader":["2000"],
+    "box":"10",
+    "flop": {
+      "dlz":["12","14","13","13","13"],
+      "p":[15,5,30,30,30],
+      "need":{
+        "1": [],
+        "2": [{"a":"attr","t":"rmbmoney","n":30}],
+        "3": [{"a":"attr","t":"rmbmoney","n":60}],
+        "4": [{"a":"attr","t":"rmbmoney","n":90}],
+        "5": [{"a":"attr","t":"rmbmoney","n":150}]
+      }
+              }
+  }
+}

@@ -1,0 +1,981 @@
+{
+  "ID": "39f0bfa1-e51a-475f-9f73-4609568f4b5f",
+  "Version": "2.3.3.0",
+  "Name": "denglu_tip_zhmm",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 10,
+        "Speed": 1.0,
+        "ActivedAnimationName": "in",
+        "Timelines": [
+          {
+            "ActionTag": -1094363970,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.7,
+                "Y": 0.7,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1094363970,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 10,
+          "Name": "in",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 2,
+        "Children": [
+          {
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "VerticalEdge": "BothEdge",
+            "Tag": 16,
+            "ActionTag": -705162559,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "mask$",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 568.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9125,
+              "Y": 0.3257
+            },
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 28.0,
+            "RightMargin": 28.0,
+            "TopMargin": 383.0,
+            "BottomMargin": 383.0,
+            "Tag": 146,
+            "Children": [
+              {
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/denglu/bg_denglu_tk.png",
+                  "Plist": "denglu.plist"
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 584,
+                "Scale9Height": 370,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.0,
+                  "Y": 185.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 3,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/public/btn/btn_guanbi.png",
+                      "Plist": "public.plist"
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 22,
+                    "Scale9Height": 41,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 533.9995,
+                      "Y": 357.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9144,
+                      "Y": 0.9676
+                    },
+                    "PreSize": {
+                      "X": 0.089,
+                      "Y": 0.1703
+                    },
+                    "LeftMargin": 507.9995,
+                    "RightMargin": 24.0005,
+                    "TopMargin": -19.4999,
+                    "BottomMargin": 326.4999,
+                    "Tag": 4,
+                    "ActionTag": 85052490,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 63.0
+                    },
+                    "Name": "btn_guanbi$",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/denglu/bg_denglu_srk.png",
+                      "Plist": "denglu.plist"
+                    },
+                    "Scale9Width": 424,
+                    "Scale9Height": 48,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 292.0,
+                      "Y": 260.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7027
+                    },
+                    "PreSize": {
+                      "X": 0.726,
+                      "Y": 0.1297
+                    },
+                    "LeftMargin": 80.0,
+                    "RightMargin": 80.0,
+                    "TopMargin": 86.0,
+                    "BottomMargin": 236.0,
+                    "Tag": 6,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "账    号：",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 23.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 230,
+                          "G": 211,
+                          "B": 182
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.059,
+                          "Y": 0.4792
+                        },
+                        "PreSize": {
+                          "X": 0.1651,
+                          "Y": 0.4792
+                        },
+                        "LeftMargin": 25.0,
+                        "RightMargin": 329.0,
+                        "TopMargin": 13.5,
+                        "BottomMargin": 11.5,
+                        "Tag": 7,
+                        "ActionTag": -141411189,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 23.0
+                        },
+                        "Name": "txt_zh",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "FontSize": 20,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "用户名十个字符",
+                        "MaxLengthEnable": true,
+                        "MaxLengthText": 100,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 405.98,
+                          "Y": 24.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 230,
+                          "G": 211,
+                          "B": 182
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.9575,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.7075,
+                          "Y": 0.75
+                        },
+                        "LeftMargin": 105.98,
+                        "RightMargin": 18.02,
+                        "TopMargin": 6.0,
+                        "BottomMargin": 6.0,
+                        "Tag": 5,
+                        "ActionTag": 1760860243,
+                        "Size": {
+                          "X": 300.0,
+                          "Y": 36.0
+                        },
+                        "Name": "txt_srzh$",
+                        "ctype": "TextFieldObjectData"
+                      }
+                    ],
+                    "ActionTag": -1769847024,
+                    "Size": {
+                      "X": 424.0,
+                      "Y": 48.0
+                    },
+                    "Name": "bg_denglu_srzh",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/denglu/bg_denglu_srk.png",
+                      "Plist": "denglu.plist"
+                    },
+                    "Scale9Width": 424,
+                    "Scale9Height": 48,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 292.0,
+                      "Y": 170.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4595
+                    },
+                    "PreSize": {
+                      "X": 0.726,
+                      "Y": 0.1297
+                    },
+                    "LeftMargin": 80.0,
+                    "RightMargin": 80.0,
+                    "TopMargin": 176.0,
+                    "BottomMargin": 146.0,
+                    "Tag": 8,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "账    号：",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 25.0,
+                          "Y": 23.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 230,
+                          "G": 211,
+                          "B": 182
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.059,
+                          "Y": 0.4792
+                        },
+                        "PreSize": {
+                          "X": 0.1651,
+                          "Y": 0.4792
+                        },
+                        "LeftMargin": 25.0,
+                        "RightMargin": 329.0,
+                        "TopMargin": 13.5,
+                        "BottomMargin": 11.5,
+                        "Tag": 9,
+                        "ActionTag": 1123027887,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 23.0
+                        },
+                        "Name": "txt_zh",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "FontSize": 20,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "密码十个字符",
+                        "MaxLengthEnable": true,
+                        "MaxLengthText": 10,
+                        "PasswordEnable": true,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 405.98,
+                          "Y": 24.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 230,
+                          "G": 211,
+                          "B": 182
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.9575,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.7075,
+                          "Y": 0.75
+                        },
+                        "LeftMargin": 105.98,
+                        "RightMargin": 18.02,
+                        "TopMargin": 6.0,
+                        "BottomMargin": 6.0,
+                        "Tag": 10,
+                        "ActionTag": -1264808806,
+                        "Size": {
+                          "X": 300.0,
+                          "Y": 36.0
+                        },
+                        "Name": "txt_srmm$",
+                        "ctype": "TextFieldObjectData"
+                      }
+                    ],
+                    "ActionTag": 783701514,
+                    "Size": {
+                      "X": 424.0,
+                      "Y": 48.0
+                    },
+                    "Name": "bg_denglu_srmm",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 123,
+                      "G": 83,
+                      "B": 26
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "img/public/btn/btn2_on.png",
+                      "Plist": "public.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 100,
+                    "Scale9Height": 38,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 292.0,
+                      "Y": 78.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2108
+                    },
+                    "PreSize": {
+                      "X": 0.2226,
+                      "Y": 0.1622
+                    },
+                    "LeftMargin": 227.0,
+                    "RightMargin": 227.0,
+                    "TopMargin": 262.0,
+                    "BottomMargin": 48.0,
+                    "Tag": 11,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 24,
+                        "LabelText": "登录",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "img/fnt/fzcyj.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 65.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 123,
+                          "G": 83,
+                          "B": 26
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 12,
+                        "ActionTag": 367829290,
+                        "Size": {
+                          "X": 130.0,
+                          "Y": 60.0
+                        },
+                        "Name": "txt_dl",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -402232821,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 60.0
+                    },
+                    "Name": "btn_denglu_dl$",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "找回密码",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "img/fnt/fzcyj.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 445.9998,
+                      "Y": 96.7145
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 128,
+                      "G": 67,
+                      "B": 38
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7637,
+                      "Y": 0.2614
+                    },
+                    "PreSize": {
+                      "X": 0.1558,
+                      "Y": 0.0676
+                    },
+                    "LeftMargin": 400.4998,
+                    "RightMargin": 92.5002,
+                    "TopMargin": 260.7855,
+                    "BottomMargin": 84.2145,
+                    "Tag": 13,
+                    "Children": [
+                      {
+                        "ComboBoxIndex": 1,
+                        "SingleColor": {
+                          "R": 128,
+                          "G": 67,
+                          "B": 38
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 1.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.04
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.08
+                        },
+                        "TopMargin": 22.0,
+                        "BottomMargin": 1.0,
+                        "Tag": 14,
+                        "ActionTag": 2035608723,
+                        "Size": {
+                          "X": 91.0,
+                          "Y": 2.0
+                        },
+                        "Name": "panel_xhx",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": 1668298088,
+                    "Size": {
+                      "X": 91.0,
+                      "Y": 25.0
+                    },
+                    "Name": "txt_zhmm$",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "注册账号",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "img/fnt/fzcyj.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 446.0001,
+                      "Y": 55.7143
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 128,
+                      "G": 67,
+                      "B": 38
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7637,
+                      "Y": 0.1506
+                    },
+                    "PreSize": {
+                      "X": 0.1558,
+                      "Y": 0.0676
+                    },
+                    "LeftMargin": 400.5001,
+                    "RightMargin": 92.4999,
+                    "TopMargin": 301.7857,
+                    "BottomMargin": 43.2143,
+                    "Tag": 818,
+                    "Children": [
+                      {
+                        "ComboBoxIndex": 1,
+                        "SingleColor": {
+                          "R": 128,
+                          "G": 67,
+                          "B": 38
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 1.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.04
+                        },
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.08
+                        },
+                        "TopMargin": 22.0,
+                        "BottomMargin": 1.0,
+                        "Tag": 819,
+                        "ActionTag": 1958534823,
+                        "Size": {
+                          "X": 91.0,
+                          "Y": 2.0
+                        },
+                        "Name": "panel_xhx",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -874320949,
+                    "Size": {
+                      "X": 91.0,
+                      "Y": 25.0
+                    },
+                    "Name": "txt_zczh$",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 361223609,
+                "Size": {
+                  "X": 584.0,
+                  "Y": 370.0
+                },
+                "Name": "bg_denglu_tk",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1094363970,
+            "Size": {
+              "X": 584.0,
+              "Y": 370.0
+            },
+            "Name": "panel_dh",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "denglu.plist",
+        "denglu.png",
+        "img/fnt/fzcyj.ttf",
+        "public.plist",
+        "public.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

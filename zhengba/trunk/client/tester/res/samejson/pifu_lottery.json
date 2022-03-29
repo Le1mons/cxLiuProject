@@ -1,0 +1,20 @@
+{
+	"dlz" : [ 
+            {"p" : 666,"type":"target", "prize" : [] }, 
+			{"p" : 2999,"type":"normal","dlz" : "400"}, 
+			{"p" : 6335,"type":"other","dlz" : "401"}
+        ],
+	"prize" : [ 
+            { "a" : "item", "t" : "2060", "n" : 1}
+        ],
+	"showprize" : {
+        "normal":[{"a" : "item", "t" : "1092", "n" : 1},{"a" : "item", "t" : "1092", "n" : 2},{"a" : "item", "t" : "1092", "n" : 3}],
+        "target":[{"a" : "item", "t" : "6005", "n" : 1},{"a" : "item", "t" : "6001", "n" : 1},{"a" : "item", "t" : "6009", "n" : 1},{"a" : "item", "t" : "6013", "n" : 1},{"a" : "item", "t" : "6017", "n" : 1},{"a" : "item", "t" : "6021", "n" : 1},{"a" : "item", "t" : "6025", "n" : 1},{"a" : "item", "t" : "6029", "n" : 1},{"a" : "item", "t" : "6033", "n" : 1},{"a" : "item", "t" : "6037", "n" : 1},{"a" : "item", "t" : "6041", "n" : 1}],
+        "other":[{"a" : "item", "t" : "6004", "n" : 1},{"a" : "item", "t" : "6008", "n" : 1},{"a" : "item", "t" : "6012", "n" : 1},{"a" : "item", "t" : "6016", "n" : 1},{"a" : "item", "t" : "6024", "n" : 1},{"a" : "item", "t" : "6036", "n" : 1},{"a" : "item", "t" : "6028", "n" : 1},{"a" : "item", "t" : "6032", "n" : 1}]
+    },
+    "list":{
+        "target":["other","normal","target","other","normal"],
+        "normal":["normal","other","normal","target","other"],
+        "other":["normal","target","other","normal","other"]
+        }
+}

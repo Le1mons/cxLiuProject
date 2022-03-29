@@ -1,0 +1,202 @@
+{
+  "ID": "678a3db6-260d-4e9f-9aa7-0e2566cff35a",
+  "Version": "2.3.4",
+  "Name": "skilljson_anyingcike_pgbaodian",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 30,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 269097297,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00008.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00009.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00010.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 10,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00011.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00012.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00013.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 25,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "MarkedSubImage",
+                  "Path": "img/anyingcike/pgbaodian/bao_00014.png",
+                  "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 2048009737,
+            "Property": "FrameEvent",
+            "Frames": [
+              {
+                "Value": "hit",
+                "FrameIndex": 5,
+                "Tween": false,
+                "ctype": "EventFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 24,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/anyingcike/pgbaodian/bao_00010.png",
+              "Plist": "skillani/skilljson_anyingcike_pgbaodian.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -5.0,
+              "Y": 84.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -165.0,
+            "RightMargin": -155.0,
+            "TopMargin": -368.5,
+            "BottomMargin": -200.5,
+            "Tag": 25,
+            "ActionTag": 269097297,
+            "Size": {
+              "X": 320.0,
+              "Y": 569.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 55.0,
+              "Y": -4.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 55.0,
+            "RightMargin": -55.0,
+            "TopMargin": 4.0,
+            "BottomMargin": -4.0,
+            "Tag": 26,
+            "ActionTag": 2048009737,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "hit_event",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "skillani/skilljson_anyingcike_pgbaodian.plist",
+        "skillani/skilljson_anyingcike_pgbaodian.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

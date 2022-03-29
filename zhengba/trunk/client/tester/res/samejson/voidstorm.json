@@ -1,0 +1,187 @@
+{
+  "mowang": {
+    "1":{
+      "intr":[
+			  {"name":"永炎岩地","ico":"mw_yyzd","intr":"火焰魔王沉眠于永炎岩地中，他的仆从火焰守卫每回合对全体敌人造成1%生命上限伤害。", "title":  "永炎岩地"},
+			  {"name":"魔王躯体","ico":"mw_mwzq","intr":"魔王庞大的身体,导致行动缓慢速度为1，强大的魔威使得命中+999%,免控+999%。（火焰守卫与火焰魔王均生效）", "title":  "魔王躯体"},
+			  {"name":"净化火焰","ico":"mw_jhhy","intr":"第5回合开始火焰守卫会牺牲自己召唤火焰魔王。火焰魔王每回合召唤火焰净化所有敌人,对全体敌人造成100%生命上限伤害。", "title":  "净化火焰"}		
+        ],
+      "boss":[
+        {"name":"火焰魔王","jzddps":[1,2],"jcdmubiao":[6,6],"heroico":"3205a","model":"35023","xpskill":"1000012","nuqi":100,"mowangskillani":"1000012","skill":[1100114],
+			  "lv":1,"zhongzu":0,"hp":600000,"maxhp":600000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":0,"enlargepro": 2,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":2,"side":1,"mowangtype":"1","normalskill":"1000072","job":0,"lockHP":false,"ismowang":1}
+        ],
+		"headdata":{"lv":"300","head":"32056_1","name":"火焰魔王"}
+	},
+    "2":{
+      "intr":[
+        {"name":"毁灭双刃","ico":"mw_hmsr","intr":"恶魔刺客每次出手均会对全体敌人造成25%生命伤害，任何敌人在恶魔刺客面前都是自寻死路！", "title":  "毁灭双刃"},
+			  {"name":"魔王躯体","ico":"mw_mwzq","intr":"魔王庞大的身体,导致行动缓慢速度为1，强大的魔威使得命中+999%,免控+999%。（仅恶魔刺客生效）", "title":  "魔王躯体"},
+			  {"name":"恶魔爪牙","ico":"mw_emzy","intr":"恶魔刺客携带着2名爪牙，爪牙每回合对随机敌人造成20%生命伤害，并有50%概率眩晕目标2回合。", "title":  "恶魔爪牙"}
+        ],
+      "boss":[
+         {"name":"恶魔刺客","jzddps":[1,2],"jcdmubiao":[6,6],"heroico":"3402a","model":"3402a","xpskill":"1000022","nuqi":100,"mowangskillani":"1000022","skill":[],
+			  "lv":1,"zhongzu":0,"hp":1000000,"maxhp":1000000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":0,"enlargepro": 1.7,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"1","normalskill":"1000062","job":0,"lockHP":false,"ismowang":1},
+			  {"name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1000032","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":50000,"maxhp":50000,"atk":1,"def":5.8,"speed":2,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"mowangtype":"2","normalskill":"1000062","job":0,"lockHP":false},
+			  {"name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1000032","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":50000,"maxhp":50000,"atk":1,"def":5.8,"speed":3,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"mowangtype":"2","normalskill":"1000062","job":0,"lockHP":false}
+        ],
+		"headdata":{"lv":"300","head":"34026_1","name":"恶魔刺客"}
+	},
+    "3":{
+      "intr":[
+        {"name":"寒冰之伤","ico":"mw_hbzs","intr":"亡灵领主挥动寒冰之伤每回合对单个顺位目标敌人造成100%生命上限的伤害。传说死在寒冰之伤下的敌人都将成为亡灵领主的仆从。", "title":  "寒冰之伤"},
+			  {"name":"魔王躯体","ico":"mw_mwzq","intr":"魔王庞大的身体，导致行动缓慢速度为1,强大的魔威使得命中+999%，免控+999%。（仅亡灵领主生效）", "title":  "魔王躯体"},
+			  {"name":"亡灵爪牙","ico":"mw_wlzy","intr":"亡灵领主携带着4名爪牙,爪牙每回合对随机敌人造成1%生命伤害，并有25%概率冰冻目标2回合。", "title":  "亡灵爪牙"}
+        ],
+      "boss":[
+         {          "name":"亡灵领主","jzddps":[5,5],"jcdmubiao":[1,1],"heroico":"1108a","model":"1108a","xpskill":"1000042","nuqi":100,"skill":[],
+			  "lv":1,"zhongzu":0,"hp":1000000,"maxhp":1000000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":0,"enlargepro": 1.7,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"1","normalskill":"1000062","job":0,"lockHP":false,"ismowang":1},
+			  {           "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":30000,"maxhp":30000,"atk":1,"def":5.8,"speed":2,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"mowangtype":"2","normalskill":"1000062","job":0,"lockHP":false},
+			  {			  "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":30000,"maxhp":30000,"atk":1,"def":5.8,"speed":3,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":4,"side":1,"mowangtype":"2","normalskill":"1000062","job":0,"lockHP":false},
+			  {			  "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":30000,"maxhp":30000,"atk":1,"def":5.8,"speed":4,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"mowangtype":"2","normalskill":"1000062","job":0,"lockHP":false},
+			  {			  "name":"食尸鬼","heroico":"14013","model":"14013","xpskill":"1000052","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":30000,"maxhp":30000,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":0,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":6,"side":1,"mowangtype":"2","normalskill":"1000062","job":0,"lockHP":false}
+        ],
+		"headdata":{"lv":"300","head":"11086_1","name":"亡灵领主"}
+	},
+    "4":{
+      "intr":[
+        {"name":"毁灭冲击","ico":"mw_yyzd","intr":"死亡裁决的能量冲击，造成合计180%的血量上限伤害，由挑战者全队平均分担伤害", "title":  "毁灭冲击"},
+			  {"name":"恶灵之主","ico":"mw_mwzq","intr":"由怨念聚合成的躯体使得死亡裁决有着无限的生命，也免于一切控制，不过怨念过大导致行动迟缓", "title":  "恶灵之主"},
+			  {"name":"永恒怒火","ico":"mw_jhhy","intr":"死者的怨念使得死亡裁决的怒气取之不尽用之不竭", "title":  "永恒怒火"}
+        ],
+      "boss":[
+        {
+			  "name":"死亡裁决","heroico":"1108001","model":"1108001","xpskill":"1500002","nuqi":100,"mowangskillani":"1500002","skill":[1500004],
+			  "lv":285,"zhongzu":0,"hp":1500000,"maxhp":1500000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":200,"enlargepro": 2,"lockHP":false,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":2,"side":1,"mowangtype":"1","normalskill":"1","job":0,"isSkill":[1],"ismowang":1}],
+      "headdata":{"lv":"300","head":"1108001","name":"死亡裁决"}
+    },
+    "5":{
+      "intr":[
+        {"name":"灵魂掌控","ico":"mw_lhzk","intr":"邪龙霸主每回合对全体目标造成20%生命上限的伤害，自身化为雷电能量，并控制随机两个对手的灵魂为自己战斗", "title":  "灵魂掌控"},
+			  {"name":"灵魂重生","ico":"mw_lhcs","intr":"灵魂傀儡全部死亡后，邪龙霸主将在雷电中重生", "title":  "灵魂重生"},
+			  {"name":"魔王领域","ico":"mw_mwzq","intr":"魔王威能形成的领域，导致行动缓慢速度为1，强大的魔威使得命中+999%，免控+999%，在战斗中所有单位造成的伤害都不会超过999.9万", "title":  "魔王领域"}
+        ],
+      "boss":[
+        {
+			  "name":"邪龙霸主","heroico":"3109001","model":"3109001","xpskill":"1510002","nuqi":100,"mowangskillani":"1510002","skill":["1530004"],"kuileinum":2,
+			  "lv":300,"zhongzu":0,"hp":2000000,"maxhp":2000000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":0,"enlargepro": 2,"lockHP":false,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"99","normalskill":"1510002","job":0,"isSkill":[1],"ismowang":1}
+        ],
+      "headdata":{"lv":"300","head":"3109001","name":"邪龙霸主"}
+    },
+    "6":{
+      "intr":[
+        {"name":"沉睡巨龙","ico":"mw_csjl","intr":"智慧的冰蓝巨龙由于邪恶能量陷入沉睡，当巨龙苏醒时，将驱散邪恶，引导勇士获得胜利", "title":  "沉睡巨龙"},
+			  {"name":"邪恶爪牙","ico":"mw_xezy","intr":"看守冰蓝巨龙的邪恶爪牙，每回合对随机1个敌人造成生命上限10%的伤害，邪恶的意志让他们免于控制且拥有近乎无限的生命，速度仅为1", "title":  "邪恶爪牙"},
+			  {"name":"觉醒之力","ico":"mw_jxzl","intr":"对爪牙的伤害，以及对己方的治疗量，都能转化为唤醒巨龙的能量", "title":  "觉醒之力"}
+        ],
+      "boss":[{"name":"冰蓝巨龙","heroico":"2205a","model":"2205a","xpskill":"1520012","nuqi":100,"mowangskillani":"1520012","skill":["1520004","1520014"],
+			  "lv":300,"zhongzu":0,"hp":1,"maxhp":50000000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":0,"gedangpro":0,"enlargepro": 2,"lockHP":false,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"ismowang":1},
+			  {			  "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":9999999999,"maxhp":9999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":1,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"lockHP":true},
+			  {			  "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":9999999999,"maxhp":9999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":2,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"lockHP":true},
+			  {			  "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":9999999999,"maxhp":9999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"lockHP":true},
+			  {			  "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":9999999999,"maxhp":9999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":4,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"lockHP":true},
+			  {			  "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":9999999999,"maxhp":9999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"lockHP":true},
+			  {			  "name":"邪能石魔","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":9999999999,"maxhp":9999999999,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":6,"side":1,"mowangtype":"98","normalskill":"1520012","job":0,"lockHP":true}],
+		"headdata":{"lv":"300","head":"22056_1","name":"冰蓝巨龙"}
+	},
+    "7":{
+      "intr":[
+        {"name":"诅咒恶灵","ico":"mw_zzel","intr":"死亡之主每回合对全体敌方单位造成生命上限40%的伤害", "title":  "诅咒恶灵"},
+			  {"name":"怨念残滓","ico":"mw_ylcz","intr":"死亡之主的怨念分裂成两个爪牙，爪牙每回合对随机一个敌方单位造成生命上限10%的伤害", "title":  "怨念残滓"},
+			  {"name":"灵体现世","ico":"mw_ltxs","intr":"死亡之主在月光下现世，速度为1，勇者们需要用控制技能将他束缚住，不然会尝到死亡的滋味", "title":  "灵体现世"}],
+      "boss":[{
+			  "name":"死亡之主","heroico":"5501001","model":"5501001","xpskill":"1530012","nuqi":100,"mowangskillani":"1530012","skill":[],
+			  "lv":285,"zhongzu":0,"hp":10000000,"maxhp":10000000,"atk":1,"def":5.8,"speed":1,"color":"5",
+			  "jingzhunpro":9990,"miankongpro":9990,"gedangpro":200,"enlargepro": 2,"lockHP":false,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":2,"side":1,"mowangtype":"2","normalskill":"1530012","job":0,"isSkill":[1],"ismowang":1},
+			  {			  "name":"暗夜主宰","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":500000,"maxhp":500000,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":3,"side":1,"mowangtype":"2","normalskill":"1520012","job":0,"lockHP":false},
+			  {			  "name":"暗夜主宰","heroico":"31023","model":"31023","xpskill":"1520012","nuqi":100,
+			  "lv":1,"zhongzu":0,"hp":500000,"maxhp":500000,"atk":1,"def":5.8,"speed":5,"color":"5",
+			  "jingzhunpro":0,"miankongpro":9990,"gedangpro":0,
+			  "baojipro":0,"baoshangpro":0,"pojiapro":0,"dpspro":0,"undpspro":0,"skilldpspro":0,"skill":[],
+			  "atkpro":0,"defpro":0,"hppro" :0,"speedpro":0,"pos":5,"side":1,"mowangtype":"2","normalskill":"1520012","job":0,"lockHP":false}],
+		"headdata":{"lv":"300","head":"5501001","name":"死亡之主"}
+	}
+  },
+	"prize":[
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2017","n": 500}]},
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2018","n": 100}]},
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2017","n": 1000}]},
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2018","n": 200}]},
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2017","n": 1500}]},
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2018","n": 300}]},
+		{"fight":[{"a": "item","t": "2017","n": 50},{"a": "item","t": "2018","n": 10}],"win":[{"a": "item","t": "2017","n": 2000},{"a": "item","t": "2018","n": 500}]}
+	],
+	"challengesort":["1","2","3","4","5","6","7"],
+	"dailynum":3
+}

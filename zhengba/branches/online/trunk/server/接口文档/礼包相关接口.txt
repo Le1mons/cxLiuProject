@@ -1,0 +1,7 @@
+libao_buy: 养成和升级礼包充值后掉的接口
+参数： [type, args] 1.养成礼包,arg:5 五星英雄的礼包 6 六星的； 2.升级礼包 arg:要领取的礼包对应的等级
+返回值： {'s':1,'d':{'prize':[]}}
+
+chongzhi_pay: 养成和等级礼包充值接口
+参数：[uid,proid,orderid(充值订单),价格,验证key] proid-->养成:yclb30,yclb68 等级:djlb
+返回值：{'s': 1}

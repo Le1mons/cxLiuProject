@@ -1,0 +1,11 @@
+item_use: 物品使用（包含碎片，礼包）
+参数：[itemid, num]
+返回值： {'s': 1,'d':{'prize': {'a', 物品类别，'t': 奖励的itemid, 'n': 奖励的数量}}}
+
+item_getlist: 获取物品列表
+参数：[]
+返回值： {'s': 1,'d':{tid:物品属性}}
+
+equip_sale: 装备与饰品出售
+参数: [tid, type, num]   装备tid，装备类型(string：12345),数量
+返回值：{'s': 1}

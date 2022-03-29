@@ -1,0 +1,74 @@
+/**
+ * Created by zhangming on 2018-05-14
+ */
+(function(){
+ // 物品详情
+G.class.zhuangbei_tip_wpxq = X.bView.extend({
+    ctor: function (callback, data) {
+        var me = this;
+        me._super('zhuangbei_tip1.json', function(){
+            var size = cc.size(534, 300);
+            me.setContentSize( size );
+            me.ui.setContentSize( me.getContentSize() );
+            ccui.helper.doLayout( me.ui );
+            callback && callback();
+        }, {autoFillSize:false});
+    },
+    refreshPanel: function(){
+        var me = this;
+    },
+    setContents:function() {
+        var me = this;
+
+        // btn_hqtj$ btn 获取途径
+
+        // panel_1$ Layout 物品容器
+        // panel_2$ Layout 物品描述
+        // panel_3$ Layout 按钮容器
+
+        // text_1$ text 物品名
+        // text_2$ text 物品类型描述
+        // text_hqtj text 获取途径
+    },
+    bindBTN:function() {
+        var me = this;
+
+        // me.nodes.mask.click(function(){
+        //     me.remove();
+        // });
+
+        // 出售
+        // me.nodes.btn_3.click(function(){
+        //     me.remove();
+        // });
+    },
+    onOpen: function () {
+        var me = this;
+        me.bindBTN();
+    },
+    onShow : function(){
+        var me = this;
+        me.refreshPanel();
+
+        // G.frame.yingxiong_xxxx.onnp('updateInfo', function (d) {
+        //     if(G.frame.yingxiong_xxxx.getCurType() == me._type){
+        //         me.refreshPanel();
+        //     }else{
+        //         me._needRefresh = true;
+        //     }
+        // }, me.getViewJson());
+    },
+    onNodeShow : function(){
+        var me = this;
+        
+        // if(me._needRefresh){
+        //     delete me._needRefresh;
+        //     me.refreshPanel();
+        // }
+    },
+    onRemove: function () {
+        var me = this;
+    },
+});
+
+})();

@@ -1,0 +1,24 @@
+新手奖励
+api:api_onlineprize_open
+参数：uid
+返回值：{"s": "1", "d": 
+                      {"info": {"list": [{"cd": 10, "prize": {"a": "equip", "t": "1012", "n": 1}},         list：在线奖励的配置
+                                         {"cd": 300, "prize": {"a": "attr", "t": "useexp", "n": 1000}}, 
+                                         {"cd": 480, "prize": {"a": "attr", "t": "jinbi", "n": 10000}}, 
+                                         {"cd": 720, "prize": {"a": "item", "t": "61014", "n": 30}}, 
+                                         {"cd": 1080, "prize": {"a": "attr", "t": "rmbmoney", "n": 30}}, 
+                                         {"cd": 1800, "prize": {"a": "attr", "t": "jinbi", "n": 40000}}, 
+                                         {"cd": 5400, "prize": {"a": "attr", "t": "useexp", "n": 15000}}, 
+                                         {"cd": 10800, "prize": {"a": "attr", "t": "rmbmoney", "n": 60}}, 
+                                         {"cd": 14400, "prize": {"a": "item", "t": "45034", "n": 30}}, 
+                                         {"cd": 21600, "prize": {"a": "attr", "t": "rmbmoney", "n": 200}}, 
+                                         {"cd": 28800, "prize": {"a": "item", "t": "2010", "n": 2}},
+                                         {"cd": 28800, "prize": {"a": "item", "t": "2011", "n": 1}}]}, 
+                                            "gotprize": 1, "val": 1,                               gotprize：领取的东西的数量  val：可领取的数量包括已经领取
+                                          "cd": 1531126328}}                                        cd：下一次领取的时间
+
+
+
+api：api_onlineprize_getprize
+参数：uid
+返回值 {'s': '1', 'd': { u'prize': {u'a': u'equip', u't': u'1012', u'n': 1}}}                     获取的物品

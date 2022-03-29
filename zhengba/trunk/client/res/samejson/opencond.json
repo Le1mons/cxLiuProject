@@ -1,0 +1,582 @@
+{
+    "comment": {
+        "about": "本配置文件用于控制功能的开启条件，前后端公用",
+        "cond": "城市解锁使用:{opencityid:14};等级解锁:{'lv',14}; 等级范围解锁: {'lvrange':[1,20]};多个条件举例:[{'lv':14},{'opencityid':18}];vip解锁",
+        "main": "必要晚上的条件",
+        "optional": "可选条件",
+        "注意事项": "*****************严格按照从小到大的开放顺序填写*************",
+        "temprory": {
+            "临时屏蔽内容": 1
+        }
+    },
+    "base": {
+        "worldtree": {
+            "name":"召唤之书",
+            "main": [
+                [
+                    "lv",
+                    25
+                ]
+            ]
+        },
+        "yxzm": {
+            "name":"召唤之书",
+            "main": [
+                [
+                    "lv",
+                    23
+                ]
+            ]
+        },
+        "xuyuanchi": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    14
+                ],
+                [
+                    "lv",
+                    45
+                ],
+                [
+                    "vip",
+                    3
+                ]
+            ]
+        },
+        "mfzp": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    14
+                ]
+            ]
+        },
+        "zypkjjc": {
+            "name":"自由竞技场",
+            "main": [
+                [
+                    "lv",
+                    18
+                ]
+            ]
+        },
+        "baoshijihuo": {
+            "name":"宝石激活",
+            "main": [
+                [
+                    "lv",
+                    40
+                ]
+            ]
+        },
+        "championtrial": {
+            "name":"冠军的试炼",
+            "main": [
+                [
+                    "lv",
+                    55
+                ]
+            ]
+        },
+        "shizijun_1": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    40
+                ]
+            ]
+        },
+        "shizijun_2": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    60
+                ]
+            ]
+        },
+        "shizijun_3": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    100
+                ]
+            ]
+        },
+        "fashita": {
+            "name":"神殿之路",
+            "main": [
+                [
+                    "lv",
+                    24
+                ]
+            ]
+        },
+        "meirishilian": {
+            "name":"塔防试炼",
+            "main": [
+                [
+                    "lv",
+                    1
+                ]
+            ]
+        },
+        "gonghui": {
+            "name":"工会",
+            "main": [
+                [
+                    "lv",
+                    21
+                ]
+            ]
+        },
+        "friendhelp": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    22
+                ]
+            ]
+        },
+        "succtask": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    45
+                ]
+            ]
+        },
+        "xuanshangrenwu": {
+            "name":"悬赏任务",
+            "main": [
+                [
+                    "lv",
+                    28
+                ]
+            ]
+        },
+        "crosszb": {
+            "name":"外域争霸",
+            "main": [
+                [
+                    "lv",
+                    50
+                ],
+                [
+                    "severday",
+                    3
+                ]
+            ]
+        },
+        "comment": {
+            "name":"英雄祭坛",
+            "optional": [
+                [
+                    "lv",
+                    60
+                ],
+                [
+                    "vip",
+                    2
+                ]
+            ]
+        },
+        "watcher": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    52
+                ]
+            ]
+        },
+        "meltsoul": {
+            "name":"融魂",
+            "main": [
+                [
+                    "lv",
+                    52
+                ]
+            ]
+        },
+        "xstask": {
+            "name":"悬赏任务",
+            "main": [
+                [
+                    "lv",
+                    28
+                ]
+            ]
+        },
+        "meltsoulnum": {
+            "name":"英雄祭坛",
+            "optional": [
+                [
+                    "vip",
+                    2
+                ],
+                [
+                    "lv",
+                    80
+                ]
+            ]
+        },
+        "president": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    60
+                ]
+            ]
+        },
+        "tonyu": {
+            "name":"统御",
+            "main": [
+                [
+                    "lv",
+                    65
+                ]
+            ]
+        },
+        "ghcompeting": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    30
+                ]
+            ]
+        },
+        "glyphrefine": {
+            "name":"雕文",
+            "main": [
+                [
+                    "lv",
+                    75
+                ]
+            ]
+        },
+        "glyphbreakdown": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    180
+                ]
+            ]
+        },
+        "tuanduifuben": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    35
+                ]
+            ]
+        },
+        "temple_devil": {
+            "name":"神殿魔王",
+            "main": [
+                [
+                    "lv",
+                    45
+                ]
+            ]
+        },
+        "enchant": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    80
+                ]
+            ]
+        },
+        "dungeon": {
+            "name":"神殿地牢",
+            "main": [
+                [
+                    "lv",
+                    1
+                ]
+            ]
+        },
+        "ranklist": {
+            "name":"派",
+            "main": [
+                [
+                    "lv",
+                    20
+                ]
+            ]
+        },
+        "storm_1": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    60
+                ],
+                [
+                    "severday",
+                    28
+                ]
+            ]
+        },
+        "storm_2": {
+            "name":"英雄祭坛",
+            "optional": [
+                [
+                    "lv",
+                    60
+                ],
+                [
+                    "vip",
+                    0
+                ]
+            ]
+        },
+        "storm_3": {
+            "name":"英雄祭坛",
+            "optional": [
+                [
+                    "lv",
+                    100
+                ],
+                [
+                    "vip",
+                    8
+                ]
+            ]
+        },
+        "storm_4": {
+            "name":"英雄祭坛",
+            "optional": [
+                [
+                    "lv",
+                    130
+                ],
+                [
+                    "vip",
+                    10
+                ]
+            ]
+        },
+        "flag": {
+            "name":"部落战旗",
+            "main": [
+                [
+                    "severday",
+                    8
+                ]
+            ]
+        },
+        "skin": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    50
+                ]
+            ]
+        },
+        "maze": {
+            "name":"神殿迷宫",
+            "main": [
+                [
+                    "lv",
+                    48
+                ]
+            ]
+        },
+        "giverarepet": {
+            "name":"英雄招募",
+            "main": [
+                [
+                    "lv",
+                    1
+                ]
+            ]
+        },
+        "guild_exchnage": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    150
+                ]
+            ]
+        },
+        "wjzz": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    100
+                ]
+            ]
+        },
+        "jiban": {
+            "name":"英雄列传",
+            "main": [
+                [
+                    "lv",
+                    32
+                ]
+            ]
+        },
+        "pet": {
+            "name":"神宠水晶",
+            "main": [
+                [
+                    "lv",
+                    180
+                ]
+            ]
+        },
+        "ladder": {
+            "name":"王者天梯",
+            "main": [
+                [
+                    "severday",
+                    15
+                ],
+                [
+                    "lv",
+                    65
+                ]
+            ]
+        },
+        "alaxizhanchang": {
+            "name":"阿拉希战场",
+            "main": [
+                [
+                    "severday",
+                    4
+                ]
+            ]
+        },
+        "anniversary": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "lv",
+                    30
+                ]
+            ]
+        },
+        "xinghunskinshop": {
+            "name":"星魂商店",
+            "main": [
+                [
+                    "severday",
+                    31
+                ]
+            ]
+        },
+        "gpjjc": {
+            "name":"决斗盛典",
+            "main": [
+                [
+                    "severday",
+                    15
+                ],
+                [
+                    "lv",
+                    70
+                ]
+            ]
+        },
+        "lianhunta": {
+            "name":"炼魂塔",
+            "main": [
+                [
+                    "severday",
+                    45
+                ]
+            ]
+        },
+        "wujinzhita": {
+            "name":"无尽之塔",
+            "main": [
+                [
+                    "severday",
+                    2
+                ],
+                [
+                    "lv",
+                    45
+                ]
+            ]
+        },
+        "shilianzt": {
+            "name":"试炼之塔",
+            "main": [
+                [
+                    "severday",
+                    35
+                ],
+                [
+                    "lv",
+                    100
+                ]
+            ]
+        },
+        "specialequip": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "severday",
+                    30
+                ]
+            ]
+        },
+        "ghkjskill": {
+            "name":"英雄祭坛",
+            "main": [
+                [
+                    "severday",
+                    30
+                ]
+            ]
+        },
+        "chuanshuodating": {
+            "name":"传说大厅",
+            "main": [
+                [
+                    "mapid",
+                    100
+                ]
+            ]
+    },
+        "yjxw": {
+            "name":"异界漩涡",
+            "main": [
+                [
+                    "severday",
+                    45
+                ],
+                [
+                    "mapid",
+                    100
+                ]
+            ]
+},
+        "syzc": {
+        "main": [
+            [
+                "severday",
+                45
+            ]
+        ]
+}
+    }
+}

@@ -1,0 +1,63 @@
+crosszb_jfopen: 打开积分赛界面
+参数：[]
+返回值：{'s': 1,'d':{status: 1,enemy:[],freerefnum:15,rank:2,jifen:0,pknum:15,buynum:36,cd:,buyneed:}}
+
+crosszb_jffight: 积分赛战斗
+参数: [索引，站位]
+返回值: {s:1,d:{fightres:{},rival:[]}}
+
+crosszb_fightreplay: 战斗回放
+参数: [日志唯一id]
+返回值: {s:1,d:{flog:{}}}
+
+crosszb_getzbflog: 争霸赛战斗日志
+参数: []
+返回值: {s:1,d:{flog:{}}}
+
+crosszb_jfbuypknum: 积分赛购买PK次数接口
+参数: []
+返回值: {s:1,d:{pknum:0,buyneed:[],buynum:0}}
+
+crosszb_jfrecrankprize: 积分赛领取排行奖励
+参数: []
+返回值: {s:1,d:{prize:[]}}
+
+crosszb_jfrefmatch: 积分赛刷新对手
+参数: []
+返回值: {s:1,d:{enemy:[],freerefnum:0}}
+
+crosszb_kinglog: 王者风范接口
+参数: []
+返回值: {s:1,d:{}}
+
+crosszb_prizelist: 打开跨服争霸积分赛领奖界面
+参数: []
+返回值: {s:1,d:{winnum:0,reclist:[当日领取奖励信息]}}
+
+crosszb_recprize: 领取跨服争霸积分赛每日奖励
+参数: []
+返回值: {s:1,d:{reclist:[],scjl:是否可以领奖}}
+
+crosszb_refzbpk: 刷新跨服争霸赛对战对手
+参数: []
+返回值: {s:1,d:{pkdata:[对手信息],top10:[前十信息]}}
+
+crosszb_status: 显示跨服争霸积分赛和争霸赛的状态
+参数: []
+返回值: {s:1,d:{jifen:0或1，jifencd:0,zhengba:1战斗中或者
+
+crosszb_zbbuypknum: 积分赛购买PK次数接口
+参数: []
+返回值: {s:1,d:{pknum:0，buyneed:[],buynum:0}}
+
+crosszb_zbfight: 争霸赛战斗接口
+参数: [对手uid, 战位信息]
+返回值: {s:1,d:{fightres:0,在二十名以内rank:1,flogid:0}}
+
+crosszb_zbrecrankprize: 获取跨服争霸排名奖励
+参数: [对手uid, 战位信息]
+返回值: {s:1,d:{prize:[]}}
+
+crosszb_zhengbamain: 跨服争霸主界面
+参数: [对手uid, 战位信息]
+返回值: {s:1,d:{prize:[]}}

@@ -1,0 +1,84 @@
+{
+  "common": {
+    "openday": "开区多少天开启",
+    "tqprize": "每天领取的特权奖励",
+    "daily_goods": {
+      "num": "每日最多购买的次数",
+      "prize": "购买后的奖励",
+      "need": "消耗"
+    },
+    "item2energe": "消耗对应着能量",
+    "egg": {
+      "2007": {"energe": "需要多少能量孵化","dlz": "宠物掉落组"}
+    },
+    "petridish": {
+      "tq": {"cd": "每多少秒获得一点能量","vip": "升级所需vip等级"},
+      "base": {
+        "1": {"cd": "每多少秒获得一点能量","vip": "升级所需vip等级"}
+      }
+    },
+    "crystalrank": {
+      "0": {"need": "0升1的消耗","buff": "所提供的buff","slot": 0}
+    }
+  },
+  "base": {
+    "cd": 28800,
+    "openday": 19,
+    "speedup":{
+      "time":3600,
+      "need":[{"a": "attr","t": "rmbmoney", "n": 20}]
+    },
+    "palace":{
+      "color":4,"lv":5,"data":{
+        "1":{"exp":100,"buff":{"atk":100}},
+        "2":{"exp":200,"buff":{}},
+        "3":{"exp":1300,"buff":{}}
+      }
+    },
+    "tqprize": [{"a": "item","t": "2056", "n": 1}],
+    "daily_goods": {
+      "num": 10,
+      "prize": [{"a": "item","t": "2056", "n": 1}],
+      "need": [
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}],
+        [{"a": "attr","t": "jinbi", "n": 500000}]
+      ]
+    },
+    "egg": {
+      "2056": {"dlz": "300","prize": [{"a": "item","t": "2055", "n": 2}],"intro":"<font color=#37bbff>蓝色：95%</font>，<font color=#ee5bec>紫色：4.5%</font>，<font color=#ff8a00>橙色：0.5%</font>"},
+      "2057": {"dlz": "301","prize": [{"a": "item","t": "2055", "n": 2}],"intro":"<font color=#37bbff>蓝色：50%</font>，<font color=#ee5bec>紫色：45%</font>，<font color=#ff8a00>橙色：5%</font>"},
+      "2058": {"dlz": "302","prize": [{"a": "item","t": "2055", "n": 2}],"intro":"<font color=#ee5bec>紫色：90%</font>，<font color=#ff8a00>橙色：10%</font>"},
+      "2059": {"dlz": "303","prize": [{"a": "item","t": "2055", "n": 2}],"intro":"<font color=#ff8a00>橙色：90%</font>，<font color=#fa2f25>红色：10%</font>"}
+    },
+    "petridish": [3,9],
+    "crystalrank": {
+      "0": {"need": [{"a": "item","t": "2055", "n": 10},{"a": "attr","t": "jinbi", "n": 10000}],"buff": {"speed":3},"slot": 0,"pro":500,"lv":0,"intro": "全体英雄可获得水晶50%属性加成"},
+      "1": {"need": [{"a": "item","t": "2055", "n": 20},{"a": "attr","t": "jinbi", "n": 20000}],"buff": {"speed":6},"slot": 1,"pro":500,"lv":10,"intro": "解锁第1个宠物槽位"},
+      "2": {"need": [{"a": "item","t": "2055", "n": 30},{"a": "attr","t": "jinbi", "n": 30000}],"buff": {"speed":9},"slot": 1,"pro":600,"lv":25,"intro": "全体英雄可获得水晶60%属性加成"},
+      "3": {"need": [{"a": "item","t": "2055", "n": 40},{"a": "attr","t": "jinbi", "n": 40000}],"buff": {"speed":12},"slot": 1,"pro":700,"lv":40,"intro": "全体英雄可获得水晶70%属性加成"},
+      "4": {"need": [{"a": "item","t": "2055", "n": 50},{"a": "attr","t": "jinbi", "n": 50000}],"buff": {"speed":15},"slot": 2,"pro":700,"lv":55,"intro": "解锁第2个宠物槽位"},
+      "5": {"need": [{"a": "item","t": "2055", "n": 60},{"a": "attr","t": "jinbi", "n": 60000}],"buff": {"speed":18},"slot": 2,"pro":800,"lv":70,"intro": "全体英雄可获得水晶80%属性加成"},
+      "6": {"need": [{"a": "item","t": "2055", "n": 70},{"a": "attr","t": "jinbi", "n": 70000}],"buff": {"speed":21},"slot": 3,"pro":800,"lv":85,"intro": "解锁第3个宠物槽位"},
+      "7": {"need": [{"a": "item","t": "2055", "n": 80},{"a": "attr","t": "jinbi", "n": 80000}],"buff": {"speed":24},"slot": 3,"pro":900,"lv":100,"intro": "全体英雄可获得水晶90%属性加成"},
+      "8": {"need": [{"a": "item","t": "2055", "n": 90},{"a": "attr","t": "jinbi", "n": 90000}],"buff": {"speed":27},"slot": 4,"pro":900,"lv":150,"intro": "解锁第4个宠物槽位"},
+      "9": {"need": [],"buff": {"speed":30},"slot": 4,"pro":1000,"lv":200,"intro": "全体英雄可获得水晶100%属性加成"}
+    },
+    "slotopen":{
+      "1":1,
+      "2":4,
+      "3":6,
+      "4":8
+
+    },
+  "qusan": ["500100002","500100102","500100202","500100302","500100402","500100502"],
+  "tujing":["45","46","38"]
+  }
+}

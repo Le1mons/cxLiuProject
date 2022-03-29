@@ -1,0 +1,56 @@
+{
+  "common":{"allowance":"津贴的id"},
+  "task" : {
+    "1" : {"pval" : 1,"intr" : "今日登陆","prize" : [{"a":"item","t":"5062","n":1}],"tzid":1 },
+    "2" : {"pval" : 1,"intr" : "领取日常任务终极宝箱{1}次","prize" : [{"a":"item","t":"5062","n":1}],"tzid":14},
+    "3" : {"pval" : 30,"intr" : "充值{1}元","prize" : [{"a":"item","t":"2010","n":3},{"a":"item","t":"5062","n":5}],"tzid":29},
+    "4" : {"pval" : 2000,"intr" : "消费{1}钻","prize" : [{"a":"item","t":"2010","n":2},{"a":"item","t":"5062","n":3}],"tzid":4}
+  },
+  "prizepool":[
+    {"jindu":500,"name":"究极光暗自选", "prize":[[{"a":"item","t":"1125","n":1}],[{"a":"attr","t":"rmbmoney","n":6666}]],"integral":1,"modulus":30,"return":1.0,"itemname":["光暗究极自选箱","钻石"]},
+    {"jindu":1000,"name":"无限勋章", "prize":[[{"a":"shipin","t":"6561","n":1}],[{"a":"item","t":"2010","n":50}]],"integral":1,"modulus":30,"return":1.0,"itemname":["无限勋章","先祖印记"]},
+    {"jindu":1000,"name":"神圣结界之心", "prize":[[{"a":"shipin","t":"6481","n":1}],[{"a":"item","t":"2010","n":50}]],"integral":1,"modulus":30,"return":1.0,"itemname":["神圣结界之心","先祖印记"]},
+    {"jindu":650,"name":"圣物饰品自选", "prize":[[{"a":"item","t":"1113","n":1}],[{"a":"item","t":"2010","n":30}]],"integral":1,"modulus":30,"return":1.0,"itemname":["圣物饰品自选箱","先祖印记"]},
+    {"jindu":650,"name":"神话饰品自选", "prize":[[{"a":"item","t":"1114","n":1}],[{"a":"item","t":"2010","n":30}]],"integral":1,"modulus":30,"return":1.0,"itemname":["神话饰品自选箱","先祖印记"]},
+    {"jindu":500,"name":"皮肤精华", "prize":[[{"a":"item","t":"2060","n":30}],[{"a":"item","t":"2011","n":8}]],"integral":1,"modulus":30,"return":1.0,"itemname":["皮肤精华","召唤卷"]}
+  ],
+  "exchange":[
+    {"need":[{"a":"item","t":"5063","n":320}],"prize":[{"a":"item","t":"1125","n":1}],"num":2,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":540}],"prize":[{"a":"item","t":"1113","n":1}],"num":1,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":200}],"prize":[{"a":"item","t":"1096","n":1}],"num":2,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":20}],"prize":[{"a":"item","t":"2039","n":1}],"num":20,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":15}],"prize":[{"a":"item","t":"2011","n":1}],"num":10,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":3}],"prize":[{"a":"item","t":"2010","n":1}],"num":20,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":12}],"prize":[{"a":"item","t":"2004","n":1000}],"num":20,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":30}],"prize":[{"a":"item","t":"2026","n":1000}],"num":20,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":10}],"prize":[{"a":"item","t":"2005","n":1000}],"num":20,"showday":0},
+    {"need":[{"a":"item","t":"5063","n":1}],"prize":[{"a":"attr","t":"useexp","n":250000}],"num":99,"showday":0},
+    {"need":[{"a":"item","t":"5062","n":1}],"prize":[{"a":"item","t":"5063","n":1}],"num":999,"showday":7},
+    {"need":[{"a":"item","t":"2087","n":1}],"prize":[{"a":"attr","t":"jinbi","n":50000}],"num":999,"showday":7}
+  ],
+  "libao":[
+    {"proid":"","unitprize":0,"prize":[{"a":"item","t":"5062","n":5},{"a":"item","t":"2010","n":10}],"allowance":1,"rmbmoney":1000,"num":4,"needrmbmoney":1000,"pro":5},
+    {"proid":"shuangshiyi6","unitprize":6,"prize":[{"a":"item","t":"5062","n":10},{"a":"attr","t":"rmbmoney","n":60}],"allowance":0,"rmbmoney":60,"num":1,"needrmbmoney":0,"pro":5},
+    {"proid":"shuangshiyi128","unitprize":128,"prize":[{"a":"item","t":"5062","n":15},{"a":"attr","t":"rmbmoney","n":1280},{"a":"item","t":"2010","n":10},{"a":"item","t":"2004","n":3000}],"allowance":2,"rmbmoney":1280,"num":5,"needrmbmoney":0,"pro":5},
+    {"proid":"shuangshiyi328","unitprize":328,"prize":[{"a":"item","t":"5062","n":30},{"a":"attr","t":"rmbmoney","n":3280},{"a":"item","t":"2010","n":20},{"a":"item","t":"2011","n":6}],"allowance":2,"rmbmoney":3280,"num":5,"needrmbmoney":0,"pro":5},
+    {"proid":"shuangshiyi648","unitprize":648,"prize":[{"a":"item","t":"5062","n":60},{"a":"attr","t":"rmbmoney","n":6480},{"a":"item","t":"2010","n":40},{"a":"item","t":"2026","n":6000}],"allowance":3,"rmbmoney":6480,"num":7,"needrmbmoney":0,"pro":5}
+  ],
+  "email":{
+    "pool_ok":{"title":"狂欢奖池中奖","content":"亲爱的勇者，幸运砸中了你，恭喜获得{0}*{1}，请查收"},
+    "pool_fail":{"title":"狂欢奖池返还","content":"亲爱的勇者，你参与的{0}未能成功开奖，参与该奖池的抽奖券已1:1返还为狂欢兑换券，请查收"},
+    "allowance":{"title":"狂欢津贴返利","content":"亲爱的勇者，双十一狂欢你总共获得了{0}钻石的津贴返利，请查收"},
+    "prizepool":{"title":"狂欢奖池提醒","content":"亲爱的勇者，狂欢奖池将于今晚24点截止抽奖，届时狂欢抽奖券将无法使用，请及时参与活动"},
+    "exchange":{"title":"狂欢兑换提醒","content":"亲爱的勇者，狂欢兑换将于今晚24点结束，狂欢兑换券将消失，请及时兑换"}
+  },
+  "openday": {
+    "task":[1,6],
+    "prizepool":[4,8],
+    "exchange":[4,8],
+    "libao":[4,6],
+    "choujiang":[4,6,22],
+    "kaijiang":[7,8]
+  },
+  "allowance":"2087",
+  "poolneed":[{"a":"item","t":"5062","n":1}],
+  "poolreturn":"5063"
+}

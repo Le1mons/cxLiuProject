@@ -1,0 +1,12 @@
+mrsl_open: 开启
+参数：[type] jinbi，hero,exp
+返回值：{'s':1,"d":{'lessnum':0剩余次数,'prize':[]}}
+
+mrsl_fight: 挑战
+参数：[type, 难度，fightdata, npcid] 类型，站位信息，npc
+返回值：{'s':1,"d":{'lessnum':0剩余次数,'winside':[]}}
+
+mrsl_buynum: 购买次数
+参数：[type] 类型
+返回值：{'s':1,"d":{'buynum':0}}
+

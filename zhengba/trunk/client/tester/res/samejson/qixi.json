@@ -1,0 +1,123 @@
+{
+    "common": {
+		"libao": "礼包配置",
+        "duihuan": "兑换配置",
+        "task": "任务配置",
+        "duihuanNeed":"兑换活动需要的材料，有几个就配置几个，不需要配置num",
+		"jifenprize": "跨服积分奖励",
+		"todaycommonval": "每日需要达到的目标值"
+	},
+
+	"libao": {
+		"qixi30": {"proid": "qixi30","name": "七夕超值礼包","money": 3000,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 300},{"a":"item","t":"5087","n":10}],"buynum": 1},
+		"qixi98": {"proid": "qixi98","name": "七夕特惠礼包","money": 9800,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 980},{"a":"item","t":"5087","n":15},{"a":"item","t":"2003","n":2000}],"buynum": 10},
+		"qixi328": {"proid": "qixi328","name": "七夕助力礼包","money": 32800,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 3280},{"a":"item","t":"5087","n":40},{"a":"item","t":"2089","n":10},{"a":"item","t":"2010","n":10}],"buynum": 10},
+		"qixi648": {"proid": "qixi648","name": "七夕限购礼包","money": 64800,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 6480},{"a":"item","t":"5087","n":80},{"a":"item","t":"2004","n":10000},{"a":"item","t":"2010","n":20}],"buynum": 18}
+	},
+    "duihuanNeed":[{"a": "item", "t": "5088"}],
+	"duihuan": {
+		"1":{"need": [{"a":"item","t":"5088","n":550}],"prize": [{"a":"item","t":"1163","n":1}],"maxnum": 1, "rtime": 0},
+		"2":{"need": [{"a":"item","t":"5088","n":200}],"prize": [{"a":"item","t":"61035","n":50}],"maxnum": 5, "rtime": 0},
+		"3":{"need": [{"a":"item","t":"5088","n":150}],"prize": [{"a":"item","t":"1158","n":1}],"maxnum": 5, "rtime": 0},
+		"4":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"32075","n":50}],"maxnum": 5, "rtime": 0},
+		"5":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"35055","n":50}],"maxnum": 5, "rtime": 0},
+		"6":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"43085","n":50}],"maxnum": 5, "rtime": 0},
+		"7":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"41075","n":50}],"maxnum": 5, "rtime": 0},
+		"8":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"21065","n":50}],"maxnum": 5, "rtime": 0},
+		"9":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"25085","n":50}],"maxnum": 5, "rtime": 0},
+		"10":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"11105","n":50}],"maxnum": 5, "rtime": 0},
+		"11":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"34035","n":50}],"maxnum": 5, "rtime": 0},
+		"12":{"need": [{"a":"item","t":"5088","n":110}],"prize": [{"a":"item","t":"1096","n":1}],"maxnum": 2, "rtime": 0},
+		"13":{"need": [{"a":"item","t":"5088","n":45}],"prize": [{"a":"item","t":"2059","n":1}],"maxnum": 1, "rtime": 0},
+		"14":{"need": [{"a":"item","t":"5088","n":15}],"prize": [{"a":"item","t":"2039","n":1}],"maxnum": 10, "rtime": 0},
+		"15":{"need": [{"a":"item","t":"5088","n":6}],"prize": [{"a":"item","t":"2071","n":1}],"maxnum": 10, "rtime": 0},
+		"16":{"need": [{"a":"item","t":"5088","n":8}],"prize": [{"a":"item","t":"2010","n":5}],"maxnum": 10, "rtime": 0},
+		"17":{"need": [{"a":"item","t":"5088","n":1}],"prize": [{"a":"attr","t":"useexp","n":500000}],"maxnum": 99, "rtime": 0}
+			},
+	"task": {
+		"1": {
+			"tiaozhuan": "",
+			"desc": "今日登录1次",
+			"pval": 1,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5087",
+					"n": 2
+				}
+			]
+		},
+		"2": {
+			"tiaozhuan": "14",
+			"desc": "今日领取日常任务终极奖励",
+			"pval": 1,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5087",
+					"n": 3
+				}
+			]
+		},
+		"3": {
+			"tiaozhuan": "1",
+			"desc": "今日快速探险4次",
+			"pval": 4,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5087",
+					"n": 5
+				}
+			]
+		},
+		"4": {
+			"tiaozhuan": "37",
+			"desc": "今日充值30元",
+			"pval": 30,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5087",
+					"n": 10
+				}
+			]
+		}
+	},
+	"helpneed": [{"a": "item", "t": "5087", "n": 1}],
+	"helpprize": [{"a": "item", "t": "5088", "n": 1}],
+	"addjifen": 1,
+
+	"commonprize": [
+		{"p": [{"a": "item", "t": "2010", "n": 10}], "val": 360000, "img": "2"},
+		{"p": [{"a": "item", "t": "2026", "n": 1888}], "val": 720000, "img": "3"},
+		{"p": [{"a": "item", "t": "61035", "n": 25}], "val": 1100000, "img": "4"},
+		{"p": [{"a": "item", "t": "2011", "n": 5}], "val": 1500000, "img": "4"},
+		{"p": [{"a": "item", "t": "2089", "n": 10}], "val": 1800000, "img": "4"},
+		{"p": [{"a": "item", "t": "61035", "n": 25}], "val": 2200000, "img": "4"}
+	],
+	"todaycommonval": {
+		"1":360000,
+		"2":720000,
+		"3":1100000,
+		"4":1500000,
+		"5":1800000,
+		"6":2200000
+	},
+	"rankprize": [
+      [[1,3],[{"a": "item", "t": "1168", "n": 1}]],
+	  [[4,50],[{"a": "item", "t": "1169", "n": 1}]]
+    ],
+	"email": {
+		"title": "鹊桥相会排行奖励",
+		"content": "亲爱的勇士，你在鹊桥相会勇夺排行榜第{1}，获得以下奖励，请查收"
+	},
+	"tishiemail":{
+		"title": "鹊桥相会活动即将结束",
+		"content": "鹊桥相会活动即将结束，届时将无法兑换活动奖励，请各位勇士于{0}，0点之前及时兑换"
+	},
+	"todayemail":{
+		"title": "鹊桥相会活动",
+		"content": "亲爱的勇士，你在鹊桥相会活动中的织女心愿奖励未领取，获得以下奖励，请查收"
+	}
+}

@@ -1,0 +1,189 @@
+{
+    "common": {
+		"libao": "礼包配置",
+        "duihuan": "兑换配置",
+        "task": "任务配置",
+        "duihuanNeed":"兑换活动需要的材料，有几个就配置几个，不需要配置num",
+
+		"lotteryneed": "抽奖消耗"
+	},
+
+	"libao": {
+		"1": {"proid": "duanwu6","name": "端午超值礼包","money": 600,"need":[],"prize": [{"a":"item","t":"5082","n":5}],"buynum": 1},
+		"2": {"proid": "duanwu98","name": "端午特惠礼包","money": 9800,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 980},{"a":"item","t":"5082","n":15},{"a":"item","t":"2004","n":1000}],"buynum": 2},
+		"3": {"proid": "duanwu328","name": "端午助威礼包","money": 32800,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 3280},{"a":"item","t":"5082","n":45},{"a":"item","t":"2089","n":15}],"buynum": 2},
+		"4": {"proid": "duanwu648","name": "龙舟限购礼包","money": 64800,"need":[],"prize": [{"a": "attr", "t": "rmbmoney", "n": 6480},{"a":"item","t":"5082","n":90},{"a":"item","t":"2026","n":4000}],"buynum": 2}
+	},
+    "duihuanNeed":[{"a": "item", "t": "5083"}],
+	"duihuan": {
+		"1":{"need": [{"a":"item","t":"5083","n":550}],"prize": [{"a":"item","t":"1163","n":1}],"maxnum": 1, "rtime": 0},
+		"2":{"need": [{"a":"item","t":"5083","n":160}],"prize": [{"a":"item","t":"1158","n":1}],"maxnum": 5, "rtime": 0},
+		"3":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"43085","n":50}],"maxnum": 5, "rtime": 0},
+		"4":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"21065","n":50}],"maxnum": 5, "rtime": 0},
+		"5":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"11105","n":50}],"maxnum": 5, "rtime": 0},
+		"6":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"35055","n":50}],"maxnum": 5, "rtime": 0},
+		"7":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"25085","n":50}],"maxnum": 5, "rtime": 0},
+		"8":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"34035","n":50}],"maxnum": 5, "rtime": 0},
+		"9":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"31115","n":50}],"maxnum": 5, "rtime": 0},
+		"10":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"41075","n":50}],"maxnum": 5, "rtime": 0},
+		"11":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"42025","n":50}],"maxnum": 5, "rtime": 0},
+		"12":{"need": [{"a":"item","t":"5083","n":110}],"prize": [{"a":"item","t":"1096","n":1}],"maxnum": 2, "rtime": 0},
+		"13":{"need": [{"a":"item","t":"5083","n":35}],"prize": [{"a":"item","t":"3004","n":50}],"maxnum": 2, "rtime": 0},
+		"14":{"need": [{"a":"item","t":"5083","n":15}],"prize": [{"a":"item","t":"2039","n":1}],"maxnum": 10, "rtime": 0},
+		"15":{"need": [{"a":"item","t":"5083","n":20}],"prize": [{"a":"item","t":"2089","n":10}],"maxnum": 2, "rtime": 0},
+		"16":{"need": [{"a":"item","t":"5083","n":7}],"prize": [{"a":"item","t":"2011","n":1}],"maxnum": 10, "rtime": 0},
+		"17":{"need": [{"a":"item","t":"5083","n":1}],"prize": [{"a":"attr","t":"useexp","n":500000}],"maxnum": 99, "rtime": 0},
+		"18":{"need": [{"a":"item","t":"5082","n":1}],"prize": [{"a":"item","t":"5083","n":1}],"maxnum": 9999, "rtime": 1}
+			},
+	"email": {
+		"tishi": {
+		"title": "欢度端午节",
+		"content": "活动时间即将结束，请及时使用助威战鼓、五花肉粽，请各位勇士于{0}，0点之前及时兑换"
+	},
+		"prize": {
+		"title": "端午节排名奖励",
+		"content": "恭喜获得第{0}名的端午节排名奖励，请查收"
+	},
+		"ext": {
+		"title": "端午节竞猜奖励",
+		"content": "恭喜获得第{0}名的端午节竞猜奖励，请查收"
+	}
+	},
+	"task": {
+		"1": {
+			"tiaozhuan": "",
+			"desc": "今日登录1次",
+			"pval": 1,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5082",
+					"n": 2
+				}
+			]
+
+		},
+		"2": {
+			"tiaozhuan": "14",
+			"desc": "今日领取日常任务终极奖励",
+			"pval": 1,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5082",
+					"n": 2
+				}
+			]
+		},
+		"3": {
+			"tiaozhuan": "6",
+			"desc": "今日完成3次悬赏",
+			"pval": 3,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5082",
+					"n": 2
+				}
+			]
+		},
+		"4": {
+			"tiaozhuan": "1",
+			"desc": "今日快速探险8次",
+			"pval": 8,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "5082",
+					"n": 4
+				}
+			]
+		},
+		"5": {
+			"tiaozhuan": "",
+			"desc": "活动期间累计4次猜中第一",
+			"pval": 4,
+			 "prize": [
+				{
+					"a": "item",
+					"t": "43085",
+					"n": 50
+				}
+			]
+		}
+	},
+    "toupiaoneed": [{"a": "item", "t": "5082", "n": 1}],
+    "toupiaoprize": [{"a": "item", "t": "5083", "n":1 }],
+    "basenum": 50,
+	"maxnum": 120,
+  "longzhouprize": [
+	  [[1,1],[{"a": "item", "t": "2010", "n": 10}],30],
+      [[2,2],[{"a": "attr", "t": "rmbmoney", "n": 500}],20],
+	  [[3,3],[{"a": "item", "t": "2004", "n": 666}],10],
+      [[4,4],[{"a": "attr", "t": "rmbmoney", "n": 200}],0]
+	],
+	"extprize": {
+		"1": [
+			[[{"num": 0, "p": 1}], [{"a": "shipin", "t": "6581", "n": 1}]],
+			[[{"num": 0, "p": 1}], [{"a": "item", "t": "2010", "n":7 }]]
+		],
+
+		"2": [
+			[[{"num": 0, "p": 1}], [{"a": "item", "t": "1158", "n": 1}]],
+			[[{"num": 0, "p": 1}], [{"a": "attr", "t": "rmbmoney", "n": 588}]]
+		],
+
+		"3": [
+			[[{"num": 0, "p": 1}], [{"a": "item", "t": "1113", "n": 1}]],
+			[[{"num": 0, "p": 1}], [{"a": "item", "t": "2010", "n":3 }]]
+		],
+
+		"4": [
+			[[{"num": 0, "p": 1}], [{"a": "item", "t": "1110", "n": 1}]],
+			[[{"num": 0, "p": 1}], [{"a": "attr", "t": "rmbmoney", "n": 288}]]
+		]
+	},
+	"length": 150,
+	"longzhouinfo": {
+		"1": {
+			"name": "超跃号",
+			"img": "img_lz1.png",
+			"basespeed": 0.45,
+			"iteminterval": 25,
+			"randomitem": [{"key": "haicao", "p": 30}, {"key": "shunfeng", "p": 40}, {"p": 10, "key": ""}],
+			"haicao": {"time": 30},
+			"shunfeng": {"time": 40, "speedpro": 220},
+			"basenum": 50,
+			"maxnum": 8},
+		"2": {
+			"name": "奋进号",
+			"img": "img_lz2.png",
+			"basespeed": 0.5,
+			"iteminterval": 25,
+			"randomitem": [{"key": "haicao", "p": 30}, {"key": "shunfeng", "p": 40}, {"p": 10, "key": ""}],
+			"haicao": {"time": 20},
+			"shunfeng": {"time": 40, "speedpro": 200},
+			"basenum": 30,
+			"maxnum": 16},
+		"3": {
+			"name": "乘风号",
+			"img": "img_lz3.png",
+			"basespeed": 0.45,
+			"iteminterval": 25,
+			"randomitem": [{"key": "haicao", "p": 35}, {"key": "shunfeng", "p": 25}, {"p": 10, "key": ""}],
+			"haicao": {"time": 20},
+			"shunfeng": {"time": 40, "speedpro": 220},
+			"basenum": 40,
+			"maxnum": 11},
+		"4": {
+			"name": "饮浆号",
+			"img": "img_lz4.png",
+			"basespeed": 0.5,
+			"iteminterval": 25,
+			"randomitem": [{"key": "haicao", "p": 50}, {"key": "shunfeng", "p": 50}],
+			"haicao": {"time": 20},
+			"shunfeng": {"time": 40, "speedpro": 200},
+			"basenum": 20,
+			"maxnum": 20}
+		}
+	}

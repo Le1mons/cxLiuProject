@@ -1,0 +1,150 @@
+{
+  "common": {
+    "opencond": "公会达到的副本id",
+    "taskcond": {
+      "daynum": "入会的天数",
+      "lv": "统计任务需要的等级",
+      "power": "官员以上才能提交任务"
+
+    },
+    "task": {
+      "1": {"desc": "进行三级捐献","pval": "要达到的次数","num": "补给值数量","contri":"贡献值数量"}
+    },
+    "leader": {
+      "1": "开启需要的贡献"
+    },
+    "fight_num": "每天的挑战次数",
+    "fight_prize": "每次战斗奖励",
+    "email": {
+      "title": "团队任务-征讨首领奖励",
+      "content": "恭喜你在本次团队任务-征讨首领玩法中获得了第{1}名,奖励如下:"
+    },
+    "rankprize": [
+      [[1,1], [{"a": "attr","t": "jinbi","n": 1}]]
+    ]
+  },
+  "base": {
+    "fight_num": 5,
+    "opencond": 60,
+    "taskcond": {
+      "daynum": 3,
+      "lv": 80,
+      "power": 1
+    },
+    "task": {
+      "1": {"desc": "完成公会3级捐献","pval": 10,"num": 125,"contri":3.75,"title": "公会建设"},
+      "2": {"desc": "完成个人日常任务","pval": 120,"num": 125,"contri":0.3125,"title": "日常达人"},
+      "3": {"desc": "祭坛先祖祭祀","pval": 100,"num": 250,"contri":0.75,"title": "呼朋唤友"},
+      "4": {"desc": "任意钻石消费","pval": 30000,"num": 500,"contri":0.005,"title": "消费达人"},
+      "5": {"desc": "公会玩家快速探险","pval": 60,"num": 125,"contri":0.625,"title": "探险达人"},
+      "6": {"desc": "开启公会宝箱","pval": 1,"num": 1000,"contri":300,"title": "公会使者"}
+    },
+    "boss":{
+      "1":{"name":"第1层","showid":"21046","fightid":"20061","prizeid":"1","fightmap":"zhandou_03","opencontri":10000},
+      "2":{"name":"第2层","showid":"25066","fightid":"20062","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "3":{"name":"第3层","showid":"11086","fightid":"20063","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "4":{"name":"第4层","showid":"32056","fightid":"20064","prizeid":"1","fightmap":"zhandou_03","opencontri":10000},
+      "5":{"name":"第5层","showid":"52046","fightid":"20065","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "6":{"name":"第6层","showid":"63026","fightid":"20066","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "7":{"name":"第7层","showid":"21046","fightid":"20067","prizeid":"1","fightmap":"zhandou_06","opencontri":10000},
+      "8":{"name":"第8层","showid":"25066","fightid":"20068","prizeid":"1","fightmap":"zhandou_03","opencontri":10000},
+      "9":{"name":"第9层","showid":"11086","fightid":"20069","prizeid":"1","fightmap":"zhandou_07","opencontri":10000},
+      "10":{"name":"第10层","showid":"32056","fightid":"20070","prizeid":"1","fightmap":"zhandou_07","opencontri":10000},
+      "11":{"name":"第11层","showid":"52046","fightid":"20071","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "12":{"name":"第12层","showid":"63026","fightid":"20072","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "13":{"name":"第13层","showid":"21046","fightid":"20073","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "14":{"name":"第14层","showid":"25066","fightid":"20074","prizeid":"1","fightmap":"zhandou_06","opencontri":10000},
+      "15":{"name":"第15层","showid":"11086","fightid":"20075","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "16":{"name":"第16层","showid":"32056","fightid":"20076","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "17":{"name":"第17层","showid":"52046","fightid":"20077","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "18":{"name":"第18层","showid":"63026","fightid":"20078","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "19":{"name":"第19层","showid":"21046","fightid":"20079","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "20":{"name":"第20层","showid":"25066","fightid":"20080","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "21":{"name":"第21层","showid":"11086","fightid":"20081","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "22":{"name":"第22层","showid":"32056","fightid":"20082","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "23":{"name":"第23层","showid":"52046","fightid":"20083","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "24":{"name":"第24层","showid":"63026","fightid":"20084","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "25":{"name":"第25层","showid":"21046","fightid":"20085","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "26":{"name":"第26层","showid":"25066","fightid":"20086","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "27":{"name":"第27层","showid":"11086","fightid":"20087","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "28":{"name":"第28层","showid":"32056","fightid":"20088","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "29":{"name":"第29层","showid":"52046","fightid":"20089","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "30":{"name":"第30层","showid":"63026","fightid":"20090","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "31":{"name":"第31层","showid":"21046","fightid":"20091","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "32":{"name":"第32层","showid":"25066","fightid":"20092","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "33":{"name":"第33层","showid":"11086","fightid":"20093","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "34":{"name":"第34层","showid":"32056","fightid":"20094","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "35":{"name":"第35层","showid":"52046","fightid":"20095","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "36":{"name":"第36层","showid":"63026","fightid":"20096","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "37":{"name":"第37层","showid":"21046","fightid":"20097","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "38":{"name":"第38层","showid":"25066","fightid":"20098","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "39":{"name":"第39层","showid":"11086","fightid":"20099","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "40":{"name":"第40层","showid":"32056","fightid":"20100","prizeid":"1","fightmap":"zhandou_03","opencontri":10000},
+      "41":{"name":"第41层","showid":"52046","fightid":"20101","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "42":{"name":"第42层","showid":"63026","fightid":"20102","prizeid":"1","fightmap":"zhandou_06","opencontri":10000},
+      "43":{"name":"第43层","showid":"21046","fightid":"20103","prizeid":"1","fightmap":"zhandou_06","opencontri":10000},
+      "44":{"name":"第44层","showid":"25066","fightid":"20104","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "45":{"name":"第45层","showid":"11086","fightid":"20105","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "46":{"name":"第46层","showid":"32056","fightid":"20106","prizeid":"1","fightmap":"zhandou_05","opencontri":10000},
+      "47":{"name":"第47层","showid":"52046","fightid":"20107","prizeid":"1","fightmap":"zhandou_07","opencontri":10000},
+      "48":{"name":"第48层","showid":"63026","fightid":"20108","prizeid":"1","fightmap":"zhandou_07","opencontri":10000},
+      "49":{"name":"第49层","showid":"21046","fightid":"20109","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "50":{"name":"第50层","showid":"25066","fightid":"20110","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "51":{"name":"第51层","showid":"11086","fightid":"20111","prizeid":"1","fightmap":"zhandou_03","opencontri":10000},
+      "52":{"name":"第52层","showid":"32056","fightid":"20112","prizeid":"1","fightmap":"zhandou_06","opencontri":10000},
+      "53":{"name":"第53层","showid":"52046","fightid":"20113","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "54":{"name":"第54层","showid":"63026","fightid":"20114","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "55":{"name":"第55层","showid":"21046","fightid":"20115","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "56":{"name":"第56层","showid":"25066","fightid":"20116","prizeid":"1","fightmap":"zhandou_01","opencontri":10000},
+      "57":{"name":"第57层","showid":"11086","fightid":"20117","prizeid":"1","fightmap":"zhandou_02","opencontri":10000},
+      "58":{"name":"第58层","showid":"32056","fightid":"20118","prizeid":"1","fightmap":"zhandou_04","opencontri":10000},
+      "59":{"name":"第59层","showid":"52046","fightid":"20119","prizeid":"1","fightmap":"zhandou_08","opencontri":10000},
+      "60":{"name":"第60层","showid":"63026","fightid":"20120","prizeid":"1","fightmap":"zhandou_01","opencontri":10000}
+    },
+    "fubenprize":{
+      "fightprize":[{"a":"attr","t":"jinbi","n":35000},{"a":"item","t":"2003","n":35}],
+      "pmprize":[
+        [[1,1],[{"a":"attr","t":"jinbi","n":300000},{"a":"item","t":"2003","n":10000}]],
+        [[2,2],[{"a":"attr","t":"jinbi","n":260000},{"a":"item","t":"2003","n":9250}]],
+        [[3,3],[{"a":"attr","t":"jinbi","n":230000},{"a":"item","t":"2003","n":8500}]],
+        [[4,10],[{"a":"attr","t":"jinbi","n":180000},{"a":"item","t":"2003","n":6750}]],
+        [[11,15],[{"a":"attr","t":"jinbi","n":140000},{"a":"item","t":"2003","n":5000}]],
+        [[16,20],[{"a":"attr","t":"jinbi","n":110000},{"a":"item","t":"2003","n":4000}]],
+        [[21,50],[{"a":"attr","t":"jinbi","n":90000},{"a":"item","t":"2003","n":3250}]]
+      ]
+    },
+      "email": {
+        "prize":{
+          "title": "团队任务-征讨首领奖励",
+          "content": "恭喜你在本次团队任务-征讨首领玩法中获得了第{1}名,奖励如下:"
+        },
+        "noprize":{
+            "title":"团队任务-征讨首领奖励",
+            "content":"恭喜你在本次团队任务-征讨首领玩法中获得了第{1}名，奖励如下（由于当前层数的首领曾今挑战过，因此排名奖励将减半）："
+        }
+      }
+    },
+    "talk": {
+		"1":"大家排好队打BOSS，不要一个一个送！",
+		"2":"前面的主T顶上，不要去偷看小软裤裤！",
+		"3":"大家注意火墙！火墙！火墙！",
+		"4":"走位，走位，鬼刀一开看不见，别贪输出！",
+		"5":"牧师唱歌，牧师唱歌，再不唱都死了。",
+		"6":"再ot的，dkp直接清零！",
+		"7":"换人嘲讽啊，没看到骑士都跌了100层重伤了？",
+		"8":"猎人又在划水，dps打不过t的不用分装备了！",
+		"9":"buff刷好，合剂磕上，起手记得偷药水。",
+		"10":"倒数了，5、4、3。。擦，谁手贱提前开了。",
+		"11":"猎人踩圈，法师吃球，牧师挡连线，骑士出去无敌单吃。",
+		"12":"纸t又又又倒了，你穿的啥装备？银鳞胸甲！沃德天！",
+		"13":"停手大的，转火小的，白色那只拉出人群。",
+		"14":"全员集合分摊，2减准备，奶潮也丢了，刷起来，刷起来。",
+		"15":"宝宝收一下，引到怪的直接死。",
+		"16":"速度跑尸，我们最后再打一把，过了休息。",
+		"17":"远离尸体，远离尸体，你们这群黑手别摸boss，让红的来。",
+		"18":"斩杀了，萨满嗜血，都拿出吃奶的劲，爆发全开。",
+		"19":"邪灵术士拉个马桶，每个人拿个糖。",
+		"20":"这个木桩BOSS很简单，dps都飚起来就过了。"
+    }
+
+}

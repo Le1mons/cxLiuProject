@@ -1,0 +1,18 @@
+奖励配置说明
+1.奖励格式和显示格式目前都采用 {"a":"奖励类型","t":"奖励标识","n":"数量"}的格式来标识一个奖励或是物品显示的信息
+奖励类型（a）：
+    (1).attr-属性奖励，玩家自身的属性修改，
+    (2).item-物品奖励，item表中的物品配置，
+    (3).hero-英雄奖励，hero表中的配置
+
+
+奖励标识（t）：
+    (1).attr：huangjin-黄金，yuanbao-元宝，yinbi-银币，liangcao-粮草，gongxian-贡献，payexp-vip经验，yueli-阅历，gongxun-功勋，jingjidian-竞技点，
+              xiyubi-西域币，daobi-刀币，jingtie-精铁
+	      配置实例：{"a":"attr","t":"yinbi","n":30000}
+
+    (2).item:配置中的t为item中的物品标识
+             配置实例：{"a":"item","t":"1001","n":1}
+
+    (2).hero:配置中的t为hero中的物品标识
+             配置实例：{"a":"hero","t":"1001","n":1}

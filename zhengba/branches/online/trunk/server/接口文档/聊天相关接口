@@ -1,0 +1,24 @@
+api_chat_send 发送聊天信息
+参数 [content,mtype,"isRepeat",_showType,"notSendMessage",tid]   参数说明：content:邮件内容
+                                                                           mtype:发送消息的频道(1代表发送招募频道，2代表世界频道,3代表公会频道)
+                                                                          "isRepeat":暂时传空值（暂时不需要做重复检查）
+                                                                           _showType:暂时传空值，如果拉黑则传任意值
+                                                                           "notSendMessage":判断是不是屏蔽了该频道，若屏蔽了该频道，则传"notSendMessage"值
+                                                                           tid:若有则传tid的值，若没有则传空值
+
+返回值
+{"t":mytype,"m":content,"data":{"head":"","uid":"","name":"","lv":"","vip":"","ctime":"","showType":1,"showData":{"lv":40,"zhanli":55}}}
+说明：
+    如果showType为0，则没有showData这个字段
+    如果showType为1，则有showData这个字段
+
+
+
+
+
+
+
+
+
+
+

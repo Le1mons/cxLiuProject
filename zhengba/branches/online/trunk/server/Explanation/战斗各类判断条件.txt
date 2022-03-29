@@ -1,0 +1,5 @@
+胜利条件
+1.星级达成：{"wincond":{"cond":"star","val":[3]}}
+2.在多少回合击杀某个目标:{"wincond":{"cond":"roundkill","val":[5]}}
+3.生存超过多少回合:{"wincond":{"cond":"roundlive","val":[10]}}
+4.多少回合内所保护的目标不被击杀:{"wincond":{"cond":"roundhelp","val":["1001",5]}}

@@ -1,0 +1,15 @@
+worldtree_open: 打开世界树
+参数：[]
+返回值：{'s': 1, 'd':{'item': {'fruit': 果实对应数量, 'essence': 精华对应数量}}}
+
+worldtree_call: 世界树 召唤
+参数: [tid]
+返回值：{'s': 1, 'd':{'hero': [{atn}]}
+
+worldtree_swap: 置换英雄
+参数：[tid]
+返回值：{'s': 1, 'd': {'hero': [{atn}]}}
+
+worldtree_save: 保存置换的英雄
+参数：[tid]
+返回值：{'s': 1, "d": {'hero': {tid: 英雄信息}}}

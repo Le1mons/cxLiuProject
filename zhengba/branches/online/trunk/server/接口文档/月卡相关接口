@@ -1,0 +1,14 @@
+yueka_open   月卡打开接口
+参数 [key] key 'xiao' 小月卡 'da' 大月卡
+返回值{'s': 1, 'd': {u'rmbmoney': 0, u'lqnum': 30, u'nt': 1532961894, u'lqtime': 0}}
+ rmbmoney 累积的钱数 lqnum 领取的次数 nt 月卡周期开始时间 lqtime 领取的时间
+
+
+yueka_getprize  月卡领奖
+参数[key] key 'xiao' 小月卡 'da' 大月卡
+返回值 {'s': 1, 'd': {u'rmbmoney': 3000, u'lqnum': 29, u'nt': 1532961894, u'lqtime': 1532962234}}
+
+
+
+
+

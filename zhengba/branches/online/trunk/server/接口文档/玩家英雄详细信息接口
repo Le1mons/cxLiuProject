@@ -1,0 +1,19 @@
+api_user_army_details :玩家英雄详细信息接口
+参数[uid,tid]             参数说明：uid为玩家id，tid为小兵id
+
+
+返回参数 {"s":1,"d":{"lv":11,"name":"xxx"}}   返回小兵的所有信息
+
+api_user_details :玩家详细信息接口
+参数[type,uid]  'zypkjjc','championtrial' 查看玩家競技場和試煉場防守陣容   'chkfriend' 檢查兩人是否好友
+
+
+返回参数 {"s":1,"d":{"lv":11,"name":"xxx"}}   返回小兵的所有信息
+
+user_getborder: 获取头像框 或者聊天框
+参数: [head或者chat]
+返回值: {s:1,d:{v:[id列表], time:{id:0} 可能没有 有的话就是 id 对应着时间}}
+
+user_changeborder: 更换头像框 或者聊天框
+参数: [headborder或者chatborder, id]
+返回值: {s:1}

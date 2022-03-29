@@ -1,0 +1,28 @@
+championtrial_open: 冠军试练打开
+参数： []
+返回值：{'s':1,"d":{'myrank': _myRank,'jifen':_jifen,'time':_time,
+                 'freenum':_freeNum,'zhanli':_zhanli,'defhero':_defHero}}
+
+championtrial_fight: 冠军试练挑战
+参数： [对手uid,fightdata自己的站位信息]
+返回值：{'s':1,"d":{"rank":[],'jifeninfo':{'add':0,"reduce":0,'jifen':0,'enemyjifen':0},'prize':{'prize':[],'show':[]},'fightres':{}}}
+
+championtrial_choose: 选择对手
+参数： [0或1]  是否刷新
+返回值：{'s':1,"d":{'list':[]}}
+
+championtrial_defend: 设置防守阵容
+参数： [{'1':{'1':'tid','2':'tid','3':'tid'},'2':{},'3':{}}] 一共三队，每队对应站位信息
+返回值：{'s':1}
+
+championtrial_recording: 录像
+参数： []
+返回值：{'s':1,"d":{'recording':[{'head':{用户信息},'jifenchange':0,"tid":''}]}
+
+championtrial_watch: 查看录像
+参数： [tid]
+返回值： {"s": 1,'d':{'fightres':{'winside':0,'fightlog':[],'roles':{}}}}
+
+api_rank_open: 排行
+参数：[4]
+返回值： {"s": 1,'d':{'ranklist':[{'headdata': {'lv': 0, 'head': 0, 'vip': 0, 'uid':'', 'name': 0}, 'jifen': 1000}],'myrank':0}}

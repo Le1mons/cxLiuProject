@@ -1,0 +1,92 @@
+{
+  "ID": "728e2fbc-8806-48a2-b204-60d8e8e3646c",
+  "Version": "2.3.3.0",
+  "Name": "ani_ui_tanxian",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "ActivedAnimationName": "xuanzhong",
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 1,
+          "Name": "changtai",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 2,
+          "EndIndex": 165,
+          "Name": "xuanzhong",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 2,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "img/ui_anniu/ani_ui_tanxian.png",
+              "Plist": "ani_zhuchengui.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 25.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -50.0,
+            "RightMargin": -50.0,
+            "TopMargin": -75.0,
+            "BottomMargin": -25.0,
+            "Tag": 9,
+            "ActionTag": -595669927,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "zi_tx_1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "ani_zhuchengui.plist",
+        "ani_zhuchengui.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

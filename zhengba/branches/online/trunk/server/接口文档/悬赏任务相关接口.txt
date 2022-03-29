@@ -1,0 +1,15 @@
+xstask_open: 打开悬赏任务
+参数：[]
+返回值：{'s': 1,'d':{'task': [{'taskid':'',need:'',prize:'',ftime:0 ,isjiequ:0},{}]}}
+
+xstask_jiequ: 接取任务
+参数：[uuid, [herotid, herotid]] 任务的uuid,  [hero的tid列表]
+返回值：{'s':1, 'd':{'task':{'taskuuid':'', 'ftime': 0}}}
+
+xstask_lingqu: 领取任务奖励
+参数：[uuid, 0或1] 0代表不加速，1代表加速
+返回值：{'s': 1,'d': {'attr':{'jinbi':1}, 'item':{}}}
+
+xstask_shuaxin:
+参数：[1] 1:免费刷新 2:刷新卷刷新 3:钻石刷新
+返回值：{'s':1, 'd':{'task': [{'taskid':'',need:'',prize:'',ftime:0 ,isjiequ:0},{}]}}
